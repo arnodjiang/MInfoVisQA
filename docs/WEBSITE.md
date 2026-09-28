@@ -81,3 +81,12 @@ examples, results and evaluation protocol. The layout, styles, diagram and
 interactive code in this repository are original; no template code or third-party
 logos were copied. No publication venue, accepted-paper status, author list or
 paper link is invented.
+
+## Institutional identity
+
+MBZUAI is shown as the first affiliation as specified by the project maintainer.
+The site uses the official English navy logo, without modification, from the
+University's downloadable brand assets. Navy, sand and white follow the March
+2026 brand palette. See [asset provenance and attribution](../site/assets/MBZUAI-ASSET-NOTICE.md).
+The project icon remains separate from the University logo. No authors, research
+lab, department, publication acceptance or institutional endorsement is inferred.
