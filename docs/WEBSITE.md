@@ -63,7 +63,9 @@ and answer controls and links to full-resolution originals.
 Images are byte-identical copies from the published current release. SHA-256,
 case IDs, QA IDs and source attribution are included. Source-specific dataset
 terms still apply. These examples are for illustration, not quality certification.
-The hero graphic is a labeled conceptual illustration, not a benchmark sample.
+The hero shows the same released ChartQA case in English, Chinese, Japanese
+and Arabic, using the original localized PNGs. Its question excerpts omit only
+the answer-language instruction; source and case ID are displayed.
 
 ## Deployment
 
