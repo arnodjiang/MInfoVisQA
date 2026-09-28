@@ -67,6 +67,19 @@ function renderMatrix() {
     cell.title=`${category}: visual ${v.code}, question & answer ${q.code}`;cell.setAttribute('aria-hidden','true');grid.append(cell);
   }));
 }
+function renderGallery() {
+  const ex=state.examples[Number($('#example-case').value)];
+  const gallery=$('#example-gallery');gallery.replaceChildren();
+  for(const variant of ex.variants){
+    const language=state.data.languages.find(l=>l.code.toLowerCase()===variant.language);
+    const button=el('button',null,'gallery-card');button.type='button';button.dataset.language=variant.language;
+    button.setAttribute('aria-label','View '+language.name+' example');
+    const image=el('img');image.src=variant.image;image.alt=ex.visual_kind+' in '+language.name;image.loading='lazy';image.decoding='async';
+    button.append(image,el('span',language.code+' · '+language.name));
+    button.addEventListener('click',()=>{$('#example-language').value=variant.language;renderExample();});
+    gallery.append(button);
+  }
+}
 function renderExample() {
   const ex=state.examples[Number($('#example-case').value)],lang=$('#example-language').value,setting=$('#example-setting').value;
   const variant=ex.variants.find(v=>v.language===lang),queryLang=setting==='lqa'?lang:setting,qa=variant.qa[queryLang];
@@ -74,6 +87,7 @@ function renderExample() {
   $('#example-image-link').href=variant.image;$('#example-question').textContent=qa.query;$('#example-question').lang=queryLang;
   $('#example-answer').textContent=qa.answer;$('#example-answer').lang=queryLang;$('#answer-reveal').open=false;
   $('#example-type').textContent=`${lang===queryLang?'LQA':'XQA-'+queryLang.toUpperCase()} · visual ${lang.toUpperCase()} → QA ${queryLang.toUpperCase()}`;
+  document.querySelectorAll('.gallery-card').forEach(b=>{const selected=b.dataset.language===lang;b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',String(selected));});
   $('#example-source').textContent=ex.source+' · '+ex.visual_kind;$('#example-id').textContent='Case '+ex.case_id;
 }
 async function loadJSON(url){const r=await fetch(url);if(!r.ok)throw new Error(`Unable to load ${url} (${r.status})`);return r.json();}
@@ -86,7 +100,11 @@ async function init(){
     $('#model-search').addEventListener('input',e=>{state.search=e.target.value;renderTable();});
     $('.dialog-close').addEventListener('click',()=>$('#model-dialog').close());
     renderTable();renderMatrix();
-    state.examples=await loadJSON('data/examples.json');renderExample();['example-case','example-language','example-setting'].forEach(id=>$('#'+id).addEventListener('change',renderExample));
+    state.examples=await loadJSON('data/examples.json');
+    $('#example-language').replaceChildren(...state.data.languages.map(l=>{const option=el('option',l.code+' · '+l.name);option.value=l.code.toLowerCase();return option;}));
+    renderGallery();renderExample();
+    $('#example-case').addEventListener('change',()=>{renderGallery();renderExample();});
+    ['example-language','example-setting'].forEach(id=>$('#'+id).addEventListener('change',renderExample));
   } catch(error){$('#load-error').hidden=false;$('#load-error').textContent=error.message+'. Reload the page or download the results JSON.';$('#result-count').textContent='Data could not be loaded';}
 }
 init();

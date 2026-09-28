@@ -57,7 +57,9 @@ The remaining GPT and Gemini entries are categorized as closed models.
 All supplied runs use APIs; open-weight availability does not imply local serving.
 
 `site/data/examples.json` contains two selected public release cases, each with
-English, Chinese and Japanese images and the corresponding LQA/XQA questions.
+all 24 visual languages and the corresponding LQA/XQA questions. The gallery
+displays all 24 images for the selected chart or table, with matching question
+and answer controls and links to full-resolution originals.
 Images are byte-identical copies from the published current release. SHA-256,
 case IDs, QA IDs and source attribution are included. Source-specific dataset
 terms still apply. These examples are for illustration, not quality certification.

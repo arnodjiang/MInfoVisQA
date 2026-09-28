@@ -23,8 +23,11 @@ def main():
         approx = (23*row['xqa_zh'] + 23*row['xqa_en'] + sum(row['lqa'].values()))/70
         assert abs(approx-row['avg']) <= .101, (row['name'], approx, row['avg'])
         if row['access'] == 'open': assert row['model_card'].startswith('https://huggingface.co/')
+    image_count = 0
     for example in json.loads((SITE / 'data/examples.json').read_text()):
+        assert [v['language'] for v in example['variants']] == [l.lower() for l in languages]
         for variant in example['variants']:
+            image_count += 1
             asset = (SITE / variant['image']).resolve()
             assert SITE.resolve() in asset.parents
             assert hashlib.sha256(asset.read_bytes()).hexdigest() == variant['image_sha256']
@@ -36,6 +39,6 @@ def main():
     for csv_row, row in zip(csv_rows[1:], data['models']):
         assert csv_row[:2] == [row['name'], row['access']]
         assert list(map(float,csv_row[2:])) == [row['xqa_zh'],row['xqa_en'],*row['lqa'].values(),row['avg']]
-    print(f"Validated {len(names)} models, 27 scores each, 24 languages and 6 image checksums.")
+    print(f"Validated {len(names)} models, 27 scores each, 24 languages and {image_count} image checksums.")
 
 if __name__ == '__main__': main()

@@ -9,15 +9,15 @@
         "image": "assets/6c1b80891d9f43724aa6-en.png",
         "image_sha256": "97d764fbd09452a3cbb5d828ffc5d27c48120ef8104d29989dcd663bfca9934b",
         "qa": {
-          "zh": {
-            "id": "variant_bdd192957d52d63d6356cb989d272bf8d814d960f32a1f608336210c52e4ca36",
-            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
-            "answer": "男性"
-          },
           "en": {
             "id": "variant_666854274a65f22b642f632badd60392bf3b89314ba9bcd873495533b4770663",
             "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
             "answer": "Male"
+          },
+          "zh": {
+            "id": "variant_bdd192957d52d63d6356cb989d272bf8d814d960f32a1f608336210c52e4ca36",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
           }
         }
       },
@@ -26,15 +26,15 @@
         "image": "assets/6c1b80891d9f43724aa6-zh.png",
         "image_sha256": "a4307a6803c3be2462ec86f806df91e2a43f16185c30de7a653e0a3e2e8bf1dd",
         "qa": {
-          "zh": {
-            "id": "variant_5fede4a2f14f96c72a3aa6b4b49c17b21a2aacb41310033c5bcfd5b90f306d97",
-            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
-            "answer": "男性"
-          },
           "en": {
             "id": "variant_8d334a2e4d4ae2102da864fbcdf7c32054dcfdbdde84dfcffe7884de0729a3da",
             "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
             "answer": "Male"
+          },
+          "zh": {
+            "id": "variant_5fede4a2f14f96c72a3aa6b4b49c17b21a2aacb41310033c5bcfd5b90f306d97",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
           }
         }
       },
@@ -43,11 +43,6 @@
         "image": "assets/6c1b80891d9f43724aa6-ja.png",
         "image_sha256": "1f5414827b01e3acd348c51abd3e571ffe6b14f75ced62c005b811ebf6988c4c",
         "qa": {
-          "zh": {
-            "id": "variant_e89ff7a687d79abff7eed1eb2462a75949d2309e95de17bc1b06f1f1ece64724",
-            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
-            "answer": "男性"
-          },
           "en": {
             "id": "variant_6d36e4696d2883f8aa68c54e6d51dc27e2422de5531a2b3837eb587ffd43699e",
             "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
@@ -56,6 +51,473 @@
           "ja": {
             "id": "variant_4f2b8df4083c6992e91b1bdfecdbd346f249cc02644b668cb143d252065c7ce3",
             "query": "オンラインでの購入の頻度が最も高いのはどちらの性別ですか？\n日本語で回答してください。",
+            "answer": "男性"
+          },
+          "zh": {
+            "id": "variant_e89ff7a687d79abff7eed1eb2462a75949d2309e95de17bc1b06f1f1ece64724",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "ko",
+        "image": "assets/6c1b80891d9f43724aa6-ko.png",
+        "image_sha256": "8791f9f002a0069315214695bdfb8dcc1de9eec45a0337ea17d669ee66c1d043",
+        "qa": {
+          "en": {
+            "id": "variant_fec7f51e182bbd89c7eea9630a3e2e0eacc7639679955ebe30587d5822b28c15",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "ko": {
+            "id": "variant_127aa995b557abd24a6886accbc5c75b7977588906ed86c101f6572323ab8ff9",
+            "query": "온라인 구매 빈도가 가장 높은 성별은 무엇인가요?\n한국어로 답해주세요.",
+            "answer": "남성"
+          },
+          "zh": {
+            "id": "variant_b4fb338c851ba20644447d1f4b04d89b9902d637bf49e36efc144a99ff7fefae",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "fr",
+        "image": "assets/6c1b80891d9f43724aa6-fr.png",
+        "image_sha256": "ddb2e4fc2ed8a4d335c5417e1933e510b661bf00033ffbedb2120a1c009f7dd1",
+        "qa": {
+          "en": {
+            "id": "variant_f0a159dab634d4d501c577e946665608df4c4ce39229f71c56e60b10888f2238",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "fr": {
+            "id": "variant_db52ad9ae92631193703ff984b7fc1648f730d6d493048ffa94373bd52b4fa17",
+            "query": "Quel sexe présente la fréquence la plus élevée pour la catégorie « Achats effectués en ligne » ?\nVeuillez répondre en français.",
+            "answer": "Hommes"
+          },
+          "zh": {
+            "id": "variant_08cfde06d505933b91dcb5d88e83cbbd6dae462e38e8aef3caf1017789ded8b2",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "de",
+        "image": "assets/6c1b80891d9f43724aa6-de.png",
+        "image_sha256": "2678ff36f7e635333469c0f2875df4a67c10d57d9b3361103b3faf9af8025dfe",
+        "qa": {
+          "de": {
+            "id": "variant_ae66038c75e4963fa6fb3728e4c12e4b55d0228b8ff7be4ec219062caeeaeeda",
+            "query": "Welches Geschlecht weist bei „Online getätigte Einkäufe“ die höchste Häufigkeit auf?\nBitte antworten Sie auf Deutsch.",
+            "answer": "Männer"
+          },
+          "en": {
+            "id": "variant_7fc6d7fba0681a212885ad10828d0256d7ad87d3b0830434ff1bf184e4b907c3",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "zh": {
+            "id": "variant_baca65b342d76b0707f0c9d50208421db0ff6ed6ea002dccc85cbb3c73e2e583",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "es",
+        "image": "assets/6c1b80891d9f43724aa6-es.png",
+        "image_sha256": "beb19fe99721fd3c523308ce1ce45e5e678c7d72254373d25c8a68d425f62e43",
+        "qa": {
+          "en": {
+            "id": "variant_e967594ca391e5ff536e07968779c8f122d1cced22eeb29fa5c49b631a1e3cde",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "es": {
+            "id": "variant_20062d5df8ad160de213ac527e73ec70cbc305a807c7ffb92dd62f0e43d0dbf6",
+            "query": "¿Qué género tiene la mayor frecuencia en Compras realizadas en línea?\nResponde en español.",
+            "answer": "Hombres"
+          },
+          "zh": {
+            "id": "variant_a2b8d317edc1835a0bf7f6df9301d701b9608fdf5d87c90b2ccc2a32ce94f598",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "pt",
+        "image": "assets/6c1b80891d9f43724aa6-pt.png",
+        "image_sha256": "8d92596fb77747bc06b5faad9561d2f93cb1ad4f07483b9ad8a72a70180ff1f1",
+        "qa": {
+          "en": {
+            "id": "variant_70ad816270d683935a5ef2843a8bd22f765222983367674dbc4a50ebd1e1e736",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "pt": {
+            "id": "variant_b8e2737cddaa79e3d7be325e52544e8c77efa4a49064a298f381f924a10563fc",
+            "query": "Qual gênero apresenta a maior frequência em Compras feitas online?\nResponda em português.",
+            "answer": "Homens"
+          },
+          "zh": {
+            "id": "variant_1d8730e7563c33fad9cdff385bb7da3f1fc42ac96e1f5ae4dd1a18a7cb017428",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "ru",
+        "image": "assets/6c1b80891d9f43724aa6-ru.png",
+        "image_sha256": "2b3a0939d10c9e6059115e0748c40601bc13049289ba171dc174b9e2cacec52a",
+        "qa": {
+          "en": {
+            "id": "variant_0c5ce784f3b29b62bf78673f91443d100a69c68027823cb3201cc41eb0b604b2",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "ru": {
+            "id": "variant_03d7719532143f0cb572edfdaa165bceec9e0d5e8f7b4c7365bbc05445dcae42",
+            "query": "У какого пола самая высокая частота в категории «Покупки в интернете»?\nПожалуйста, ответьте на русском языке.",
+            "answer": "Мужчины"
+          },
+          "zh": {
+            "id": "variant_b7fb3bbb363906b881e594f8982a67a7fbaa965ce4cd5682bfff8a9b18f362a9",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "ar",
+        "image": "assets/6c1b80891d9f43724aa6-ar.png",
+        "image_sha256": "e33a588e4afa98b99acab3f86d5d8166ed479ff6b9ce9b9d998eea5025928920",
+        "qa": {
+          "ar": {
+            "id": "variant_2a18f99089b26c4cc8e7b0165574f12756d651430af58c7ce67b73b5982d8390",
+            "query": "أي الجنسين يسجل أعلى معدل تكرار في فئة «مشتريات عبر الإنترنت»؟\nيرجى الإجابة باللغة العربية.",
+            "answer": "ذكور"
+          },
+          "en": {
+            "id": "variant_840fce852fa29c9aa52ed2126831c4addc7b9416f881a8a424434b20a23172e9",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "zh": {
+            "id": "variant_1b45a8bb0477e29ef988dab869c7b569b29db798bd8c224c7c14539395652b0f",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "hi",
+        "image": "assets/6c1b80891d9f43724aa6-hi.png",
+        "image_sha256": "60a16ccac120d5697cde5697b08075e58aa2c9354f8cf1e8133c2777603137f1",
+        "qa": {
+          "en": {
+            "id": "variant_411eb32d801637b7ce67f892fef06299ed40a07967671b599bee05e1ee84b55d",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "hi": {
+            "id": "variant_8302582c5cfe74e62da0ebf834b1b3b114f7412548e388500ad36f47ec58068c",
+            "query": "ऑनलाइन की गई खरीदारी की आवृत्ति किस लिंग में सबसे अधिक है?\nकृपया हिन्दी में उत्तर दें।",
+            "answer": "पुरुष"
+          },
+          "zh": {
+            "id": "variant_a4cb6d32b5ffc28ee5b675b678e01f937145d3314a14dae434d92a5979fd4ffa",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "it",
+        "image": "assets/6c1b80891d9f43724aa6-it.png",
+        "image_sha256": "086a30355e622b5469d6e0a0ade000d0758cb29d5b1a21aa142334adc87878b9",
+        "qa": {
+          "en": {
+            "id": "variant_a76f4e9355de46134ffaf6978cdd33c17cf5e6e228d9756ea2a9f3f98940d5bb",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "it": {
+            "id": "variant_cdd6bb08e9cf13265604a8b2e5267fb7ca55063184d0be15cb16b1f5816d2d30",
+            "query": "Quale genere registra la frequenza più alta nella categoria «Acquisti effettuati online»?\nRispondi in italiano.",
+            "answer": "Uomini"
+          },
+          "zh": {
+            "id": "variant_7da24bb463a4ef55595fc34d1e786ebc1aa5ad0b33573e2c3734fa0c3b467e80",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "nl",
+        "image": "assets/6c1b80891d9f43724aa6-nl.png",
+        "image_sha256": "5acae8acd4f1fba19dbeeaf289b3cf567f818b5291aba465de0ed8d6e9b62ce7",
+        "qa": {
+          "en": {
+            "id": "variant_77c6e40ba37791aa1dff3ae25fa16f473c9992f4160a40afa01c8f83bcd900d9",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "nl": {
+            "id": "variant_2985321adc51e3b11f1a635b59913e14437faabc3fe84532622633f395cd9928",
+            "query": "Welk geslacht heeft de hoogste frequentie in de categorie ‘Online gedane aankopen’?\nAntwoord in het Nederlands.",
+            "answer": "Mannen"
+          },
+          "zh": {
+            "id": "variant_0beb7076e1d53a965d6ed8746a09f035e9dad23811ca1e6711bdc8c49e4cead0",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "pl",
+        "image": "assets/6c1b80891d9f43724aa6-pl.png",
+        "image_sha256": "eca0b3230b43103baf3cff515ddeace2cc788b4d6b2b143c8464e1e5a523310b",
+        "qa": {
+          "en": {
+            "id": "variant_10d75c6276a75fc4d1f3af68a2b5378aa950e15b8d929c9683e4247d396156ce",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "pl": {
+            "id": "variant_4d5ff3de8601d47426afa0dc7b9f913bb10523a792730f45433496970497df53",
+            "query": "Która płeć ma najwyższą częstotliwość w kategorii „Zakupy dokonane online”?\nOdpowiedz po polsku.",
+            "answer": "Mężczyźni"
+          },
+          "zh": {
+            "id": "variant_62c8afa9f6aa2ae9236c947d7d81b3b6831247111654d64c3de546e78307ab55",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "tr",
+        "image": "assets/6c1b80891d9f43724aa6-tr.png",
+        "image_sha256": "64d1d003dbe7d84e3a41a9c80e11e156acec98583ea4b13ceca335b65ad4aa43",
+        "qa": {
+          "en": {
+            "id": "variant_dcc3a9dbc1f4d8555d8b02c5a4bc99e56194a2757e298b4731ec5dc8dabb07a1",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "tr": {
+            "id": "variant_4d963e1f15a13b2e6650570c88e8a9e58957fc4175dcd21c36aa8b79fa3896b1",
+            "query": "Hangi cinsiyet “İnternetten yapılan alışverişler” kategorisinde en yüksek sıklığa sahiptir?\nLütfen Türkçe yanıtlayın.",
+            "answer": "Erkek"
+          },
+          "zh": {
+            "id": "variant_9e45547349a42888810f7d3f249e2a479ae1378b463f22cb7c28b9196d822b84",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "vi",
+        "image": "assets/6c1b80891d9f43724aa6-vi.png",
+        "image_sha256": "f9bcbf2189071a0a343b6db4d810c5528bde459576519d258c80ae3b492b6412",
+        "qa": {
+          "en": {
+            "id": "variant_ce47a8bccc3fbc149f6f0b3c23f9c3006f838db1f74283b42ea9bf1df0bbbb95",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "vi": {
+            "id": "variant_70a4e4aeae72f3cbfe978e8c20c7b6577f23d7c536cc9a25423212fe8b9bbae3",
+            "query": "Giới tính nào có tần suất cao nhất ở mục “Mua hàng trực tuyến”?\nVui lòng trả lời bằng tiếng Việt.",
+            "answer": "Nam"
+          },
+          "zh": {
+            "id": "variant_832922c09cae189dcac45e7756fd3b08748fb0401ef54fddfa35464c142f66c0",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "id",
+        "image": "assets/6c1b80891d9f43724aa6-id.png",
+        "image_sha256": "680488b21cefe071bb6199c20264ee2f451c6aa9cec0a12ddee824139f8d81a5",
+        "qa": {
+          "en": {
+            "id": "variant_e300ccf407e058f75dc55a39a13fb050197b708a985234d36d9f9bcc3fc2accb",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "id": {
+            "id": "variant_534425d3d1f95a11347ebaf7c933534ccd2a252a848a88a727145754391fbd56",
+            "query": "Gender mana yang memiliki frekuensi tertinggi untuk kategori Pembelian secara daring?\nSilakan jawab dalam bahasa Indonesia.",
+            "answer": "Laki-laki"
+          },
+          "zh": {
+            "id": "variant_2a71afb50234b75a5ec511c89df0d25de6d376455ed9a1c081717d959308728b",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "th",
+        "image": "assets/6c1b80891d9f43724aa6-th.png",
+        "image_sha256": "1ad21d725a62700fd42fd37a692ddc9e7974a6d41811d5e30ab8c7e750514208",
+        "qa": {
+          "en": {
+            "id": "variant_66b458ca37d30620c41a5cf980828c4f2598b9c9dda6a1f3dc4c4363e6cd4f1c",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "th": {
+            "id": "variant_8979cb288e81d7f0325cf187dc2890db85f7a0dd464990d753ab7d18c361a490",
+            "query": "เพศใดมีความถี่สูงสุดในหมวด การซื้อสินค้าออนไลน์?\nโปรดตอบเป็นภาษาไทย",
+            "answer": "ชาย"
+          },
+          "zh": {
+            "id": "variant_bdea64fd396cc93fc568d8669d3162373235d4221d65da424fbce2b385e3eee9",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "sw",
+        "image": "assets/6c1b80891d9f43724aa6-sw.png",
+        "image_sha256": "f63688ade99c39bfd3b6e3b06736f9f348c3e59f6b8621d6be1f1e55058ed785",
+        "qa": {
+          "en": {
+            "id": "variant_e9ac2a9da6f5e21d9d41024d3f87a3c7f7cdeb3033f438e248773f4a8ba72ea3",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "sw": {
+            "id": "variant_fbf7b12483809d9af4dd43ba8eeb801e793dca12fb06b838d66cd96354b413c8",
+            "query": "Jinsia gani ina marudio ya juu zaidi katika kundi la Ununuzi uliofanywa mtandaoni?\nTafadhali jibu kwa Kiswahili.",
+            "answer": "Wanaume"
+          },
+          "zh": {
+            "id": "variant_5b72f9db0342b43312d35cb8ca65201173be11c94ea7125fa0c6be16537f92d2",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "fa",
+        "image": "assets/6c1b80891d9f43724aa6-fa.png",
+        "image_sha256": "652443e7aeb75bdf72c9b5014702e62baf2f335d345b1ac34caada6af87f4ac6",
+        "qa": {
+          "en": {
+            "id": "variant_dc22ec1b9d49ae08965f4aec3eeaf0ec61dfdaa34b4b6015c9802e6f7f1425e6",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "fa": {
+            "id": "variant_078b9bf06e485d01beb472815a527e82531f5294e5f6079de621c55bc77ef420",
+            "query": "کدام جنسیت بیشترین فراوانی را در دستهٔ خریدهای اینترنتی دارد؟\nلطفاً به فارسی پاسخ دهید.",
+            "answer": "مرد"
+          },
+          "zh": {
+            "id": "variant_31fafd6d192ca1faa932923c056586dd031edb9e1bdc7dd03f93ed10e3e789ab",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "ur",
+        "image": "assets/6c1b80891d9f43724aa6-ur.png",
+        "image_sha256": "c0fb80586426af6bcc49b41d454b839b9749703940ddfbe3bbbc68723fc501e8",
+        "qa": {
+          "en": {
+            "id": "variant_abeca506ab5fdd5fc49e0ff25ae2d53d94c132f882e0af4d6dbe820e99879a25",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "ur": {
+            "id": "variant_52c04732a9be0cf31a1623a388bbc154c76f2b14dc4a9b8c0f666f54ebd67420",
+            "query": "آن لائن کی گئی خریداریاں کے زمرے میں کس صنف کی خریداری کی تعدد سب سے زیادہ ہے؟\nبراہ کرم اردو میں جواب دیں۔",
+            "answer": "مرد"
+          },
+          "zh": {
+            "id": "variant_8e73f6b811f41ee73aceae3f35f004f13dd77696919748e0686ee6da3f6ab120",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "bn",
+        "image": "assets/6c1b80891d9f43724aa6-bn.png",
+        "image_sha256": "e9122e14f74c5fe2ee93aa5cf3a54def0fca8573312a37532a0082c84c2477cc",
+        "qa": {
+          "bn": {
+            "id": "variant_12799166743f9537303825356774c979554d2dee974b44bf5d653fc9c40f1fcc",
+            "query": "কোন লিঙ্গের উত্তরদাতাদের মধ্যে অনলাইনে করা কেনাকাটা সবচেয়ে বেশি হয়?\nঅনুগ্রহ করে বাংলায় উত্তর দিন।",
+            "answer": "পুরুষ"
+          },
+          "en": {
+            "id": "variant_1b253fd148af4710a78f94f98b084580f906623fd418bce7b4aa3c91d7c5d510",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "zh": {
+            "id": "variant_5ebadde0a81316020ba0c9142f3a41293bb366797fa1c0fae0edb82b2dcf0c14",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "ta",
+        "image": "assets/6c1b80891d9f43724aa6-ta.png",
+        "image_sha256": "a23428d3caee42b81d70a16e08b62dbeb7a70653bcfbee322ea74447eb6b6a44",
+        "qa": {
+          "en": {
+            "id": "variant_9fbbee2f01954b8c8926184f0e60b651eff4fad7d0df793828f645d37427ee08",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "ta": {
+            "id": "variant_775359f928115ab88f3a12bef09f1501285326bbe401a54322ae25cadc980bc8",
+            "query": "எந்தப் பாலினத்தினரிடம் இணையத்தில் செய்த கொள்முதல்கள் அதிக முறை நிகழ்கின்றன?\nதமிழில் பதிலளிக்கவும்.",
+            "answer": "ஆண்"
+          },
+          "zh": {
+            "id": "variant_f77a559322b7705ee43b7883cac25219e4a2fac0f388458c5ddf9a45aced5e74",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
+            "answer": "男性"
+          }
+        }
+      },
+      {
+        "language": "te",
+        "image": "assets/6c1b80891d9f43724aa6-te.png",
+        "image_sha256": "60812684116c11352a15d3b8def2b1240ad76acc4c257c9b6780ba403b84b770",
+        "qa": {
+          "en": {
+            "id": "variant_4b617ea5931239c62d53ab2f3d3a2b60a3cb08bb5cb0949fb26befd67ab4a15a",
+            "query": "Which gender has the highest frequency for Purchases made online?\nPlease answer in English.",
+            "answer": "Male"
+          },
+          "te": {
+            "id": "variant_0ffc31a2e1c1f08e9e939eb0642ffed67a72e4064122729ee55dfd5ad1d63f51",
+            "query": "ఏ లింగానికి చెందినవారిలో ఆన్‌లైన్‌లో చేసిన కొనుగోళ్లు అత్యంత తరచుగా జరుగుతాయి?\nదయచేసి తెలుగులో సమాధానం ఇవ్వండి.",
+            "answer": "పురుషులు"
+          },
+          "zh": {
+            "id": "variant_d993ab20097865cedeef305deb46f5fcbed5ff0c0ee6b3190e875988899792b6",
+            "query": "哪个性别在在线购物方面的频率最高？\n请用中文回答。",
             "answer": "男性"
           }
         }
@@ -72,14 +534,14 @@
         "image": "assets/345c918a890d9cdd8b8f-en.png",
         "image_sha256": "6d6622aebdd005cfb10862197bb749492e109d83103c49da3f6a8d5e03b1e053",
         "qa": {
-          "zh": {
-            "id": "variant_70cca92ed2e6a8ca53e61216705b247f78fd250e3ca07fa613ee85b1622b00e8",
-            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
-            "answer": "$4,075.1"
-          },
           "en": {
             "id": "variant_1f0b1f84a1f84a161307a9b68fd028241d87a1dd0a6379b32f0ed6861f417fd9",
             "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_70cca92ed2e6a8ca53e61216705b247f78fd250e3ca07fa613ee85b1622b00e8",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
             "answer": "$4,075.1"
           }
         }
@@ -89,14 +551,14 @@
         "image": "assets/345c918a890d9cdd8b8f-zh.png",
         "image_sha256": "a9789fbcd913bd34aedae27316c54bc422b7a2a371583f84523d354d3235a8aa",
         "qa": {
-          "zh": {
-            "id": "variant_0777f2031ea0154d1d3515b74f42936f68bada8bfad7ea98bd44e09b231add01",
-            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
-            "answer": "$4,075.1"
-          },
           "en": {
             "id": "variant_bf57fb4c2caedc7c351ffdc2628e713b99477aea1d2c65888c5957e187cea2e0",
             "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_0777f2031ea0154d1d3515b74f42936f68bada8bfad7ea98bd44e09b231add01",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
             "answer": "$4,075.1"
           }
         }
@@ -106,11 +568,6 @@
         "image": "assets/345c918a890d9cdd8b8f-ja.png",
         "image_sha256": "0c520b7f08b231706e96283c69fef8444e532a1418d9e723a5d13e989e9cc11d",
         "qa": {
-          "zh": {
-            "id": "variant_6afb13ae43ea72d8ef007806f1e6172afe12ea9902dee704c53a8f5a47b86e21",
-            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
-            "answer": "$4,075.1"
-          },
           "en": {
             "id": "variant_6c5546a54339f44961e76567b0a2dad74b0bdbce65e7bacdb2f82aa438edceda",
             "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
@@ -119,6 +576,473 @@
           "ja": {
             "id": "variant_9f32ce17ec9673d0ddc8e9a1cf0d05e77473732fec68736cf7a4ca7b4db0b2ce",
             "query": "2023年の契約上の現金支払義務総額はいくらですか？\n日本語で回答してください。",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_6afb13ae43ea72d8ef007806f1e6172afe12ea9902dee704c53a8f5a47b86e21",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "ko",
+        "image": "assets/345c918a890d9cdd8b8f-ko.png",
+        "image_sha256": "068186b252ba5ea17b374495993bd10ddd80b32006ae07ed2cda52bd45f0ca11",
+        "qa": {
+          "en": {
+            "id": "variant_6189176816f6f9667280969f270f58ee5853d2100b64dfeb49acd8044e386210",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "ko": {
+            "id": "variant_b335c908e411a5ea381a3ccdb98643f810320cff3765e4d39818ca0475106688",
+            "query": "2023년의 계약상 현금 지급 의무 총액은 얼마입니까?\n한국어로 답해주세요.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_f635b682d4f04b7149a20deabe19a0ca9fcc7d091ed68a8d4f8fe69102a54273",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "fr",
+        "image": "assets/345c918a890d9cdd8b8f-fr.png",
+        "image_sha256": "4eed73352403f3afab786f5f04c425c0d0c359def0f254c04c11c905e6924b32",
+        "qa": {
+          "en": {
+            "id": "variant_37dad75072245da084c6e31070a8113e198f7e710908a25cceabbb914f82c152",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "fr": {
+            "id": "variant_86304c2a4098fb27453e123c80271d0563b1bdbfa13f1812fcdf30adf208df2e",
+            "query": "Quel est le montant du Total des obligations contractuelles de paiement en trésorerie pour 2023 ?\nVeuillez répondre en français.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_357d9b59f4e77dc1c1272a27a60795d9a87c0f3a1ef0aa6b2f4961f95fb246cf",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "de",
+        "image": "assets/345c918a890d9cdd8b8f-de.png",
+        "image_sha256": "1204f660b90e202e6d0a0248e8dfc1ba0218eea272429da72dd58c70d342eb4f",
+        "qa": {
+          "de": {
+            "id": "variant_cad0d7b5f2ee93082f41d9d2262ce8181a2abd92fe66015f6e1430f2ae710f48",
+            "query": "Wie hoch ist die Summe der vertraglichen Zahlungsverpflichtungen für 2023?\nBitte antworten Sie auf Deutsch.",
+            "answer": "$4,075.1"
+          },
+          "en": {
+            "id": "variant_453c2bcd39fce244f709914a46befc1d8cfab68b9a4e56e8282a76d0c6b9b88f",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_43a06730215072753af57a1c34878b573d0be3fd1fabf0acc0ffc14387195dc2",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "es",
+        "image": "assets/345c918a890d9cdd8b8f-es.png",
+        "image_sha256": "7a97212669453dc4e803118851ddcd6aebdeb767eeb8ef1f3044f1870bfe1251",
+        "qa": {
+          "en": {
+            "id": "variant_1e7283c21231d4434b5ba5e40833b9540fc2a4b334384368155c5b2ed7500460",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "es": {
+            "id": "variant_a94476385ae659bc8cef42d00d7480b43ae2fdce8599d020821305d3ffebf9e7",
+            "query": "¿Cuál es el Total de obligaciones contractuales en efectivo para 2023?\nResponde en español.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_0cc2ba5fba1a175c336160247532416e6ac10b3044b7893bd9d3caf616f1dfdd",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "pt",
+        "image": "assets/345c918a890d9cdd8b8f-pt.png",
+        "image_sha256": "5c06b884ac985978913873d7098f0f36585434bada6175cd323bd16c4a64c14f",
+        "qa": {
+          "en": {
+            "id": "variant_d2dc9bb4fb76c2f61fe96b9d8ebf1779af238d67618f5242143afb62f65c0db8",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "pt": {
+            "id": "variant_6d7bbcbb2fdcc87585ca91b49bd3aead0c66a0d06642dd04c0e02b135810fe94",
+            "query": "Qual é o Total de obrigações contratuais em dinheiro para 2023?\nResponda em português.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_6ad354e048cca850e28ededff5e325e8df4be0a5ecfbaf892b305a9a3228136a",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "ru",
+        "image": "assets/345c918a890d9cdd8b8f-ru.png",
+        "image_sha256": "efe29f0734a050698c2666d177f0246ef291fe2ebf9c793bc91448322cc74674",
+        "qa": {
+          "en": {
+            "id": "variant_943cc2bc527c3113d37dd59553ec6cc39db69b33f34f04d6900af4a073a3ba85",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "ru": {
+            "id": "variant_d8fe1afe509be28b3d3bbf1d75b2077eff4f1787bb8cc10e4eea191d1e0d1a04",
+            "query": "Какова сумма по строке «Итого денежных обязательств по договорам» за 2023 год?\nПожалуйста, ответьте на русском языке.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_f4cadadd9b496cd0b8e8722ec056639b67e97712b5abcdb4add911a5c79ec688",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "ar",
+        "image": "assets/345c918a890d9cdd8b8f-ar.png",
+        "image_sha256": "5265efbed323e2929e64c7d72156d321a7cac33dce15f694a71099023adc7064",
+        "qa": {
+          "ar": {
+            "id": "variant_1c46ae4b8fb9e375920094e834b5de95deb78c2919fa68ced9744d6871a27fc6",
+            "query": "ما قيمة إجمالي الالتزامات النقدية التعاقدية لعام 2023؟\nيرجى الإجابة باللغة العربية.",
+            "answer": "$4,075.1"
+          },
+          "en": {
+            "id": "variant_a44d88ff4136251d9f3ac059c1fcc3ad7a116d99e0c328effd5202f48fc6056b",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_6a15d3dd8c166a7d16c816952ba73e2b2678a66d75e843e6aea189fa76ee27d3",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "hi",
+        "image": "assets/345c918a890d9cdd8b8f-hi.png",
+        "image_sha256": "6d5efac49566190ecf4967ff4d38338297aab7e3b1a45e9307a6a98fb8e9d9ce",
+        "qa": {
+          "en": {
+            "id": "variant_800b305bc05d0f5349f2171544d57ca8305df89b6705e0dc41a01d3780215035",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "hi": {
+            "id": "variant_0bf6105921d83790a7f9df2475c6b55cdc4f4db1267aabb551716d6beb918bd9",
+            "query": "2023 के लिए कुल संविदात्मक नकद दायित्व कितने हैं?\nकृपया हिन्दी में उत्तर दें।",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_2eef3f155d952cf62010f9f3cb5984ddc79fc5fdd4d041bbf2183a694d5d0cfd",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "it",
+        "image": "assets/345c918a890d9cdd8b8f-it.png",
+        "image_sha256": "d901027c17804638576091d5eac01448d7d10fc9f9792bcd47122d29a74e0915",
+        "qa": {
+          "en": {
+            "id": "variant_a5863476de7f366c409674a3bb61ab656373d75f889ef5456a5b3dc6bba7f042",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "it": {
+            "id": "variant_3b5ea1773c1105693742c26d1843eadddd30b15686b8978664e852523de804cd",
+            "query": "A quanto ammonta la voce Totale degli obblighi contrattuali di pagamento per il 2023?\nRispondi in italiano.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_8817afa566da4a6544f2188e801d78ee7a72a222b12976271f912d576fc6bb7b",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "nl",
+        "image": "assets/345c918a890d9cdd8b8f-nl.png",
+        "image_sha256": "cde1a1087a37c50399a1ce387a45068b890fc5a56bf13df17bd28953178f652e",
+        "qa": {
+          "en": {
+            "id": "variant_2bae77176c6d221e763e82900c778c86c45bb0e60e0694ea48cc7638eba24c75",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "nl": {
+            "id": "variant_dd5e0753148c7f6eb31e4486c13b2dbfdef3c4b7b5751dc7f8132455f5674dff",
+            "query": "Hoeveel bedraagt de post Totale contractuele betalingsverplichtingen voor 2023?\nAntwoord in het Nederlands.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_4d56bcbfce3767753ea39fbbe2cae58beef7dcd2d6e11df1d7325183541f8e10",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "pl",
+        "image": "assets/345c918a890d9cdd8b8f-pl.png",
+        "image_sha256": "efbe81d64c9ef7dcd91c3cfb4535cf4df16e8bb41bfb387dc5426bd8acc6111e",
+        "qa": {
+          "en": {
+            "id": "variant_22888e8df8125549fe1f3e47bf55610c44152b02364f1ef4d5a841404e01474a",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "pl": {
+            "id": "variant_1cc6dde36e16125260251c515f434878c72fd3757e490805c5467ffa2d4637ed",
+            "query": "Ile wynosi pozycja Łączne umowne zobowiązania pieniężne na 2023 rok?\nOdpowiedz po polsku.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_ef7b4adbd52935b9f23865776381ca85f08380dd6d901f46f14ca362f720cd6a",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "tr",
+        "image": "assets/345c918a890d9cdd8b8f-tr.png",
+        "image_sha256": "6555b3e6626871f336c867c15fc640524a5fb31787763c4c44fd86ebf9e0b6a1",
+        "qa": {
+          "en": {
+            "id": "variant_b22e2b6db6430d461038d2961bf930a7f41404984a0068fc2a96fdce54e40256",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "tr": {
+            "id": "variant_d2b2cc48612cf46cfb706a7764eb4ce8da8fd56518bbde3dc9017a9f63006c4e",
+            "query": "2023 yılı için Toplam sözleşmeye dayalı nakit yükümlülükleri tutarı ne kadardır?\nLütfen Türkçe yanıtlayın.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_ef7b328f4d12aac666a8d2bc2cbadbe6e124e72e76e4baeaf100854f41d58e70",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "vi",
+        "image": "assets/345c918a890d9cdd8b8f-vi.png",
+        "image_sha256": "45868cff46e5fecaccc85c90b88862c6127d9917d2d55bc442d344731d418100",
+        "qa": {
+          "en": {
+            "id": "variant_3bca0b6b3c2f2f33a6c780083105758fe49747cbcdc66bd82406401589e89a3b",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "vi": {
+            "id": "variant_899496d6376883ab9e8d9b0fa49a45f336ee2a7332474fb99c71877b003aa60d",
+            "query": "Tổng nghĩa vụ thanh toán bằng tiền theo hợp đồng cho năm 2023 là bao nhiêu?\nVui lòng trả lời bằng tiếng Việt.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_bbf45c67024289a2e052ad4eda3b13a7cf47a1680f72e604753a039c7e1dd790",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "id",
+        "image": "assets/345c918a890d9cdd8b8f-id.png",
+        "image_sha256": "84519f741cd3764601cbeec1b5ec5880f43bdc205fb31206d77f45c295128785",
+        "qa": {
+          "en": {
+            "id": "variant_b58a31fb37ae603ae0b345cd59a8ebb84f571a44b22c502a833cafecff7aa1e6",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "id": {
+            "id": "variant_5136b6b28818c0bfafc5d1ff41f8c3336cb909805ee07c18a18b720bf1e3b119",
+            "query": "Berapa Total Kewajiban Kas Kontraktual untuk tahun 2023?\nSilakan jawab dalam bahasa Indonesia.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_a680dfef06bfd2b242d1fbab35686a5b05356d6262a16da05b8086c68a8620ca",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "th",
+        "image": "assets/345c918a890d9cdd8b8f-th.png",
+        "image_sha256": "07c501142e15ea95fe071b0fe1d748a4b5582862dfdd3fb19ad36b091f81abde",
+        "qa": {
+          "en": {
+            "id": "variant_88b2c5641aa855526d1d4d96d102b8ced341df7c0b317c10b5122c0e00a408ec",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "th": {
+            "id": "variant_7c363fa586f140bed33cb4bad0fb57e2d105290adf35a53cbae3de77e7fea605",
+            "query": "ภาระผูกพันเงินสดตามสัญญารวม สำหรับปี 2023 เป็นเท่าใด?\nโปรดตอบเป็นภาษาไทย",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_14706256caa17c1de59c3adf492fd1ec794b587a8d226284cdb0025e1b0ba238",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "sw",
+        "image": "assets/345c918a890d9cdd8b8f-sw.png",
+        "image_sha256": "d723aae08eaab3fa9215fd67e5012228617905ccee2a29573ad032b8a6212646",
+        "qa": {
+          "en": {
+            "id": "variant_e20ebe82df9386c9873398e48abdd8d5db855f493bf02fd2ca08cfd2b14b7992",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "sw": {
+            "id": "variant_37c59f2b2801b39207dd28d4262bdb0b50589d1678b7afc83c4ea1d22273cd01",
+            "query": "Kiasi cha Jumla ya Wajibu wa Malipo ya Fedha Taslimu kwa Mikataba kwa mwaka 2023 ni gani?\nTafadhali jibu kwa Kiswahili.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_98d5f02441e6b6c9358ad147181ebf48ad82fdfa6c1ca7254a77c9fab4c2f035",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "fa",
+        "image": "assets/345c918a890d9cdd8b8f-fa.png",
+        "image_sha256": "fa1c3ade69cfcdbad8760d9f2f1e2db548d81cc051f6a1adbec3d4cd9d3d0cf7",
+        "qa": {
+          "en": {
+            "id": "variant_2b20df191c7c71199cf1ec8555916ccde4cfb82fe7843d0388b990188e459e03",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "fa": {
+            "id": "variant_91c042a056eea799f46fcf0a2865537aa48a2ba8a82676594594ebe6a2eb9b31",
+            "query": "مجموع تعهدات نقدی قراردادی برای سال 2023 چقدر است؟\nلطفاً به فارسی پاسخ دهید.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_a5b1cfb0d2668b70ef2c83ed1a4fb2fe99fedf9f13f5100d736f38f6b8f05967",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "ur",
+        "image": "assets/345c918a890d9cdd8b8f-ur.png",
+        "image_sha256": "61279e3bdc1ff0e3060ed79e39654392c46737f64b1b5cafb5edc8a1b799b8c6",
+        "qa": {
+          "en": {
+            "id": "variant_e5c611d787b28e695e70311c235a2f6f2a5a0a839487be06153d1d3e351c5530",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "ur": {
+            "id": "variant_332f6e9ee0c71d27b901b16264f41c804cdeb752c47c42e800a43da66facfb25",
+            "query": "2023 کے لیے معاہدوں کے تحت کل نقد واجبات کتنے ہیں؟\nبراہ کرم اردو میں جواب دیں۔",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_41cfa2e08fb7051e477ed895db1d45d4b9e7fc974b5eaae14050884ebed86d22",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "bn",
+        "image": "assets/345c918a890d9cdd8b8f-bn.png",
+        "image_sha256": "4c573fce2acaec74304f8a4a6e97f4dcb48d26df5e5fe5e7a35d923ce6038439",
+        "qa": {
+          "bn": {
+            "id": "variant_fd3f69c32a101b8f588b11f3c70f7e350ce270be010212030073c550bad230da",
+            "query": "2023 সালের জন্য মোট চুক্তিভিত্তিক নগদ দায়বদ্ধতা কত?\nঅনুগ্রহ করে বাংলায় উত্তর দিন।",
+            "answer": "$4,075.1"
+          },
+          "en": {
+            "id": "variant_e5b994693cbe78e54dd89615c9da37deb4527729def41d8e44440959b4d1c797",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_89f41fa0f994073ac57c7e27cb00fa9317e7c71ff0e3be50cda941ad9ce0932b",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "ta",
+        "image": "assets/345c918a890d9cdd8b8f-ta.png",
+        "image_sha256": "dd5521f2088f8f4fcbd5505c85c9de2cc93408e1db082b8a5b4be72c98694618",
+        "qa": {
+          "en": {
+            "id": "variant_5c597dbd82a09b90210a3dc638dcaa6040c6dc696ac632e5aa8c972505bea257",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "ta": {
+            "id": "variant_b076c044d45fbd3d5c320d9e1f9edc679442eeb1e1c947d05de9b3552f80d5af",
+            "query": "2023 ஆண்டுக்கான மொத்த ஒப்பந்தப் பணக் கடப்பாடுகள் எவ்வளவு?\nதமிழில் பதிலளிக்கவும்.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_a05f3eebbe8a497e41c2730bb9b1235f9ab40c1a3832b37cb98776cb856a8b7c",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
+            "answer": "$4,075.1"
+          }
+        }
+      },
+      {
+        "language": "te",
+        "image": "assets/345c918a890d9cdd8b8f-te.png",
+        "image_sha256": "d9a236f8df3564b99fa6a3f9f04cb9e94fcfa3b4dae8e84b2630ce88e1146d1f",
+        "qa": {
+          "en": {
+            "id": "variant_1d7c7d5aa2a17e39915ca20af4af2be048eb45bd2abd76be8800b7d0975eaedd",
+            "query": "What are the Total Contractual Cash Obligations for 2023?\nPlease answer in English.",
+            "answer": "$4,075.1"
+          },
+          "te": {
+            "id": "variant_e263a0204d4e61ad80bd6932bdc4d720bc567992e454d25e3c5a7b0f6e9026d7",
+            "query": "2023 సంవత్సరానికి మొత్తం ఒప్పందపరమైన నగదు చెల్లింపు బాధ్యతలు ఎంత?\nదయచేసి తెలుగులో సమాధానం ఇవ్వండి.",
+            "answer": "$4,075.1"
+          },
+          "zh": {
+            "id": "variant_2adc8854f30a402061da8388239bb6facb4ce0a442a39c9ee77a5dceb93e5bbd",
+            "query": "2023年的合同现金支付义务总额是多少？\n请用中文回答。",
             "answer": "$4,075.1"
           }
         }
