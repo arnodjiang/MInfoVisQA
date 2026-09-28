@@ -2,13 +2,12 @@
 
 **A Multilingual Benchmark for Information-Visual Question Answering**
 
-[Homepage & Leaderboard](https://arnodjiang.github.io/MInfoVisQA/) · [Getting Started](#getting-started) · [Benchmark](#benchmark) · [Pipeline](#construction-pipeline) · [Dataset](https://huggingface.co/datasets/arnodjiang/MInfoVisQA) · [New-server evaluation](docs/SERVER_MIGRATION.md) · [Prompts](prompts/README.md) · [Documentation](#documentation)
+[![Hugging Face Dataset](https://img.shields.io/badge/Hugging_Face-Dataset-E5C687?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/arnodjiang/MInfoVisQA)
+[![Homepage and Leaderboard](https://img.shields.io/badge/Homepage-Leaderboard-154677?style=for-the-badge&logo=github&logoColor=white)](https://arnodjiang.github.io/MInfoVisQA/)
 
 MInfoVisQA provides a **24-language** benchmark construction framework for evaluating how multimodal large language models understand charts and visual tables. It pairs localized visuals with questions and reference answers while preserving the underlying numerical data, table structure and question intent.
 
 The project supports same-language visual question answering and cross-language evaluation with Chinese or English questions. This repository includes the generation pipeline, English prompts, rendering tools, quality checks and reproducible export utilities.
-
-The repository and dataset URLs retain their original identifiers for compatibility; the paper and benchmark are named **MInfoVisQA**.
 
 ## Highlights
 
