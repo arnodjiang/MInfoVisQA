@@ -1,6 +1,6 @@
 # Design
 
-MStructQA aims to measure multilingual chart and visual-table understanding while controlling the underlying numerical/structural content. Planned analyses compare same-language QA and Chinese/English QA over localized visuals, with breakdowns by language, source, visual type and reasoning operation. These are research aims, not established findings.
+MInfoVisQA aims to measure multilingual chart and visual-table understanding while controlling the underlying numerical/structural content. Planned analyses compare same-language QA and Chinese/English QA over localized visuals, with breakdowns by language, source, visual type and reasoning operation. These are research aims, not established findings.
 
 ## Unit of construction
 

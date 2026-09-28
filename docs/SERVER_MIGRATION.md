@@ -2,7 +2,9 @@
 
 The code is hosted at [GitHub](https://github.com/arnodjiang/MStructQA) and the
 current data at [Hugging Face](https://huggingface.co/datasets/arnodjiang/MStructBench).
-MStructQA is the project title; MStructBench is the Hugging Face repository ID.
+MInfoVisQA is the project and benchmark name. The existing GitHub repository ID
+`arnodjiang/MStructQA` and Hugging Face repository ID `arnodjiang/MStructBench`
+remain unchanged for link and download compatibility.
 No previous predictions or private evaluation checkpoints are needed to evaluate
 a new model. Use a new output directory for every model/configuration.
 

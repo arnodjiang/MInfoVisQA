@@ -1,6 +1,6 @@
 # Dataset card
 
-**Title:** MStructQA: A Multilingual Benchmark for Chart and Visual Tabular Question Answering in MLLMs.
+**Title:** MInfoVisQA: A Multilingual Benchmark for Information-Visual Question Answering.
 
 **Distribution:** [arnodjiang/MStructBench](https://huggingface.co/datasets/arnodjiang/MStructBench) provides the current 24-language release as Parquet with embedded images and a canonical evaluation archive: 128 base QA, 3,072 visuals and 8,960 configurations. See [the full dataset card](../scripts/distribution/HF_README.md) and [server setup](SERVER_MIGRATION.md).
 

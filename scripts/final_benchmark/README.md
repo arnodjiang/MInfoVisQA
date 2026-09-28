@@ -1,4 +1,4 @@
-# MStructQA pipeline modules
+# MInfoVisQA pipeline modules
 
 This package implements the 24-language construction workflow. Start with the [project README](../../README.md) and [setup guide](../../docs/SETUP.md).
 

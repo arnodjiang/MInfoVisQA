@@ -1,12 +1,14 @@
-# MStructQA
+# MInfoVisQA
 
-**A Multilingual Benchmark for Chart and Visual Tabular Question Answering in MLLMs**
+**A Multilingual Benchmark for Information-Visual Question Answering**
 
 [Homepage & Leaderboard](https://arnodjiang.github.io/MStructQA/) · [Getting Started](#getting-started) · [Benchmark](#benchmark) · [Pipeline](#construction-pipeline) · [Dataset](https://huggingface.co/datasets/arnodjiang/MStructBench) · [New-server evaluation](docs/SERVER_MIGRATION.md) · [Prompts](prompts/README.md) · [Documentation](#documentation)
 
-MStructQA provides a **24-language** benchmark construction framework for evaluating how multimodal large language models understand charts and visual tables. It pairs localized visuals with questions and reference answers while preserving the underlying numerical data, table structure and question intent.
+MInfoVisQA provides a **24-language** benchmark construction framework for evaluating how multimodal large language models understand charts and visual tables. It pairs localized visuals with questions and reference answers while preserving the underlying numerical data, table structure and question intent.
 
 The project supports same-language visual question answering and cross-language evaluation with Chinese or English questions. This repository includes the generation pipeline, English prompts, rendering tools, quality checks and reproducible export utilities.
+
+The repository and dataset URLs retain their original identifiers for compatibility; the paper and benchmark are named **MInfoVisQA**.
 
 ## Highlights
 

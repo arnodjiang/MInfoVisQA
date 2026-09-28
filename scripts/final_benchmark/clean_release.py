@@ -74,7 +74,7 @@ def copy_current(source, destination, references):
     save(destination / 'case_manifest.json', list(cases.values()))
     save(destination / 'image_manifest.json', list(images.values()))
     (destination / 'README.md').write_text(
-        '# MStructQA current data\n\n'
+        '# MInfoVisQA current data\n\n'
         'This release contains only the current QA, localized images, rendering code, and source-context text.\n'
         'The evaluation entry point is validation_release/val.candidates.jsonl.\n'
         'benchmark.jsonl is a dataset-root view of the same current variants.\n'

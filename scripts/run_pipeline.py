@@ -1,4 +1,4 @@
-"""Public CLI for staged MStructQA construction. No API calls for --help."""
+"""Public CLI for staged MInfoVisQA construction. No API calls for --help."""
 import argparse
 import os
 from pathlib import Path
@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def main():
-    p=argparse.ArgumentParser(description='MStructQA: 24-language chart and visual table QA pipeline')
+    p=argparse.ArgumentParser(description='MInfoVisQA: 24-language chart and visual table QA pipeline')
     p.add_argument('stage',choices=['download','prepare','baseline','baseline-audit','expand','expand-audit','finalize'])
     p.add_argument('--baseline',type=Path,default=ROOT/'data/visual_benchmark/baseline')
     p.add_argument('--output',type=Path,default=ROOT/'data/visual_benchmark/mstructqa_24')

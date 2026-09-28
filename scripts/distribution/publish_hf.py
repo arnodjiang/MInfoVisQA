@@ -23,7 +23,7 @@ def publish(folder, repo):
     info=api.repo_info(repo,repo_type='dataset')
     result=api.upload_folder(repo_id=repo,repo_type='dataset',folder_path=folder,
                              parent_commit=info.sha,
-                             commit_message='Publish current MStructQA 24-language benchmark')
+                             commit_message='Publish current MInfoVisQA 24-language benchmark')
     print('Published',result.commit_url)
     print('Revision',result.oid)
     remote=api.list_repo_files(repo,repo_type='dataset',revision=result.oid)

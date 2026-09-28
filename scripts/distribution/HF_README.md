@@ -1,5 +1,5 @@
 ---
-pretty_name: MStructQA
+pretty_name: MInfoVisQA
 language:
 - en
 - zh
@@ -46,13 +46,13 @@ configs:
     path: data/validation-*.parquet
 ---
 
-# MStructQA
+# MInfoVisQA
 
-**MStructQA: A Multilingual Benchmark for Chart and Visual Tabular Question Answering in MLLMs**
+**MInfoVisQA: A Multilingual Benchmark for Information-Visual Question Answering**
 
 [Code, prompts and evaluation](https://github.com/arnodjiang/MStructQA) · [Server setup](https://github.com/arnodjiang/MStructQA/blob/main/docs/SERVER_MIGRATION.md)
 
-`arnodjiang/MStructBench` is the dataset repository for the **MStructQA** project.
+`arnodjiang/MStructBench` is the dataset repository for the **MInfoVisQA** project.
 It contains the current 24-language release: 128 base questions, 3,072 localized
 visuals and 8,960 distinct QA configurations. The single `validation` split is an
 evaluation split; no training split is provided. Images are localized
@@ -178,13 +178,13 @@ respective upstream terms; **MIT does not apply to the combined dataset**.
 The `other` license tag denotes source-specific terms, not a new blanket grant.
 Consult the six linked upstream dataset cards and the retained per-example
 provenance before reuse or redistribution. Cite the applicable upstream sources
-alongside MStructQA.
+alongside MInfoVisQA.
 
 ## Citation
 
 ```bibtex
 @misc{mstructqa,
-  title = {MStructQA: A Multilingual Benchmark for Chart and Visual Tabular Question Answering in MLLMs},
+  title = {MInfoVisQA: A Multilingual Benchmark for Information-Visual Question Answering},
   howpublished = {\url{https://github.com/arnodjiang/MStructQA}},
   year = {2026}
 }

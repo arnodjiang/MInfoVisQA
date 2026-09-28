@@ -1,5 +1,5 @@
 name: Leaderboard result
-description: Submit a reproducible MStructQA evaluation result.
+description: Submit a reproducible MInfoVisQA evaluation result.
 title: "[Leaderboard] Model name"
 labels: []
 body:

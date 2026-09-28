@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>MStructQA — Multilingual Visual Understanding</title>
-  <meta name="description" content="MStructQA: a 24-language benchmark for chart and visual tabular question answering. Explore open-weight and closed-model results, multilingual examples, and the evaluation protocol.">
-  <meta property="og:title" content="MStructQA · Read the structure. Across languages.">
+  <title>MInfoVisQA — Multilingual Visual Understanding</title>
+  <meta name="description" content="MInfoVisQA: a 24-language benchmark for chart and visual tabular question answering. Explore open-weight and closed-model results, multilingual examples, and the evaluation protocol.">
+  <meta property="og:title" content="MInfoVisQA · Read the structure. Across languages.">
   <meta property="og:description" content="24 languages. Charts and visual tables. One shared evaluation framework.">
   <meta property="og:type" content="website"><meta property="og:url" content="https://arnodjiang.github.io/MStructQA/">
   <meta name="theme-color" content="#154677"><link rel="icon" href="assets/mark.svg" type="image/svg+xml">
@@ -13,7 +13,7 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="header"><nav class="wrap nav" aria-label="Main navigation">
-  <a class="brand" href="#"><img src="assets/mark.svg" width="30" height="30" alt="">MStruct<span>QA</span></a>
+  <a class="brand" href="#"><img src="assets/mark.svg" width="30" height="30" alt="">MInfoVis<span>QA</span></a>
   <div class="nav-links"><a href="#benchmark">Benchmark</a><a href="#leaderboard">Leaderboard</a><a href="#examples">Examples</a><a href="#protocol">Protocol</a></div>
   <a class="nav-code" href="https://github.com/arnodjiang/MStructQA">GitHub <span aria-hidden="true">↗</span></a>
 </nav></header>
@@ -21,7 +21,7 @@
 <section class="hero wrap" aria-labelledby="hero-title">
   <div class="hero-copy"><div class="eyebrow"><span class="dot"></span> MULTILINGUAL · MULTIMODAL · STRUCTURED</div>
     <h1 id="hero-title">Read the structure.<br><em>Across languages.</em></h1>
-    <p class="paper-title">MStructQA: A Multilingual Benchmark for Chart and Visual Tabular Question Answering in MLLMs</p>
+    <p class="paper-title">MInfoVisQA: A Multilingual Benchmark for Information-Visual Question Answering</p>
     <div class="affiliation" aria-label="First affiliation: MBZUAI"><span>FIRST<br>AFFILIATION</span><a href="https://mbzuai.ac.ae/" aria-label="Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)"><img src="assets/mbzuai-logo.svg" alt="Mohamed bin Zayed University of Artificial Intelligence" width="396" height="133"></a></div>
     <p class="hero-desc">The same data. A different language. How well do multimodal models understand charts and tables when the visual and the question speak differently?</p>
     <div class="actions"><a class="button primary" href="#leaderboard">Explore the leaderboard <span aria-hidden="true">↗</span></a><a class="button" href="https://huggingface.co/datasets/arnodjiang/MStructBench">Get the dataset <span aria-hidden="true">↓</span></a></div>
@@ -54,10 +54,10 @@
   <div class="leaderboard-toolbar">
     <div class="segmented" role="group" aria-label="Model access filter"><button class="active" data-filter="all" aria-pressed="true">All models <span>9</span></button><button data-filter="open" aria-pressed="false">Open weights <span>5</span></button><button data-filter="closed" aria-pressed="false">Closed <span>4</span></button></div>
     <label class="search"><span aria-hidden="true">⌕</span><input id="model-search" type="search" placeholder="Find a model…" aria-label="Find a model"></label>
-    <a id="download-csv" class="text-button" href="data/leaderboard.csv" download="mstructqa-leaderboard-2026-09-28.csv">Download CSV ↓</a>
+    <a id="download-csv" class="text-button" href="data/leaderboard.csv" download="minfovisqa-leaderboard-2026-09-28.csv">Download CSV ↓</a>
   </div>
   <div class="table-controls"><div class="segmented view-toggle" role="group" aria-label="Score view"><button class="active" data-view="overview" aria-pressed="true">Overview</button><button data-view="languages" aria-pressed="false">All 24 languages</button></div><span id="result-count" aria-live="polite">Loading results…</span></div>
-  <div class="table-scroll" tabindex="0" role="region" aria-label="Sortable benchmark leaderboard"><table id="scores-table"><caption class="sr-only">MStructQA model accuracy, sortable by each metric. Click a model for provenance and evaluation notes.</caption><thead id="scores-head"></thead><tbody id="scores-body"></tbody></table></div>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Sortable benchmark leaderboard"><table id="scores-table"><caption class="sr-only">MInfoVisQA model accuracy, sortable by each metric. Click a model for provenance and evaluation notes.</caption><thead id="scores-head"></thead><tbody id="scores-body"></tbody></table></div>
   <p id="load-error" class="error" hidden></p>
   <noscript><p>JavaScript enables the interactive leaderboard. <a href="data/leaderboard.csv">Download all scores as CSV</a>.</p></noscript>
   <div class="table-foot"><p><b>XQA-ZH / EN</b>: 23 cross-language settings each. <b>LQA mean</b>: mean of the 24 displayed same-language scores. <b>AVG</b>: macro-average of all 70 configurations.</p><a href="data/leaderboard.json">Results JSON ↗</a></div>
@@ -76,8 +76,8 @@
   <div class="pipeline"><span>Source QA</span><b>→</b><span>Recover structure</span><b>→</b><span>Localize</span><b>→</b><span>Render</span><b>→</b><span>Review & export</span></div>
   <div class="sources"><span class="eyebrow">BUILT FROM SIX DATASETS</span><div><a href="https://huggingface.co/datasets/princeton-nlp/CharXiv">CharXiv <small>48</small></a><a href="https://huggingface.co/datasets/ahmed-masry/ChartQAPro">ChartQAPro <small>27</small></a><a href="https://huggingface.co/datasets/terryoo/TableVQA-Bench">TableVQA-Bench <small>22</small></a><a href="https://huggingface.co/datasets/HuggingFaceM4/ChartQA">ChartQA <small>12</small></a><a href="https://huggingface.co/datasets/AI-4-Everyone/Visual-TableQA">Visual-TableQA <small>10</small></a><a href="https://huggingface.co/datasets/MMTU-benchmark/MMTU">MMTU <small>9</small></a></div><p>128 base questions × 70 configurations = 8,960 QA instances. Language variants share their base identity and are not independent source observations. Automated construction and review do not constitute complete human verification. See the <a href="https://huggingface.co/datasets/arnodjiang/MStructBench#quality-and-limitations">dataset card</a> for scope, quality flags and limitations.</p></div>
 </div></section>
-<section id="resources" class="wrap section resources"><div><span class="eyebrow">05 / BUILD ON MSTRUCTQA</span><h2>Start with the data.<br>Make results reproducible.</h2><p>Download the frozen benchmark, evaluate your model and share scores with the configuration needed to reproduce them.</p><div class="actions"><a class="button primary" href="https://huggingface.co/datasets/arnodjiang/MStructBench">Dataset ↗</a><a class="button" href="https://github.com/arnodjiang/MStructQA/blob/main/docs/SERVER_MIGRATION.md">Evaluation guide ↗</a></div></div><div class="resource-card"><span class="eyebrow">CONTRIBUTE A RESULT</span><h3>Bring your model to the leaderboard.</h3><p>Include the exact model identifier, dataset revision, inference settings, judge configuration, coverage and failure counts, plus all 70 configuration scores.</p><a href="https://github.com/arnodjiang/MStructQA/issues/new?template=leaderboard_result.yml">Submit results on GitHub <span aria-hidden="true">↗</span></a><a class="secondary-link" href="https://github.com/arnodjiang/MStructQA/blob/main/docs/WEBSITE.md">Leaderboard maintenance guide ↗</a></div></section>
+<section id="resources" class="wrap section resources"><div><span class="eyebrow">05 / BUILD ON MINFOVISQA</span><h2>Start with the data.<br>Make results reproducible.</h2><p>Download the frozen benchmark, evaluate your model and share scores with the configuration needed to reproduce them.</p><div class="actions"><a class="button primary" href="https://huggingface.co/datasets/arnodjiang/MStructBench">Dataset ↗</a><a class="button" href="https://github.com/arnodjiang/MStructQA/blob/main/docs/SERVER_MIGRATION.md">Evaluation guide ↗</a></div></div><div class="resource-card"><span class="eyebrow">CONTRIBUTE A RESULT</span><h3>Bring your model to the leaderboard.</h3><p>Include the exact model identifier, dataset revision, inference settings, judge configuration, coverage and failure counts, plus all 70 configuration scores.</p><a href="https://github.com/arnodjiang/MStructQA/issues/new?template=leaderboard_result.yml">Submit results on GitHub <span aria-hidden="true">↗</span></a><a class="secondary-link" href="https://github.com/arnodjiang/MStructQA/blob/main/docs/WEBSITE.md">Leaderboard maintenance guide ↗</a></div></section>
 </main>
-<footer class="wrap footer"><a class="brand" href="#"><img src="assets/mark.svg" width="24" height="24" alt="">MStruct<span>QA</span></a><p class="footer-affiliation">First affiliation · Mohamed bin Zayed University of Artificial Intelligence</p><div><a href="https://github.com/arnodjiang/MStructQA">Code</a><a href="https://huggingface.co/datasets/arnodjiang/MStructBench">Data</a><a href="#protocol">Protocol</a></div></footer>
+<footer class="wrap footer"><a class="brand" href="#"><img src="assets/mark.svg" width="24" height="24" alt="">MInfoVis<span>QA</span></a><p class="footer-affiliation">First affiliation · Mohamed bin Zayed University of Artificial Intelligence</p><div><a href="https://github.com/arnodjiang/MStructQA">Code</a><a href="https://huggingface.co/datasets/arnodjiang/MStructBench">Data</a><a href="#protocol">Protocol</a></div></footer>
 <dialog id="model-dialog"><button class="dialog-close" aria-label="Close model details">×</button><span class="eyebrow">EVALUATION RECORD</span><h2 id="model-title"></h2><div id="model-details"></div><form method="dialog"><button class="button">Close</button></form></dialog>
 </body></html>

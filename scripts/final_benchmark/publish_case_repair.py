@@ -180,7 +180,7 @@ def publish(out,parent):
                      note='Original expansion ancestry retained; this revision subsequently replaces one source reconstruction and its 24 locales.')
     save(out/'expansion_provenance.json',expansion)
     old_readme=(parent/'README.md').read_text()
-    (out/'README.md').write_text('# MStructQA — repaired data revision v2\n\n'
+    (out/'README.md').write_text('# MInfoVisQA — repaired data revision v2\n\n'
         'This revision repairs case `'+CASE+'` from the original Visual-TableQA image. '
         'The accompanying radial diagram is restored, all 24 locale images and QA templates are regenerated using the configured API, '
         'and 70 QA configurations are updated. The other 127 cases are unchanged.\n\n'
