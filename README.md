@@ -2,7 +2,7 @@
 
 **A Multilingual Benchmark for Information-Visual Question Answering**
 
-[Homepage & Leaderboard](https://arnodjiang.github.io/MStructQA/) · [Getting Started](#getting-started) · [Benchmark](#benchmark) · [Pipeline](#construction-pipeline) · [Dataset](https://huggingface.co/datasets/arnodjiang/MStructBench) · [New-server evaluation](docs/SERVER_MIGRATION.md) · [Prompts](prompts/README.md) · [Documentation](#documentation)
+[Homepage & Leaderboard](https://arnodjiang.github.io/MInfoVisQA/) · [Getting Started](#getting-started) · [Benchmark](#benchmark) · [Pipeline](#construction-pipeline) · [Dataset](https://huggingface.co/datasets/arnodjiang/MInfoVisQA) · [New-server evaluation](docs/SERVER_MIGRATION.md) · [Prompts](prompts/README.md) · [Documentation](#documentation)
 
 MInfoVisQA provides a **24-language** benchmark construction framework for evaluating how multimodal large language models understand charts and visual tables. It pairs localized visuals with questions and reference answers while preserving the underlying numerical data, table structure and question intent.
 
@@ -81,8 +81,8 @@ The API handles semantic reconstruction, translation, query editing and review. 
 Use Python 3.11+, `curl` and fonts covering the requested scripts. See [platform and font configuration](docs/SETUP.md) for rendering requirements.
 
 ```bash
-git clone https://github.com/arnodjiang/MStructQA.git
-cd MStructQA
+git clone https://github.com/arnodjiang/MInfoVisQA.git
+cd MInfoVisQA
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -142,7 +142,7 @@ This uses synthetic data and checked-in translations. Add `--font /absolute/path
 | `cases/<id>/code/` | Standalone rendering code with embedded data and labels |
 | `reproducible_code.zip` | Packaged renderers and reproduction metadata |
 
-The current dataset is distributed on [Hugging Face](https://huggingface.co/datasets/arnodjiang/MStructBench) as image-bearing Parquet and an exact evaluation archive. This GitHub repository provides the code, prompts and synthetic examples. Follow [new-server evaluation](docs/SERVER_MIGRATION.md) to download the frozen data and evaluate another model without regenerating images or translations.
+The current dataset is distributed on [Hugging Face](https://huggingface.co/datasets/arnodjiang/MInfoVisQA) as image-bearing Parquet and an exact evaluation archive. This GitHub repository provides the code, prompts and synthetic examples. Follow [new-server evaluation](docs/SERVER_MIGRATION.md) to download the frozen data and evaluate another model without regenerating images or translations.
 
 Source fidelity and localization quality are assessed separately. A successful translation does not override a failed source audit. Automated reviewers can use the same model as generation and do not constitute human certification. Exact reproduction requires the saved specifications, labels, code and fonts; new model calls can produce different results.
 
@@ -193,4 +193,4 @@ Code is available under the [MIT License](LICENSE). The bundled harness retains 
 
 ## Project website
 
-The [project homepage and interactive leaderboard](https://arnodjiang.github.io/MStructQA/) present model results, multilingual examples and the evaluation protocol. The static site is in `site/`; see [website maintenance](docs/WEBSITE.md) for local preview, score provenance and GitHub Pages deployment.
+The [project homepage and interactive leaderboard](https://arnodjiang.github.io/MInfoVisQA/) present model results, multilingual examples and the evaluation protocol. The static site is in `site/`; see [website maintenance](docs/WEBSITE.md) for local preview, score provenance and GitHub Pages deployment.

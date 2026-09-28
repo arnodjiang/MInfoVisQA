@@ -1,18 +1,17 @@
 # Evaluate new models on another server
 
-The code is hosted at [GitHub](https://github.com/arnodjiang/MStructQA) and the
-current data at [Hugging Face](https://huggingface.co/datasets/arnodjiang/MStructBench).
-MInfoVisQA is the project and benchmark name. The existing GitHub repository ID
-`arnodjiang/MStructQA` and Hugging Face repository ID `arnodjiang/MStructBench`
-remain unchanged for link and download compatibility.
+The code is hosted at [GitHub](https://github.com/arnodjiang/MInfoVisQA) and the
+current data at [Hugging Face](https://huggingface.co/datasets/arnodjiang/MInfoVisQA).
+Both the GitHub project and Hugging Face dataset use the repository ID
+`arnodjiang/MInfoVisQA`.
 No previous predictions or private evaluation checkpoints are needed to evaluate
 a new model. Use a new output directory for every model/configuration.
 
 ## Install and download
 
 ```bash
-git clone https://github.com/arnodjiang/MStructQA.git
-cd MStructQA
+git clone https://github.com/arnodjiang/MInfoVisQA.git
+cd MInfoVisQA
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -33,7 +32,7 @@ For the standard Hugging Face image dataset interface:
 
 ```python
 from datasets import load_dataset
-qa = load_dataset('arnodjiang/MStructBench', split='validation')
+qa = load_dataset('arnodjiang/MInfoVisQA', split='validation')
 print(qa[0]['query'])
 image = qa[0]['image']
 ```
@@ -120,8 +119,8 @@ counts do not directly establish monetary charges.
 ```bash
 python -m scripts.distribution.export_hf \
   --dataset data/visual_benchmark/final_128_24lang_v5_visual_types \
-  --output data/hf_publish/MStructBench
-cp scripts/distribution/HF_README.md data/hf_publish/MStructBench/README.md
+  --output data/hf_publish/MInfoVisQA
+cp scripts/distribution/HF_README.md data/hf_publish/MInfoVisQA/README.md
 hf auth login
 python -m scripts.distribution.publish_hf
 ```

@@ -31,7 +31,7 @@ size_categories:
 - 1K<n<10K
 license: other
 license_name: source-specific-terms
-license_link: https://github.com/arnodjiang/MStructQA/blob/main/docs/DATASET_CARD.md#licensing
+license_link: https://github.com/arnodjiang/MInfoVisQA/blob/main/docs/DATASET_CARD.md#licensing
 multilinguality:
 - multilingual
 tags:
@@ -50,9 +50,9 @@ configs:
 
 **MInfoVisQA: A Multilingual Benchmark for Information-Visual Question Answering**
 
-[Code, prompts and evaluation](https://github.com/arnodjiang/MStructQA) · [Server setup](https://github.com/arnodjiang/MStructQA/blob/main/docs/SERVER_MIGRATION.md)
+[Code, prompts and evaluation](https://github.com/arnodjiang/MInfoVisQA) · [Server setup](https://github.com/arnodjiang/MInfoVisQA/blob/main/docs/SERVER_MIGRATION.md)
 
-`arnodjiang/MStructBench` is the dataset repository for the **MInfoVisQA** project.
+`arnodjiang/MInfoVisQA` is the dataset repository for the **MInfoVisQA** project.
 It contains the current 24-language release: 128 base questions, 3,072 localized
 visuals and 8,960 distinct QA configurations. The single `validation` split is an
 evaluation split; no training split is provided. Images are localized
@@ -63,7 +63,7 @@ reconstructions of charts and rendered tables, rather than upstream originals.
 ```python
 from datasets import load_dataset
 
-ds = load_dataset('arnodjiang/MStructBench', split='validation')
+ds = load_dataset('arnodjiang/MInfoVisQA', split='validation')
 example = ds[0]
 image = example['image']      # PIL image; tables are also images
 question = example['query']
@@ -126,7 +126,7 @@ Tables use **Simple Table**, **Row-Spanning Table**, **Column-Spanning Table** o
 **Mixed-Spanning Table**. Simple means no merged rows/columns, not a one-cell table.
 Charts use a more specific vocabulary for bars, lines, distributions, spatial
 fields, diagrams and composites. `visual_family` retains the legacy chart/table
-cohort. See [taxonomy definitions](https://github.com/arnodjiang/MStructQA/blob/main/docs/VISUAL_TAXONOMY.md).
+cohort. See [taxonomy definitions](https://github.com/arnodjiang/MInfoVisQA/blob/main/docs/VISUAL_TAXONOMY.md).
 The exact archive includes `visual_taxonomy.json` and `visual_classification.json`
 with per-case evidence, secondary types, layout and model confidence. These are
 model-generated annotations, not human certification. The change affects metadata
@@ -183,9 +183,9 @@ alongside MInfoVisQA.
 ## Citation
 
 ```bibtex
-@misc{mstructqa,
+@misc{minfovisqa,
   title = {MInfoVisQA: A Multilingual Benchmark for Information-Visual Question Answering},
-  howpublished = {\url{https://github.com/arnodjiang/MStructQA}},
+  howpublished = {\url{https://github.com/arnodjiang/MInfoVisQA}},
   year = {2026}
 }
 ```

@@ -1,6 +1,6 @@
 # Benchmark website
 
-Public homepage: https://arnodjiang.github.io/MStructQA/
+Public homepage: https://arnodjiang.github.io/MInfoVisQA/
 
 The dependency-free static website lives in `site/`. GitHub Actions publishes
 only that directory through GitHub Pages on changes to the website, its validator
@@ -69,7 +69,7 @@ In repository Settings → Pages, select **GitHub Actions** as the build source.
 The `Deploy benchmark website` workflow uses the official Pages actions and
 minimal `contents: read`, `pages: write`, `id-token: write` permissions.
 The build uploads `site/` only. Inspect the workflow and `github-pages`
-environment for deployment status. It uses the repository path `/MStructQA/`;
+environment for deployment status. It uses the repository path `/MInfoVisQA/`;
 asset links are relative so local previews also work.
 
 ## Design references

@@ -33,6 +33,6 @@ def publish(folder, repo):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--folder',type=Path,default=Path('data/hf_publish/MStructBench'))
-    p.add_argument('--repo',default='arnodjiang/MStructBench')
+    p.add_argument('--folder',type=Path,default=Path('data/hf_publish/MInfoVisQA'))
+    p.add_argument('--repo',default='arnodjiang/MInfoVisQA')
     a=p.parse_args();publish(a.folder,a.repo)

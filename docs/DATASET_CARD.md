@@ -2,7 +2,7 @@
 
 **Title:** MInfoVisQA: A Multilingual Benchmark for Information-Visual Question Answering.
 
-**Distribution:** [arnodjiang/MStructBench](https://huggingface.co/datasets/arnodjiang/MStructBench) provides the current 24-language release as Parquet with embedded images and a canonical evaluation archive: 128 base QA, 3,072 visuals and 8,960 configurations. See [the full dataset card](../scripts/distribution/HF_README.md) and [server setup](SERVER_MIGRATION.md).
+**Distribution:** [arnodjiang/MInfoVisQA](https://huggingface.co/datasets/arnodjiang/MInfoVisQA) provides the current 24-language release as Parquet with embedded images and a canonical evaluation archive: 128 base QA, 3,072 visuals and 8,960 configurations. See [the full dataset card](../scripts/distribution/HF_README.md) and [server setup](SERVER_MIGRATION.md).
 
 **Use:** Research on multilingual visual QA and matched-language robustness. Not certified ground truth for high-stakes decisions.
 
