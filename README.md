@@ -2,7 +2,7 @@
 
 **A Multilingual Benchmark for Chart and Visual Tabular Question Answering in MLLMs**
 
-[Getting Started](#getting-started) · [Benchmark](#benchmark) · [Pipeline](#construction-pipeline) · [Dataset](https://huggingface.co/datasets/arnodjiang/MStructBench) · [New-server evaluation](docs/SERVER_MIGRATION.md) · [Prompts](prompts/README.md) · [Documentation](#documentation)
+[Homepage & Leaderboard](https://arnodjiang.github.io/MStructQA/) · [Getting Started](#getting-started) · [Benchmark](#benchmark) · [Pipeline](#construction-pipeline) · [Dataset](https://huggingface.co/datasets/arnodjiang/MStructBench) · [New-server evaluation](docs/SERVER_MIGRATION.md) · [Prompts](prompts/README.md) · [Documentation](#documentation)
 
 MStructQA provides a **24-language** benchmark construction framework for evaluating how multimodal large language models understand charts and visual tables. It pairs localized visuals with questions and reference answers while preserving the underlying numerical data, table structure and question intent.
 
@@ -188,3 +188,7 @@ Portable contracts run in CI without API credentials. Rendering tests additional
 ## License
 
 Code is available under the [MIT License](LICENSE). The bundled harness retains its existing license notice. Upstream datasets, derived records, fonts and API provider terms are separate; the code license does not grant redistribution rights over those assets.
+
+## Project website
+
+The [project homepage and interactive leaderboard](https://arnodjiang.github.io/MStructQA/) present model results, multilingual examples and the evaluation protocol. The static site is in `site/`; see [website maintenance](docs/WEBSITE.md) for local preview, score provenance and GitHub Pages deployment.
