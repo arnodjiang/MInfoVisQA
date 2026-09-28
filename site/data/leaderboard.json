@@ -1,0 +1,440 @@
+{
+  "updated": "2026-09-28",
+  "languages": [
+    {
+      "code": "EN",
+      "name": "English"
+    },
+    {
+      "code": "ZH",
+      "name": "Simplified Chinese"
+    },
+    {
+      "code": "JA",
+      "name": "Japanese"
+    },
+    {
+      "code": "KO",
+      "name": "Korean"
+    },
+    {
+      "code": "FR",
+      "name": "French"
+    },
+    {
+      "code": "DE",
+      "name": "German"
+    },
+    {
+      "code": "ES",
+      "name": "Spanish"
+    },
+    {
+      "code": "PT",
+      "name": "Portuguese"
+    },
+    {
+      "code": "RU",
+      "name": "Russian"
+    },
+    {
+      "code": "AR",
+      "name": "Arabic"
+    },
+    {
+      "code": "HI",
+      "name": "Hindi"
+    },
+    {
+      "code": "IT",
+      "name": "Italian"
+    },
+    {
+      "code": "NL",
+      "name": "Dutch"
+    },
+    {
+      "code": "PL",
+      "name": "Polish"
+    },
+    {
+      "code": "TR",
+      "name": "Turkish"
+    },
+    {
+      "code": "VI",
+      "name": "Vietnamese"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesian"
+    },
+    {
+      "code": "TH",
+      "name": "Thai"
+    },
+    {
+      "code": "SW",
+      "name": "Swahili"
+    },
+    {
+      "code": "FA",
+      "name": "Persian"
+    },
+    {
+      "code": "UR",
+      "name": "Urdu"
+    },
+    {
+      "code": "BN",
+      "name": "Bengali"
+    },
+    {
+      "code": "TA",
+      "name": "Tamil"
+    },
+    {
+      "code": "TE",
+      "name": "Telugu"
+    }
+  ],
+  "metric": "Semantic accuracy (%)",
+  "protocol": "Exact matching, then text-only GPT-6 Astra equivalence judging for non-matches.",
+  "source": "Maintainer-supplied results table, 2026-09-28. Scores are reported, not independently reproduced by this website.",
+  "aggregation": "AVG = (23 × XQA-ZH + 23 × XQA-EN + sum of 24 LQA scores) / 70, using unrounded configuration scores. Displayed AVG values are preserved from the submitted table.",
+  "models": [
+    {
+      "name": "GPT-6-Astra",
+      "access": "closed",
+      "model_card": null,
+      "xqa_zh": 80.3,
+      "xqa_en": 82.5,
+      "lqa": {
+        "EN": 86.7,
+        "ZH": 85.2,
+        "JA": 83.6,
+        "KO": 84.4,
+        "FR": 82.8,
+        "DE": 84.4,
+        "ES": 82.8,
+        "PT": 82.0,
+        "RU": 84.4,
+        "AR": 82.0,
+        "HI": 79.7,
+        "IT": 84.4,
+        "NL": 84.4,
+        "PL": 83.6,
+        "TR": 82.0,
+        "VI": 83.6,
+        "ID": 82.0,
+        "TH": 81.2,
+        "SW": 85.2,
+        "FA": 82.8,
+        "UR": 79.7,
+        "BN": 82.0,
+        "TA": 81.2,
+        "TE": 77.3
+      },
+      "avg": 81.9,
+      "result_source": "Maintainer-reported API evaluation",
+      "judge": "GPT-6 Astra",
+      "note": "Scores transcribed from the maintainer’s table; rounded to one decimal."
+    },
+    {
+      "name": "Gemini-3.8-Flash",
+      "access": "closed",
+      "model_card": null,
+      "xqa_zh": 78.1,
+      "xqa_en": 81.3,
+      "lqa": {
+        "EN": 82.8,
+        "ZH": 78.1,
+        "JA": 80.5,
+        "KO": 82.8,
+        "FR": 83.6,
+        "DE": 79.7,
+        "ES": 80.5,
+        "PT": 80.5,
+        "RU": 84.4,
+        "AR": 78.1,
+        "HI": 82.8,
+        "IT": 81.2,
+        "NL": 81.2,
+        "PL": 78.1,
+        "TR": 79.7,
+        "VI": 84.4,
+        "ID": 80.5,
+        "TH": 79.7,
+        "SW": 78.9,
+        "FA": 79.7,
+        "UR": 77.3,
+        "BN": 80.5,
+        "TA": 76.6,
+        "TE": 77.3
+      },
+      "avg": 79.9,
+      "result_source": "Maintainer-reported API evaluation",
+      "judge": "GPT-6 Astra",
+      "note": "Scores transcribed from the maintainer’s table; rounded to one decimal."
+    },
+    {
+      "name": "Kimi-K3",
+      "access": "open",
+      "model_card": "https://huggingface.co/moonshotai/Kimi-K3",
+      "xqa_zh": 77.2,
+      "xqa_en": 79.9,
+      "lqa": {
+        "EN": 83.6,
+        "ZH": 81.2,
+        "JA": 82.8,
+        "KO": 82.8,
+        "FR": 78.9,
+        "DE": 78.9,
+        "ES": 78.1,
+        "PT": 79.7,
+        "RU": 82.8,
+        "AR": 83.6,
+        "HI": 81.2,
+        "IT": 82.0,
+        "NL": 80.5,
+        "PL": 82.8,
+        "TR": 81.2,
+        "VI": 84.4,
+        "ID": 81.2,
+        "TH": 82.0,
+        "SW": 84.4,
+        "FA": 81.2,
+        "UR": 78.9,
+        "BN": 78.1,
+        "TA": 75.8,
+        "TE": 64.1
+      },
+      "avg": 79.2,
+      "result_source": "Maintainer-reported API evaluation",
+      "judge": "GPT-6 Astra",
+      "note": "Scores transcribed from the maintainer’s table; rounded to one decimal."
+    },
+    {
+      "name": "GPT-5.6-Sol",
+      "access": "closed",
+      "model_card": null,
+      "xqa_zh": 77.5,
+      "xqa_en": 78.7,
+      "lqa": {
+        "EN": 81.2,
+        "ZH": 79.7,
+        "JA": 81.2,
+        "KO": 78.1,
+        "FR": 81.2,
+        "DE": 80.5,
+        "ES": 80.5,
+        "PT": 78.1,
+        "RU": 78.9,
+        "AR": 78.1,
+        "HI": 80.5,
+        "IT": 78.1,
+        "NL": 80.5,
+        "PL": 80.5,
+        "TR": 79.7,
+        "VI": 78.9,
+        "ID": 78.9,
+        "TH": 77.3,
+        "SW": 78.9,
+        "FA": 78.1,
+        "UR": 77.3,
+        "BN": 78.1,
+        "TA": 74.2,
+        "TE": 70.3
+      },
+      "avg": 78.3,
+      "result_source": "Maintainer-reported API evaluation",
+      "judge": "GPT-6 Astra",
+      "note": "Scores transcribed from the maintainer’s table; rounded to one decimal."
+    },
+    {
+      "name": "Qwen3.8-27B",
+      "access": "open",
+      "model_card": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "xqa_zh": 74.0,
+      "xqa_en": 73.7,
+      "lqa": {
+        "EN": 82.8,
+        "ZH": 83.6,
+        "JA": 81.2,
+        "KO": 79.7,
+        "FR": 80.5,
+        "DE": 80.5,
+        "ES": 80.5,
+        "PT": 83.6,
+        "RU": 82.8,
+        "AR": 78.1,
+        "HI": 74.2,
+        "IT": 80.5,
+        "NL": 81.2,
+        "PL": 78.1,
+        "TR": 78.1,
+        "VI": 80.5,
+        "ID": 80.5,
+        "TH": 72.7,
+        "SW": 76.6,
+        "FA": 72.7,
+        "UR": 71.1,
+        "BN": 68.0,
+        "TA": 55.5,
+        "TE": 43.0
+      },
+      "avg": 74.6,
+      "result_source": "Maintainer-reported API evaluation",
+      "judge": "GPT-6 Astra",
+      "note": "Scores transcribed from the maintainer’s table; rounded to one decimal."
+    },
+    {
+      "name": "GPT-5.6-Luna",
+      "access": "closed",
+      "model_card": null,
+      "xqa_zh": 73.7,
+      "xqa_en": 73.3,
+      "lqa": {
+        "EN": 79.7,
+        "ZH": 74.2,
+        "JA": 74.2,
+        "KO": 76.6,
+        "FR": 76.6,
+        "DE": 78.1,
+        "ES": 75.8,
+        "PT": 77.3,
+        "RU": 75.0,
+        "AR": 75.8,
+        "HI": 74.2,
+        "IT": 77.3,
+        "NL": 77.3,
+        "PL": 81.2,
+        "TR": 77.3,
+        "VI": 80.5,
+        "ID": 77.3,
+        "TH": 73.4,
+        "SW": 75.8,
+        "FA": 72.7,
+        "UR": 69.5,
+        "BN": 70.3,
+        "TA": 73.4,
+        "TE": 53.1
+      },
+      "avg": 74.0,
+      "result_source": "Maintainer-reported API evaluation",
+      "judge": "GPT-6 Astra",
+      "note": "Scores transcribed from the maintainer’s table; rounded to one decimal."
+    },
+    {
+      "name": "MiniMax-M3",
+      "access": "open",
+      "model_card": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "xqa_zh": 61.5,
+      "xqa_en": 62.5,
+      "lqa": {
+        "EN": 77.3,
+        "ZH": 67.2,
+        "JA": 64.1,
+        "KO": 63.3,
+        "FR": 68.0,
+        "DE": 71.1,
+        "ES": 71.9,
+        "PT": 69.5,
+        "RU": 69.5,
+        "AR": 60.9,
+        "HI": 57.8,
+        "IT": 71.1,
+        "NL": 68.8,
+        "PL": 72.7,
+        "TR": 70.3,
+        "VI": 69.5,
+        "ID": 71.9,
+        "TH": 59.4,
+        "SW": 66.4,
+        "FA": 59.4,
+        "UR": 57.0,
+        "BN": 52.3,
+        "TA": 51.6,
+        "TE": 46.9
+      },
+      "avg": 63.0,
+      "result_source": "Maintainer-reported API evaluation",
+      "judge": "GPT-6 Astra",
+      "note": "Scores transcribed from the maintainer’s table; rounded to one decimal."
+    },
+    {
+      "name": "DeepSeek-V4.1-Flash",
+      "access": "open",
+      "model_card": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "xqa_zh": 48.1,
+      "xqa_en": 52.9,
+      "lqa": {
+        "EN": 59.4,
+        "ZH": 51.6,
+        "JA": 52.3,
+        "KO": 52.3,
+        "FR": 59.4,
+        "DE": 59.4,
+        "ES": 62.5,
+        "PT": 62.5,
+        "RU": 54.7,
+        "AR": 52.3,
+        "HI": 56.2,
+        "IT": 62.5,
+        "NL": 57.0,
+        "PL": 57.8,
+        "TR": 56.2,
+        "VI": 59.4,
+        "ID": 57.8,
+        "TH": 48.4,
+        "SW": 50.8,
+        "FA": 51.6,
+        "UR": 44.5,
+        "BN": 44.5,
+        "TA": 46.1,
+        "TE": 44.5
+      },
+      "avg": 51.8,
+      "result_source": "Maintainer-reported API evaluation",
+      "judge": "GPT-6 Astra",
+      "note": "Scores transcribed from the maintainer’s table; rounded to one decimal."
+    },
+    {
+      "name": "GLM-5.3-Flash",
+      "access": "open",
+      "model_card": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "xqa_zh": 39.3,
+      "xqa_en": 40.9,
+      "lqa": {
+        "EN": 29.7,
+        "ZH": 44.5,
+        "JA": 41.4,
+        "KO": 39.1,
+        "FR": 43.0,
+        "DE": 38.3,
+        "ES": 42.2,
+        "PT": 42.2,
+        "RU": 44.5,
+        "AR": 43.0,
+        "HI": 43.0,
+        "IT": 46.1,
+        "NL": 37.5,
+        "PL": 46.9,
+        "TR": 39.1,
+        "VI": 35.9,
+        "ID": 41.4,
+        "TH": 34.4,
+        "SW": 50.0,
+        "FA": 36.7,
+        "UR": 34.4,
+        "BN": 28.9,
+        "TA": 41.4,
+        "TE": 25.8
+      },
+      "avg": 39.9,
+      "result_source": "Maintainer-reported API evaluation",
+      "judge": "GPT-6 Astra",
+      "note": "Scores transcribed from the maintainer’s table; rounded to one decimal."
+    }
+  ]
+}

@@ -35,3 +35,9 @@ logs/
 /DOWNLOAD_QA_COUNTS.md
 /EXPANSION_GUIDE.md
 /LANGUAGE_EXPANSION_24.md
+
+# Curated public website metadata (not local benchmark/evaluation data).
+!/site/data/
+!/site/data/leaderboard.json
+!/site/data/leaderboard.csv
+!/site/data/examples.json
