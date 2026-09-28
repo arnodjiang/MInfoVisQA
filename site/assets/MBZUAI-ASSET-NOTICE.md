@@ -7,7 +7,7 @@ Archive member: `RGB (for digital)/MBZUAI_Logo_EN_RGB/SVG/MBZUAI_Logo_EN_Navy_Bl
 Retrieved 2026-09-28. The mark remains the property of MBZUAI and is not covered
 by this repository's code license.
 
-The project maintainer identifies MBZUAI as the paper's first affiliation.
+The project maintainer identifies MBZUAI as an institution affiliated with the paper.
 The logo identifies that affiliation; this page is a research project website.
 Do not infer additional institutional endorsements from its inclusion.
 
