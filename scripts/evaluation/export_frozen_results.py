@@ -53,7 +53,7 @@ def export(args):
     clean={k:metrics[k] for k in ['schema','dataset_sha256','bootstrap','metric_order','frozen_result_policy','classification_review']}
     clean['models']={m:{q:x[q] for q in ['en','zh']} for m,x in metrics['models'].items()}
     (out/'paired_metrics.json').write_text(json.dumps(clean,ensure_ascii=False,indent=2)+'\n')
-    for name in ['coverage_curves.csv','subgroup_metrics.csv','paired_results.tex']:(out/name).write_bytes((args.analysis/name).read_bytes())
+    for name in ['coverage_curves.csv','subgroup_metrics.csv','paired_results.tex']:(out/name).write_bytes((args.analysis/name).read_bytes().replace(b'\r\n',b'\n'))
     files={p.name:sha(p) for p in out.iterdir() if p.name!='manifest.json' and p.name!='README.md' and p.is_file()}
     manifest={'schema':'minfovisqa-frozen-correctness-v1','models':models,'dataset_sha256':sha(args.dataset),'n_seeds':128,'configurations_per_seed':70,'configurations_per_model':8960,'total_correctness_records':len(scores),'paired_seed_rows':len(seedrows),'visual_language_order':LANGUAGES,'policy':'Frozen semantic correctness; original failures retained; no reruns, exclusion, or new judging. Strict match followed by existing text-only Judge.','usage':'Join full scores to configuration bindings by id; join new models by matching case_id and language tuple after verifying input bindings. paired_seed_correctness already provides EN/ZH 24-visual clusters.','files_sha256':files}
     (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')

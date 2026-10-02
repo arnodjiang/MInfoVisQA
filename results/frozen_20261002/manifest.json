@@ -81,8 +81,8 @@
     "paired_results.tex": "3d161a9d3ca054f0f6c865c68dd6dfd07e0022112d44d9325ac121afe60ee1d4",
     "paired_metrics.json": "7fe0fc1b28237c2bb72091227fd8cf2b0724cd93c3fd2182f1dfb03e2f18d68d",
     "configuration_bindings.csv.gz": "a338daf9524c855b9779b09dee64fc48f747516e20383a2ebf8453d050bf3ca6",
-    "subgroup_metrics.csv": "81b93946eea944961450914dbc4ad6602348ca32d5c14627a117a951cb09ebe2",
+    "subgroup_metrics.csv": "1f4c9eda49dc012a5d9a89fdda29263c317e180609571bba2f68924748096bd2",
     "frozen_correctness.csv.gz": "f20b9e93a3f741f4561399405a4aaa48e9651f3d753edf7fcc67156428b319c7",
-    "coverage_curves.csv": "44d871fe074c31378eb7ecd3d9c24f80f0ad7ab8451b544f409cdf2f16005fcb"
+    "coverage_curves.csv": "244512516df81c332eec0b5ec775c2516fd7c7d7c103a6639165088a9d6de2e1"
   }
 }
