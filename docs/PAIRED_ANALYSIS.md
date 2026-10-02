@@ -128,3 +128,11 @@ original models; revise it from the new metrics when adding models.
 
 A copy of the current vector figure is published at
 `paper/img/cross_language_coverage.pdf`. Raw predictions and API logs remain local.
+
+## Download the existing five-model results
+
+The compact [frozen result export](../results/frozen_20261002/README.md) contains
+all 44,800 decisions for the four original models plus GPT-5.5. Another machine
+can combine its own models with `paired_seed_correctness.csv` without access to
+this machine's API logs. This exported CSV is not a raw run directory; follow the
+aggregation example in its README. No rerunning or failure repair is required.

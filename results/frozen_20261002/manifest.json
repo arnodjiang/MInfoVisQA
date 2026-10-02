@@ -1,0 +1,88 @@
+{
+  "schema": "minfovisqa-frozen-correctness-v1",
+  "models": [
+    {
+      "name": "GPT-6 Astra",
+      "configurations": 8960,
+      "references_sha256": "89df1893e221326d7b39b7a225d6c62d77b5790864d1e795c59eec3dc7969d06",
+      "judgments_sha256": "6080192342243be65a40737569caf51a3667cb715d007846d5f6e68cb72ae570",
+      "judge_model": "gpt-6-astra",
+      "judge_prompt_sha256": "fbc1e9da7e151ac55c570953647cb55d61bcd526c7a43fa834daff46c5308f97"
+    },
+    {
+      "name": "Gemini-3.8-Flash",
+      "configurations": 8960,
+      "references_sha256": "89df1893e221326d7b39b7a225d6c62d77b5790864d1e795c59eec3dc7969d06",
+      "judgments_sha256": "7efd9b76ad4a707e03b59a6f54499d783bea722c8cc9162ae1e41793dbf9cfcb",
+      "judge_model": "gpt-6-astra",
+      "judge_prompt_sha256": "fbc1e9da7e151ac55c570953647cb55d61bcd526c7a43fa834daff46c5308f97"
+    },
+    {
+      "name": "GPT-5.6-Sol",
+      "configurations": 8960,
+      "references_sha256": "89df1893e221326d7b39b7a225d6c62d77b5790864d1e795c59eec3dc7969d06",
+      "judgments_sha256": "682a78f6fc1961c79058160f9f35765b6c5b7c416f2cd09e66f8f945585b8044",
+      "judge_model": "gpt-6-astra",
+      "judge_prompt_sha256": "fbc1e9da7e151ac55c570953647cb55d61bcd526c7a43fa834daff46c5308f97"
+    },
+    {
+      "name": "GPT-5.6-Luna",
+      "configurations": 8960,
+      "references_sha256": "ab1cd0fa0e2dbf212edf43d883e56d996aa66f0cde84539244f576bb06f557f1",
+      "judgments_sha256": "1abbdadf7a4099e43f413867a3be4db6f0a3bb4a4e10ec00bf67a8258ce6b718",
+      "judge_model": "gpt-6-astra",
+      "judge_prompt_sha256": "fbc1e9da7e151ac55c570953647cb55d61bcd526c7a43fa834daff46c5308f97"
+    },
+    {
+      "name": "GPT-5.5",
+      "configurations": 8960,
+      "references_sha256": "ab1cd0fa0e2dbf212edf43d883e56d996aa66f0cde84539244f576bb06f557f1",
+      "judgments_sha256": "2fb5017c3fbdf5a837cd20e763f339a13a2d9666544851ecf9e457ac88f1ca8c",
+      "judge_model": "gpt-6-astra",
+      "judge_prompt_sha256": "fbc1e9da7e151ac55c570953647cb55d61bcd526c7a43fa834daff46c5308f97"
+    }
+  ],
+  "dataset_sha256": "ab1cd0fa0e2dbf212edf43d883e56d996aa66f0cde84539244f576bb06f557f1",
+  "n_seeds": 128,
+  "configurations_per_seed": 70,
+  "configurations_per_model": 8960,
+  "total_correctness_records": 44800,
+  "paired_seed_rows": 1280,
+  "visual_language_order": [
+    "en",
+    "zh",
+    "ja",
+    "ko",
+    "fr",
+    "de",
+    "es",
+    "pt",
+    "ru",
+    "ar",
+    "hi",
+    "it",
+    "nl",
+    "pl",
+    "tr",
+    "vi",
+    "id",
+    "th",
+    "sw",
+    "fa",
+    "ur",
+    "bn",
+    "ta",
+    "te"
+  ],
+  "policy": "Frozen semantic correctness; original failures retained; no reruns, exclusion, or new judging. Strict match followed by existing text-only Judge.",
+  "usage": "Join full scores to configuration bindings by id; join new models by matching case_id and language tuple after verifying input bindings. paired_seed_correctness already provides EN/ZH 24-visual clusters.",
+  "files_sha256": {
+    "paired_seed_correctness.csv": "78303af4b23d50ce8157af598945173fb438b38a7a164b0236d7bb222edda2d9",
+    "paired_results.tex": "3d161a9d3ca054f0f6c865c68dd6dfd07e0022112d44d9325ac121afe60ee1d4",
+    "paired_metrics.json": "7fe0fc1b28237c2bb72091227fd8cf2b0724cd93c3fd2182f1dfb03e2f18d68d",
+    "configuration_bindings.csv.gz": "a338daf9524c855b9779b09dee64fc48f747516e20383a2ebf8453d050bf3ca6",
+    "subgroup_metrics.csv": "81b93946eea944961450914dbc4ad6602348ca32d5c14627a117a951cb09ebe2",
+    "frozen_correctness.csv.gz": "f20b9e93a3f741f4561399405a4aaa48e9651f3d753edf7fcc67156428b319c7",
+    "coverage_curves.csv": "44d871fe074c31378eb7ecd3d9c24f80f0ad7ab8451b544f409cdf2f16005fcb"
+  }
+}

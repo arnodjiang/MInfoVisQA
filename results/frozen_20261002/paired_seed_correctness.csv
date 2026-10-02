@@ -1,0 +1,1281 @@
+model,case_id,query_language,visual_family,visual_kind,en,zh,ja,ko,fr,de,es,pt,ru,ar,hi,it,nl,pl,tr,vi,id,th,sw,fa,ur,bn,ta,te
+GPT-6 Astra,01ef673ef59ed3cb98ed,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,01ef673ef59ed3cb98ed,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,04bdfe7722bb349d8e26,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,04bdfe7722bb349d8e26,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,052ef54062001e7a853f,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,052ef54062001e7a853f,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+GPT-6 Astra,09bb0d004bd2eed54349,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,09bb0d004bd2eed54349,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,0b7ce2ad6aecd549aff2,en,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,0b7ce2ad6aecd549aff2,zh,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,0c515d14c641ec4b6d5f,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,0c515d14c641ec4b6d5f,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,0cd328c1fa4b3b00bb09,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,0cd328c1fa4b3b00bb09,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,0efd9b1928fbf1e23895,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,0efd9b1928fbf1e23895,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,0feefe120418bb710e9b,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,0feefe120418bb710e9b,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,114b1d29e4d590e0d89e,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,114b1d29e4d590e0d89e,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,14a8f81e18e712798c54,en,table,Column-Spanning Table,1,0,0,0,1,1,0,1,1,1,1,1,0,0,0,1,1,1,0,1,1,1,1,1
+GPT-6 Astra,14a8f81e18e712798c54,zh,table,Column-Spanning Table,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,1,1,0,1,1,0,1,1,1
+GPT-6 Astra,18b2bebb98fad2f55208,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,18b2bebb98fad2f55208,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,18b39fdbd2b1572601ed,en,chart,Bubble Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,18b39fdbd2b1572601ed,zh,chart,Bubble Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,1bd7f393010eed8240d7,en,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,1bd7f393010eed8240d7,zh,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,20bd33c74fc9247dbafd,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,20bd33c74fc9247dbafd,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,256f908b3268ac9a65fe,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,256f908b3268ac9a65fe,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,27d39893f4dde3bdc757,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,27d39893f4dde3bdc757,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,2807106cc9f8feac0ee1,en,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+GPT-6 Astra,2807106cc9f8feac0ee1,zh,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-6 Astra,2873b6610879880f28c9,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,2873b6610879880f28c9,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,2bf584e5ce8286a49229,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,2bf584e5ce8286a49229,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0,0,0,0,0,0
+GPT-6 Astra,2bf86a8ac478956722f8,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,2bf86a8ac478956722f8,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,2bfca2251f727e4dce0e,en,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,2bfca2251f727e4dce0e,zh,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,2c554fcd49fb533218da,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,2c554fcd49fb533218da,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,3003d2db8a0f8562b7ca,en,chart,Diverging Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,3003d2db8a0f8562b7ca,zh,chart,Diverging Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,31b80870eb436346754d,en,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,31b80870eb436346754d,zh,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,32a59a1788ab3cc9f351,en,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,0
+GPT-6 Astra,32a59a1788ab3cc9f351,zh,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,3337cb1f269bf21f2786,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,3337cb1f269bf21f2786,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,345c918a890d9cdd8b8f,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,345c918a890d9cdd8b8f,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,355ef63999002c8e8a88,en,chart,Confusion Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,355ef63999002c8e8a88,zh,chart,Confusion Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,3cb6452a2a243405fae2,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,3cb6452a2a243405fae2,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,3d60f3188bd83b417d5e,en,chart,Cumulative Distribution Plot,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1,0,0
+GPT-6 Astra,3d60f3188bd83b417d5e,zh,chart,Cumulative Distribution Plot,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,0,0,0,0
+GPT-6 Astra,3e8b462a0c2d0fac1e3c,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,3e8b462a0c2d0fac1e3c,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,4e6cbc2d3e547621c19c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,4e6cbc2d3e547621c19c,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,5042e0572ddafd0f211c,en,chart,Multi-Series Line Graph,1,0,0,0,1,1,1,1,0,0,0,1,1,1,0,1,0,1,0,0,0,0,0,0
+GPT-6 Astra,5042e0572ddafd0f211c,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0,0
+GPT-6 Astra,5073172d5af31b844fb9,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,5073172d5af31b844fb9,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,5200cb2ddd0e8de2c9e5,en,chart,Density Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+GPT-6 Astra,5200cb2ddd0e8de2c9e5,zh,chart,Density Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,540778c260964def4586,en,table,Simple Table,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+GPT-6 Astra,540778c260964def4586,zh,table,Simple Table,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0
+GPT-6 Astra,54e1b09069328391f913,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,54e1b09069328391f913,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,569067c3825f21ab8805,en,table,Column-Spanning Table,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+GPT-6 Astra,569067c3825f21ab8805,zh,table,Column-Spanning Table,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GPT-6 Astra,56add96f6e681a2608e7,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,56add96f6e681a2608e7,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,57af9110b4bcfcaa57c6,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,57af9110b4bcfcaa57c6,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,57e59a71b87a9d46b974,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,57e59a71b87a9d46b974,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,5cabdebbe28b174ed423,en,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,5cabdebbe28b174ed423,zh,table,Mixed-Spanning Table,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,5cbdf061644e84de88eb,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,5cbdf061644e84de88eb,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,5e24d7966b2942d2f2d4,en,chart,Density Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,5e24d7966b2942d2f2d4,zh,chart,Density Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,5fb01806a65973016f9a,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,5fb01806a65973016f9a,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,62e507906b924c7a9c84,en,table,Simple Table,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,62e507906b924c7a9c84,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,659d4312e8d18271430f,en,chart,Scatter Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,659d4312e8d18271430f,zh,chart,Scatter Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,667f444290a8733126aa,en,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,667f444290a8733126aa,zh,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,67889af29211ab1128fd,en,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+GPT-6 Astra,67889af29211ab1128fd,zh,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,6b422af9f7f24deb6978,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,6b422af9f7f24deb6978,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-6 Astra,6c1b80891d9f43724aa6,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,6c1b80891d9f43724aa6,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,6cc1c307a7246222304b,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,6cc1c307a7246222304b,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,6e1be4aaeb71756635da,en,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,6e1be4aaeb71756635da,zh,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-6 Astra,6e4398c76f7663c6fb3f,en,chart,Bar-Line Combination Chart,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1
+GPT-6 Astra,6e4398c76f7663c6fb3f,zh,chart,Bar-Line Combination Chart,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,70033ba3235a6d7866b7,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,70033ba3235a6d7866b7,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,72535a8c0ee6664fabd0,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,72535a8c0ee6664fabd0,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,73985251c400ec79500d,en,table,Simple Table,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,73985251c400ec79500d,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+GPT-6 Astra,74de73241d7f5da4dc5b,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,74de73241d7f5da4dc5b,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,75f3a679a90eadee54a0,en,table,Simple Table,1,0,0,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+GPT-6 Astra,75f3a679a90eadee54a0,zh,table,Simple Table,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,7a281c6b9338cffbaab6,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,7a281c6b9338cffbaab6,zh,table,Simple Table,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0
+GPT-6 Astra,7df66a259c1ee97df42d,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,7df66a259c1ee97df42d,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,7e538e3482a4904d4006,en,table,Simple Table,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,0,1,0,1,1,0,1,1,1
+GPT-6 Astra,7e538e3482a4904d4006,zh,table,Simple Table,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,7ee2a36369b87fd2cde9,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,7ee2a36369b87fd2cde9,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,7f9e0f9af72247072e65,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,7f9e0f9af72247072e65,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,807df4112e73625d5bb9,en,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,807df4112e73625d5bb9,zh,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,813ec2b46c009e7f23ec,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,813ec2b46c009e7f23ec,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,849bb4e32fb1a891417d,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,849bb4e32fb1a891417d,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,85a55743f7e7409731b0,en,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,85a55743f7e7409731b0,zh,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,880670c8479fd04fc8af,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,880670c8479fd04fc8af,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,88679fa8758854690e7c,en,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,88679fa8758854690e7c,zh,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,890e3b5095b1c36c5886,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,890e3b5095b1c36c5886,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,89a32f0298031a49cbe3,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,89a32f0298031a49cbe3,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,8b859877a71916e278f2,en,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,8b859877a71916e278f2,zh,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,8d37c5749eaa9ab6d4ff,en,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,8d37c5749eaa9ab6d4ff,zh,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,9486f664f08b652b987e,en,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,9486f664f08b652b987e,zh,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,94fb71f39bb8aa3bca10,en,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,94fb71f39bb8aa3bca10,zh,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,9636c5d938e3032e9093,en,chart,Grouped Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+GPT-6 Astra,9636c5d938e3032e9093,zh,chart,Grouped Bar Chart,0,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0
+GPT-6 Astra,96e8c58e2e0c07e0853d,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-6 Astra,96e8c58e2e0c07e0853d,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-6 Astra,992494d15c45b3b2bd34,en,chart,Contour Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,992494d15c45b3b2bd34,zh,chart,Contour Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,9b4e7f80411b35a73cbc,en,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,9b4e7f80411b35a73cbc,zh,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,a032031022ae8c34ff55,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,a032031022ae8c34ff55,zh,chart,Multi-Series Line Graph,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,a47c0d35b0b7257d362d,en,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,a47c0d35b0b7257d362d,zh,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,a97c3c13b5f40162dd14,en,chart,Lollipop Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,a97c3c13b5f40162dd14,zh,chart,Lollipop Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ae2a24341da7064d5e5b,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ae2a24341da7064d5e5b,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,afaaeebc1399e1b983e1,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,afaaeebc1399e1b983e1,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b109ef608a2884318524,en,chart,Line Graph with Uncertainty Bands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,b109ef608a2884318524,zh,chart,Line Graph with Uncertainty Bands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,b1885af7e70695b07753,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b1885af7e70695b07753,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b3f81ab479ab390f103c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b3f81ab479ab390f103c,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b4e85e9213b3f8caa207,en,chart,Vertical Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b4e85e9213b3f8caa207,zh,chart,Vertical Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b5ed01c0223fd6aee634,en,chart,Diverging Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b5ed01c0223fd6aee634,zh,chart,Diverging Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b7625fd7385fe821f194,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b7625fd7385fe821f194,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,b8d7a6d461d63b21ede5,en,chart,Heatmap,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,b8d7a6d461d63b21ede5,zh,chart,Heatmap,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,be5db785dc0325a9a6e7,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,be5db785dc0325a9a6e7,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,beea6ac8e44f46a4543d,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,beea6ac8e44f46a4543d,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c0b048a7d55e55fb26f4,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c0b048a7d55e55fb26f4,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c10f553cd51894a5a726,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c10f553cd51894a5a726,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c4f4a45fbf1eed353f22,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,c4f4a45fbf1eed353f22,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,c66143a0d4e0c347b347,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c66143a0d4e0c347b347,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c70fdad3f7e463840e5a,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c70fdad3f7e463840e5a,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c8bed98b3b7e85891063,en,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c8bed98b3b7e85891063,zh,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c956813ef506d7ebf442,en,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,c956813ef506d7ebf442,zh,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ca421dcd85dee3904def,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ca421dcd85dee3904def,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,cc7a4a1d899164253751,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,cc7a4a1d899164253751,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ce3cd691bfbeb2813fd9,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ce3cd691bfbeb2813fd9,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,cfadf691562200d04818,en,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,cfadf691562200d04818,zh,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,d257d2ff1f5867cfaa3f,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,d257d2ff1f5867cfaa3f,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,d289bd54918affd68074,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,d289bd54918affd68074,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,d9fa947d8d75a8e6888b,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,d9fa947d8d75a8e6888b,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,db05618028464780502f,en,chart,Cumulative Distribution Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,db05618028464780502f,zh,chart,Cumulative Distribution Plot,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1
+GPT-6 Astra,df6114bb431467d641f5,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,df6114bb431467d641f5,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,e3eead8e75a6b90df661,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,e3eead8e75a6b90df661,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,e4649a6173c965dce26d,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,e4649a6173c965dce26d,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,e525de67b11a063bafc6,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,1,0,1,0
+GPT-6 Astra,e525de67b11a063bafc6,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,0,0,1,1
+GPT-6 Astra,e9862f967583ff461a6b,en,chart,Correlation Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,e9862f967583ff461a6b,zh,chart,Correlation Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ec3da0f1c31be820cc61,en,chart,Line Graph with Uncertainty Bands,1,0,0,1,0,0,1,1,1,0,0,1,0,1,0,1,0,1,1,1,1,0,1,1
+GPT-6 Astra,ec3da0f1c31be820cc61,zh,chart,Line Graph with Uncertainty Bands,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-6 Astra,ecc664201e9d9bea1bb9,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ecc664201e9d9bea1bb9,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ed14e552891bd6495c52,en,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ed14e552891bd6495c52,zh,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ef91d5570ddf4f10896c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,0,1
+GPT-6 Astra,ef91d5570ddf4f10896c,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-6 Astra,ef998ed493ef965dbbfa,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,ef998ed493ef965dbbfa,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,f155ec55955edf406073,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,f155ec55955edf406073,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,f41517bd01421c37ed8a,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,f41517bd01421c37ed8a,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,f476b80b56c559558e3e,en,table,Table-Diagram Composite,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0
+GPT-6 Astra,f476b80b56c559558e3e,zh,table,Table-Diagram Composite,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,0,0,0,0,0,0
+GPT-6 Astra,f9cff69545f0cf92bf1b,en,table,Mixed-Spanning Table,1,1,1,1,0,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1,0,1,1
+GPT-6 Astra,f9cff69545f0cf92bf1b,zh,table,Mixed-Spanning Table,1,1,1,1,0,1,0,0,1,1,1,0,1,1,0,0,0,0,0,1,1,0,0,0
+GPT-6 Astra,fac5a3ecd43a846a61e5,en,chart,Histogram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0
+GPT-6 Astra,fac5a3ecd43a846a61e5,zh,chart,Histogram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0
+GPT-6 Astra,fba277285c66b06c24e3,en,chart,3D Streamline Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-6 Astra,fba277285c66b06c24e3,zh,chart,3D Streamline Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+GPT-6 Astra,fdb77eea7b046a34a188,en,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-6 Astra,fdb77eea7b046a34a188,zh,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-6 Astra,fe6676387b8a848aced4,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-6 Astra,fe6676387b8a848aced4,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,01ef673ef59ed3cb98ed,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,01ef673ef59ed3cb98ed,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,04bdfe7722bb349d8e26,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,04bdfe7722bb349d8e26,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,052ef54062001e7a853f,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,052ef54062001e7a853f,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+Gemini-3.8-Flash,09bb0d004bd2eed54349,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,09bb0d004bd2eed54349,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,0b7ce2ad6aecd549aff2,en,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,0b7ce2ad6aecd549aff2,zh,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,0c515d14c641ec4b6d5f,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,0c515d14c641ec4b6d5f,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,0cd328c1fa4b3b00bb09,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,0cd328c1fa4b3b00bb09,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,0efd9b1928fbf1e23895,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,0efd9b1928fbf1e23895,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,0feefe120418bb710e9b,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,0feefe120418bb710e9b,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,114b1d29e4d590e0d89e,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,114b1d29e4d590e0d89e,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,14a8f81e18e712798c54,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,14a8f81e18e712798c54,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,18b2bebb98fad2f55208,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,18b2bebb98fad2f55208,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,18b39fdbd2b1572601ed,en,chart,Bubble Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,18b39fdbd2b1572601ed,zh,chart,Bubble Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,1bd7f393010eed8240d7,en,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,1bd7f393010eed8240d7,zh,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,20bd33c74fc9247dbafd,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,20bd33c74fc9247dbafd,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,256f908b3268ac9a65fe,en,table,Column-Spanning Table,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,1,0
+Gemini-3.8-Flash,256f908b3268ac9a65fe,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,27d39893f4dde3bdc757,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,27d39893f4dde3bdc757,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2807106cc9f8feac0ee1,en,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2807106cc9f8feac0ee1,zh,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2873b6610879880f28c9,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2873b6610879880f28c9,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2bf584e5ce8286a49229,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2bf584e5ce8286a49229,zh,chart,Mixed Chart,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Gemini-3.8-Flash,2bf86a8ac478956722f8,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2bf86a8ac478956722f8,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2bfca2251f727e4dce0e,en,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2bfca2251f727e4dce0e,zh,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2c554fcd49fb533218da,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,2c554fcd49fb533218da,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,3003d2db8a0f8562b7ca,en,chart,Diverging Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,3003d2db8a0f8562b7ca,zh,chart,Diverging Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,31b80870eb436346754d,en,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,31b80870eb436346754d,zh,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,32a59a1788ab3cc9f351,en,chart,Area Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,32a59a1788ab3cc9f351,zh,chart,Area Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,3337cb1f269bf21f2786,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,3337cb1f269bf21f2786,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,345c918a890d9cdd8b8f,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,345c918a890d9cdd8b8f,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,355ef63999002c8e8a88,en,chart,Confusion Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,355ef63999002c8e8a88,zh,chart,Confusion Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,3cb6452a2a243405fae2,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,3cb6452a2a243405fae2,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,3d60f3188bd83b417d5e,en,chart,Cumulative Distribution Plot,1,0,1,0,1,1,1,1,1,1,0,1,1,0,1,1,1,1,0,0,0,1,0,1
+Gemini-3.8-Flash,3d60f3188bd83b417d5e,zh,chart,Cumulative Distribution Plot,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1
+Gemini-3.8-Flash,3e8b462a0c2d0fac1e3c,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,3e8b462a0c2d0fac1e3c,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,4e6cbc2d3e547621c19c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,4e6cbc2d3e547621c19c,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,5042e0572ddafd0f211c,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,5042e0572ddafd0f211c,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Gemini-3.8-Flash,5073172d5af31b844fb9,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,5073172d5af31b844fb9,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,5200cb2ddd0e8de2c9e5,en,chart,Density Plot,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,1
+Gemini-3.8-Flash,5200cb2ddd0e8de2c9e5,zh,chart,Density Plot,1,1,1,1,0,0,1,1,0,1,1,1,0,1,1,1,0,1,1,0,0,1,1,1
+Gemini-3.8-Flash,540778c260964def4586,en,table,Simple Table,1,0,1,0,1,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0
+Gemini-3.8-Flash,540778c260964def4586,zh,table,Simple Table,0,0,1,0,1,1,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0
+Gemini-3.8-Flash,54e1b09069328391f913,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,54e1b09069328391f913,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,569067c3825f21ab8805,en,table,Column-Spanning Table,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+Gemini-3.8-Flash,569067c3825f21ab8805,zh,table,Column-Spanning Table,1,1,1,0,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,56add96f6e681a2608e7,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,56add96f6e681a2608e7,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,57af9110b4bcfcaa57c6,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,57af9110b4bcfcaa57c6,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,57e59a71b87a9d46b974,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,57e59a71b87a9d46b974,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,5cabdebbe28b174ed423,en,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,5cabdebbe28b174ed423,zh,table,Mixed-Spanning Table,1,1,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,0,0,0,0,1
+Gemini-3.8-Flash,5cbdf061644e84de88eb,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,5cbdf061644e84de88eb,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,5e24d7966b2942d2f2d4,en,chart,Density Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,5e24d7966b2942d2f2d4,zh,chart,Density Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,5fb01806a65973016f9a,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,5fb01806a65973016f9a,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,62e507906b924c7a9c84,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,62e507906b924c7a9c84,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,659d4312e8d18271430f,en,chart,Scatter Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,659d4312e8d18271430f,zh,chart,Scatter Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,667f444290a8733126aa,en,chart,Stacked Bar Chart,1,1,1,1,0,0,0,0,0,1,1,0,1,0,1,1,1,1,1,1,0,0,0,1
+Gemini-3.8-Flash,667f444290a8733126aa,zh,chart,Stacked Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,67889af29211ab1128fd,en,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,67889af29211ab1128fd,zh,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,6b422af9f7f24deb6978,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+Gemini-3.8-Flash,6b422af9f7f24deb6978,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,6c1b80891d9f43724aa6,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,6c1b80891d9f43724aa6,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,6cc1c307a7246222304b,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,6cc1c307a7246222304b,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,6e1be4aaeb71756635da,en,chart,Stacked Bar Chart,1,0,1,1,0,1,0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,6e1be4aaeb71756635da,zh,chart,Stacked Bar Chart,1,1,0,1,1,1,0,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,6e4398c76f7663c6fb3f,en,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,6e4398c76f7663c6fb3f,zh,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,70033ba3235a6d7866b7,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,70033ba3235a6d7866b7,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,72535a8c0ee6664fabd0,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+Gemini-3.8-Flash,72535a8c0ee6664fabd0,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,73985251c400ec79500d,en,table,Simple Table,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,73985251c400ec79500d,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+Gemini-3.8-Flash,74de73241d7f5da4dc5b,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,74de73241d7f5da4dc5b,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,75f3a679a90eadee54a0,en,table,Simple Table,1,1,1,1,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Gemini-3.8-Flash,75f3a679a90eadee54a0,zh,table,Simple Table,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0
+Gemini-3.8-Flash,7a281c6b9338cffbaab6,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,7a281c6b9338cffbaab6,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,7df66a259c1ee97df42d,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,7df66a259c1ee97df42d,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,7e538e3482a4904d4006,en,table,Simple Table,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,7e538e3482a4904d4006,zh,table,Simple Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,7ee2a36369b87fd2cde9,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,7ee2a36369b87fd2cde9,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,7f9e0f9af72247072e65,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,7f9e0f9af72247072e65,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,807df4112e73625d5bb9,en,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,807df4112e73625d5bb9,zh,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,813ec2b46c009e7f23ec,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,813ec2b46c009e7f23ec,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,849bb4e32fb1a891417d,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,849bb4e32fb1a891417d,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,85a55743f7e7409731b0,en,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,85a55743f7e7409731b0,zh,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,880670c8479fd04fc8af,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,880670c8479fd04fc8af,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,88679fa8758854690e7c,en,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,88679fa8758854690e7c,zh,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,890e3b5095b1c36c5886,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,890e3b5095b1c36c5886,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,89a32f0298031a49cbe3,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,89a32f0298031a49cbe3,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,8b859877a71916e278f2,en,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,8b859877a71916e278f2,zh,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,8d37c5749eaa9ab6d4ff,en,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,8d37c5749eaa9ab6d4ff,zh,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,9486f664f08b652b987e,en,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,9486f664f08b652b987e,zh,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,94fb71f39bb8aa3bca10,en,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,94fb71f39bb8aa3bca10,zh,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,9636c5d938e3032e9093,en,chart,Grouped Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,9636c5d938e3032e9093,zh,chart,Grouped Bar Chart,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,96e8c58e2e0c07e0853d,en,chart,Multi-Series Line Graph,1,1,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0
+Gemini-3.8-Flash,96e8c58e2e0c07e0853d,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,992494d15c45b3b2bd34,en,chart,Contour Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,992494d15c45b3b2bd34,zh,chart,Contour Plot,1,0,1,1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0
+Gemini-3.8-Flash,9b4e7f80411b35a73cbc,en,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,9b4e7f80411b35a73cbc,zh,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,a032031022ae8c34ff55,en,chart,Multi-Series Line Graph,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,1,1,1,1,1,1,0
+Gemini-3.8-Flash,a032031022ae8c34ff55,zh,chart,Multi-Series Line Graph,1,0,1,1,1,0,1,1,0,0,1,0,0,0,0,1,0,1,1,1,0,1,1,0
+Gemini-3.8-Flash,a47c0d35b0b7257d362d,en,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,a47c0d35b0b7257d362d,zh,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,a97c3c13b5f40162dd14,en,chart,Lollipop Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,a97c3c13b5f40162dd14,zh,chart,Lollipop Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ae2a24341da7064d5e5b,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ae2a24341da7064d5e5b,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,afaaeebc1399e1b983e1,en,chart,Multi-Series Line Graph,1,1,0,0,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,0,1,0,1,0
+Gemini-3.8-Flash,afaaeebc1399e1b983e1,zh,chart,Multi-Series Line Graph,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Gemini-3.8-Flash,b109ef608a2884318524,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,b109ef608a2884318524,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,b1885af7e70695b07753,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,b1885af7e70695b07753,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,b3f81ab479ab390f103c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,b3f81ab479ab390f103c,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,b4e85e9213b3f8caa207,en,chart,Vertical Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,b4e85e9213b3f8caa207,zh,chart,Vertical Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,b5ed01c0223fd6aee634,en,chart,Diverging Bar Chart,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,0,0,0,0,1,0,1,1,0
+Gemini-3.8-Flash,b5ed01c0223fd6aee634,zh,chart,Diverging Bar Chart,1,1,1,1,1,1,0,1,1,0,1,1,0,0,1,1,1,1,1,0,1,1,1,0
+Gemini-3.8-Flash,b7625fd7385fe821f194,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,b7625fd7385fe821f194,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,b8d7a6d461d63b21ede5,en,chart,Heatmap,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
+Gemini-3.8-Flash,b8d7a6d461d63b21ede5,zh,chart,Heatmap,0,0,0,1,0,1,0,0,0,1,0,0,1,1,0,0,1,0,1,0,1,0,0,1
+Gemini-3.8-Flash,be5db785dc0325a9a6e7,en,chart,Multi-Series Line Graph,0,1,1,1,0,1,0,1,0,1,0,0,0,1,0,0,0,1,1,0,1,0,1,1
+Gemini-3.8-Flash,be5db785dc0325a9a6e7,zh,chart,Multi-Series Line Graph,0,0,0,1,1,1,0,1,0,1,0,1,0,1,0,0,1,1,1,0,0,0,1,1
+Gemini-3.8-Flash,beea6ac8e44f46a4543d,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,beea6ac8e44f46a4543d,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c0b048a7d55e55fb26f4,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c0b048a7d55e55fb26f4,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c10f553cd51894a5a726,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c10f553cd51894a5a726,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c4f4a45fbf1eed353f22,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,c4f4a45fbf1eed353f22,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,c66143a0d4e0c347b347,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c66143a0d4e0c347b347,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c70fdad3f7e463840e5a,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c70fdad3f7e463840e5a,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c8bed98b3b7e85891063,en,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c8bed98b3b7e85891063,zh,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c956813ef506d7ebf442,en,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,c956813ef506d7ebf442,zh,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ca421dcd85dee3904def,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ca421dcd85dee3904def,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,cc7a4a1d899164253751,en,chart,Multi-Series Line Graph,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Gemini-3.8-Flash,cc7a4a1d899164253751,zh,chart,Multi-Series Line Graph,1,0,1,1,1,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,0
+Gemini-3.8-Flash,ce3cd691bfbeb2813fd9,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ce3cd691bfbeb2813fd9,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,cfadf691562200d04818,en,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,cfadf691562200d04818,zh,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,d257d2ff1f5867cfaa3f,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,d257d2ff1f5867cfaa3f,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,d289bd54918affd68074,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,d289bd54918affd68074,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,d9fa947d8d75a8e6888b,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,d9fa947d8d75a8e6888b,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,db05618028464780502f,en,chart,Cumulative Distribution Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,db05618028464780502f,zh,chart,Cumulative Distribution Plot,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1
+Gemini-3.8-Flash,df6114bb431467d641f5,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,df6114bb431467d641f5,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,e3eead8e75a6b90df661,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,e3eead8e75a6b90df661,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,e4649a6173c965dce26d,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,e4649a6173c965dce26d,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,e525de67b11a063bafc6,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,e525de67b11a063bafc6,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,e9862f967583ff461a6b,en,chart,Correlation Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,e9862f967583ff461a6b,zh,chart,Correlation Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ec3da0f1c31be820cc61,en,chart,Line Graph with Uncertainty Bands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,ec3da0f1c31be820cc61,zh,chart,Line Graph with Uncertainty Bands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,ecc664201e9d9bea1bb9,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ecc664201e9d9bea1bb9,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ed14e552891bd6495c52,en,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ed14e552891bd6495c52,zh,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ef91d5570ddf4f10896c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ef91d5570ddf4f10896c,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gemini-3.8-Flash,ef998ed493ef965dbbfa,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,ef998ed493ef965dbbfa,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,f155ec55955edf406073,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,f155ec55955edf406073,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,f41517bd01421c37ed8a,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,f41517bd01421c37ed8a,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0
+Gemini-3.8-Flash,f476b80b56c559558e3e,en,table,Table-Diagram Composite,1,1,1,1,1,1,0,0,1,1,1,0,1,1,1,0,1,1,0,1,1,0,0,0
+Gemini-3.8-Flash,f476b80b56c559558e3e,zh,table,Table-Diagram Composite,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,0,0,0,0,0,0
+Gemini-3.8-Flash,f9cff69545f0cf92bf1b,en,table,Mixed-Spanning Table,0,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1,0,0,0
+Gemini-3.8-Flash,f9cff69545f0cf92bf1b,zh,table,Mixed-Spanning Table,1,0,1,1,0,0,0,0,1,1,1,0,1,1,0,0,0,0,0,1,1,0,0,0
+Gemini-3.8-Flash,fac5a3ecd43a846a61e5,en,chart,Histogram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+Gemini-3.8-Flash,fac5a3ecd43a846a61e5,zh,chart,Histogram,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0
+Gemini-3.8-Flash,fba277285c66b06c24e3,en,chart,3D Streamline Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,fba277285c66b06c24e3,zh,chart,3D Streamline Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,fdb77eea7b046a34a188,en,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,fdb77eea7b046a34a188,zh,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,fe6676387b8a848aced4,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gemini-3.8-Flash,fe6676387b8a848aced4,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,01ef673ef59ed3cb98ed,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+GPT-5.6-Sol,01ef673ef59ed3cb98ed,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,04bdfe7722bb349d8e26,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,04bdfe7722bb349d8e26,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,052ef54062001e7a853f,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,052ef54062001e7a853f,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,09bb0d004bd2eed54349,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,09bb0d004bd2eed54349,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,0b7ce2ad6aecd549aff2,en,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,0b7ce2ad6aecd549aff2,zh,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,0c515d14c641ec4b6d5f,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,0c515d14c641ec4b6d5f,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,0cd328c1fa4b3b00bb09,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,0cd328c1fa4b3b00bb09,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,0efd9b1928fbf1e23895,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,0efd9b1928fbf1e23895,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,0feefe120418bb710e9b,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,0feefe120418bb710e9b,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,114b1d29e4d590e0d89e,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1
+GPT-5.6-Sol,114b1d29e4d590e0d89e,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+GPT-5.6-Sol,14a8f81e18e712798c54,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1
+GPT-5.6-Sol,14a8f81e18e712798c54,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GPT-5.6-Sol,18b2bebb98fad2f55208,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,18b2bebb98fad2f55208,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,18b39fdbd2b1572601ed,en,chart,Bubble Chart,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,18b39fdbd2b1572601ed,zh,chart,Bubble Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,1bd7f393010eed8240d7,en,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,1bd7f393010eed8240d7,zh,chart,Pie Chart,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,20bd33c74fc9247dbafd,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,20bd33c74fc9247dbafd,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,256f908b3268ac9a65fe,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+GPT-5.6-Sol,256f908b3268ac9a65fe,zh,table,Column-Spanning Table,1,0,1,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0
+GPT-5.6-Sol,27d39893f4dde3bdc757,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,27d39893f4dde3bdc757,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,2807106cc9f8feac0ee1,en,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.6-Sol,2807106cc9f8feac0ee1,zh,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,0,0
+GPT-5.6-Sol,2873b6610879880f28c9,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,2873b6610879880f28c9,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,2bf584e5ce8286a49229,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,2bf584e5ce8286a49229,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1
+GPT-5.6-Sol,2bf86a8ac478956722f8,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,2bf86a8ac478956722f8,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,2bfca2251f727e4dce0e,en,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,2bfca2251f727e4dce0e,zh,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,2c554fcd49fb533218da,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,2c554fcd49fb533218da,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,3003d2db8a0f8562b7ca,en,chart,Diverging Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,3003d2db8a0f8562b7ca,zh,chart,Diverging Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,31b80870eb436346754d,en,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1
+GPT-5.6-Sol,31b80870eb436346754d,zh,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+GPT-5.6-Sol,32a59a1788ab3cc9f351,en,chart,Area Chart,0,0,1,1,0,0,1,1,0,1,0,0,0,1,0,0,1,0,0,0,1,0,1,0
+GPT-5.6-Sol,32a59a1788ab3cc9f351,zh,chart,Area Chart,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0
+GPT-5.6-Sol,3337cb1f269bf21f2786,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,3337cb1f269bf21f2786,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,345c918a890d9cdd8b8f,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,345c918a890d9cdd8b8f,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,355ef63999002c8e8a88,en,chart,Confusion Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,355ef63999002c8e8a88,zh,chart,Confusion Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,3cb6452a2a243405fae2,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,3cb6452a2a243405fae2,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+GPT-5.6-Sol,3d60f3188bd83b417d5e,en,chart,Cumulative Distribution Plot,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0,1,0,0,0,0
+GPT-5.6-Sol,3d60f3188bd83b417d5e,zh,chart,Cumulative Distribution Plot,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,0,0,0,0,0
+GPT-5.6-Sol,3e8b462a0c2d0fac1e3c,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,3e8b462a0c2d0fac1e3c,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,4e6cbc2d3e547621c19c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,4e6cbc2d3e547621c19c,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,5042e0572ddafd0f211c,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,5042e0572ddafd0f211c,zh,chart,Multi-Series Line Graph,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+GPT-5.6-Sol,5073172d5af31b844fb9,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,5073172d5af31b844fb9,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,5200cb2ddd0e8de2c9e5,en,chart,Density Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,5200cb2ddd0e8de2c9e5,zh,chart,Density Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,540778c260964def4586,en,table,Simple Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,540778c260964def4586,zh,table,Simple Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,54e1b09069328391f913,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,54e1b09069328391f913,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,569067c3825f21ab8805,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,569067c3825f21ab8805,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,56add96f6e681a2608e7,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,56add96f6e681a2608e7,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,57af9110b4bcfcaa57c6,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,57af9110b4bcfcaa57c6,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,57e59a71b87a9d46b974,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,57e59a71b87a9d46b974,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,5cabdebbe28b174ed423,en,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0
+GPT-5.6-Sol,5cabdebbe28b174ed423,zh,table,Mixed-Spanning Table,1,1,0,1,1,1,1,0,0,0,0,1,0,1,1,0,1,1,1,0,0,1,0,0
+GPT-5.6-Sol,5cbdf061644e84de88eb,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,5cbdf061644e84de88eb,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,5e24d7966b2942d2f2d4,en,chart,Density Plot,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,5e24d7966b2942d2f2d4,zh,chart,Density Plot,0,0,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,0,1,1,1,1,1
+GPT-5.6-Sol,5fb01806a65973016f9a,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,5fb01806a65973016f9a,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,62e507906b924c7a9c84,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+GPT-5.6-Sol,62e507906b924c7a9c84,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,659d4312e8d18271430f,en,chart,Scatter Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,659d4312e8d18271430f,zh,chart,Scatter Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,667f444290a8733126aa,en,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,667f444290a8733126aa,zh,chart,Stacked Bar Chart,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,67889af29211ab1128fd,en,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,67889af29211ab1128fd,zh,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,6b422af9f7f24deb6978,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,6b422af9f7f24deb6978,zh,table,Column-Spanning Table,0,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.6-Sol,6c1b80891d9f43724aa6,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,6c1b80891d9f43724aa6,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,6cc1c307a7246222304b,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,6cc1c307a7246222304b,zh,chart,Mixed Chart,1,1,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,6e1be4aaeb71756635da,en,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,1,1,1,0,0,1
+GPT-5.6-Sol,6e1be4aaeb71756635da,zh,chart,Stacked Bar Chart,1,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,0,0,0
+GPT-5.6-Sol,6e4398c76f7663c6fb3f,en,chart,Bar-Line Combination Chart,1,1,0,1,0,1,0,1,1,1,1,0,0,0,0,1,1,0,0,0,1,0,0,0
+GPT-5.6-Sol,6e4398c76f7663c6fb3f,zh,chart,Bar-Line Combination Chart,1,1,0,1,0,1,1,1,0,1,1,0,0,1,0,1,1,1,0,0,0,0,0,0
+GPT-5.6-Sol,70033ba3235a6d7866b7,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,70033ba3235a6d7866b7,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,72535a8c0ee6664fabd0,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,72535a8c0ee6664fabd0,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,73985251c400ec79500d,en,table,Simple Table,1,1,1,1,1,0,1,0,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,1
+GPT-5.6-Sol,73985251c400ec79500d,zh,table,Simple Table,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+GPT-5.6-Sol,74de73241d7f5da4dc5b,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,74de73241d7f5da4dc5b,zh,chart,Multi-Series Line Graph,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,75f3a679a90eadee54a0,en,table,Simple Table,1,0,0,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0
+GPT-5.6-Sol,75f3a679a90eadee54a0,zh,table,Simple Table,1,1,1,0,0,1,1,1,1,0,0,1,1,0,1,1,1,1,1,1,0,0,0,0
+GPT-5.6-Sol,7a281c6b9338cffbaab6,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,7a281c6b9338cffbaab6,zh,table,Simple Table,1,1,1,0,1,1,1,1,1,0,0,1,0,1,1,1,1,1,1,1,1,1,0,1
+GPT-5.6-Sol,7df66a259c1ee97df42d,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,7df66a259c1ee97df42d,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+GPT-5.6-Sol,7e538e3482a4904d4006,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,7e538e3482a4904d4006,zh,table,Simple Table,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0
+GPT-5.6-Sol,7ee2a36369b87fd2cde9,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,7ee2a36369b87fd2cde9,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,7f9e0f9af72247072e65,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,7f9e0f9af72247072e65,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,807df4112e73625d5bb9,en,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,807df4112e73625d5bb9,zh,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,813ec2b46c009e7f23ec,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,813ec2b46c009e7f23ec,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,849bb4e32fb1a891417d,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,849bb4e32fb1a891417d,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,85a55743f7e7409731b0,en,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,85a55743f7e7409731b0,zh,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,880670c8479fd04fc8af,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,880670c8479fd04fc8af,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,88679fa8758854690e7c,en,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,88679fa8758854690e7c,zh,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,890e3b5095b1c36c5886,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,890e3b5095b1c36c5886,zh,chart,Grouped Bar Chart,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,89a32f0298031a49cbe3,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,89a32f0298031a49cbe3,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,8b859877a71916e278f2,en,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,8b859877a71916e278f2,zh,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,8d37c5749eaa9ab6d4ff,en,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,8d37c5749eaa9ab6d4ff,zh,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,9486f664f08b652b987e,en,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,9486f664f08b652b987e,zh,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,94fb71f39bb8aa3bca10,en,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,94fb71f39bb8aa3bca10,zh,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,9636c5d938e3032e9093,en,chart,Grouped Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+GPT-5.6-Sol,9636c5d938e3032e9093,zh,chart,Grouped Bar Chart,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,1,0,1,0,1,0,1,0,1
+GPT-5.6-Sol,96e8c58e2e0c07e0853d,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,96e8c58e2e0c07e0853d,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,992494d15c45b3b2bd34,en,chart,Contour Plot,1,0,0,1,1,0,1,0,0,1,1,0,1,1,0,0,1,1,0,0,0,0,0,1
+GPT-5.6-Sol,992494d15c45b3b2bd34,zh,chart,Contour Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,9b4e7f80411b35a73cbc,en,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,9b4e7f80411b35a73cbc,zh,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,a032031022ae8c34ff55,en,chart,Multi-Series Line Graph,1,1,0,1,0,1,0,0,1,1,0,0,1,1,1,0,0,0,1,1,1,0,0,1
+GPT-5.6-Sol,a032031022ae8c34ff55,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,a47c0d35b0b7257d362d,en,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,a47c0d35b0b7257d362d,zh,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,a97c3c13b5f40162dd14,en,chart,Lollipop Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,a97c3c13b5f40162dd14,zh,chart,Lollipop Chart,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,ae2a24341da7064d5e5b,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,ae2a24341da7064d5e5b,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,afaaeebc1399e1b983e1,en,chart,Multi-Series Line Graph,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,afaaeebc1399e1b983e1,zh,chart,Multi-Series Line Graph,0,0,1,0,0,1,1,0,1,0,1,1,1,1,0,1,1,1,1,0,0,1,0,0
+GPT-5.6-Sol,b109ef608a2884318524,en,chart,Line Graph with Uncertainty Bands,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+GPT-5.6-Sol,b109ef608a2884318524,zh,chart,Line Graph with Uncertainty Bands,0,1,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,1,1,1,1
+GPT-5.6-Sol,b1885af7e70695b07753,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,b1885af7e70695b07753,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,b3f81ab479ab390f103c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,b3f81ab479ab390f103c,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,b4e85e9213b3f8caa207,en,chart,Vertical Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,b4e85e9213b3f8caa207,zh,chart,Vertical Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,b5ed01c0223fd6aee634,en,chart,Diverging Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,b5ed01c0223fd6aee634,zh,chart,Diverging Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,b7625fd7385fe821f194,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,b7625fd7385fe821f194,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,b8d7a6d461d63b21ede5,en,chart,Heatmap,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,b8d7a6d461d63b21ede5,zh,chart,Heatmap,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,be5db785dc0325a9a6e7,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,be5db785dc0325a9a6e7,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,beea6ac8e44f46a4543d,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,beea6ac8e44f46a4543d,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,c0b048a7d55e55fb26f4,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,c0b048a7d55e55fb26f4,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,c10f553cd51894a5a726,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,c10f553cd51894a5a726,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,c4f4a45fbf1eed353f22,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,c4f4a45fbf1eed353f22,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,c66143a0d4e0c347b347,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,c66143a0d4e0c347b347,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,c70fdad3f7e463840e5a,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,c70fdad3f7e463840e5a,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+GPT-5.6-Sol,c8bed98b3b7e85891063,en,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,c8bed98b3b7e85891063,zh,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+GPT-5.6-Sol,c956813ef506d7ebf442,en,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,c956813ef506d7ebf442,zh,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,ca421dcd85dee3904def,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,ca421dcd85dee3904def,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,cc7a4a1d899164253751,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,cc7a4a1d899164253751,zh,chart,Multi-Series Line Graph,0,1,0,1,1,1,1,0,1,0,0,1,1,1,1,0,1,0,1,1,1,0,1,1
+GPT-5.6-Sol,ce3cd691bfbeb2813fd9,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,ce3cd691bfbeb2813fd9,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,cfadf691562200d04818,en,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,cfadf691562200d04818,zh,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,d257d2ff1f5867cfaa3f,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,d257d2ff1f5867cfaa3f,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,d289bd54918affd68074,en,chart,Line Graph with Uncertainty Bands,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,d289bd54918affd68074,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,d9fa947d8d75a8e6888b,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,d9fa947d8d75a8e6888b,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,db05618028464780502f,en,chart,Cumulative Distribution Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,db05618028464780502f,zh,chart,Cumulative Distribution Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,df6114bb431467d641f5,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,df6114bb431467d641f5,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,e3eead8e75a6b90df661,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,e3eead8e75a6b90df661,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,e4649a6173c965dce26d,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,e4649a6173c965dce26d,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,e525de67b11a063bafc6,en,chart,Multi-Series Line Graph,0,1,1,1,1,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,1,0,0
+GPT-5.6-Sol,e525de67b11a063bafc6,zh,chart,Multi-Series Line Graph,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1
+GPT-5.6-Sol,e9862f967583ff461a6b,en,chart,Correlation Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,e9862f967583ff461a6b,zh,chart,Correlation Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,ec3da0f1c31be820cc61,en,chart,Line Graph with Uncertainty Bands,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0
+GPT-5.6-Sol,ec3da0f1c31be820cc61,zh,chart,Line Graph with Uncertainty Bands,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,ecc664201e9d9bea1bb9,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,ecc664201e9d9bea1bb9,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,ed14e552891bd6495c52,en,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,ed14e552891bd6495c52,zh,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,ef91d5570ddf4f10896c,en,chart,Multi-Series Line Graph,1,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1
+GPT-5.6-Sol,ef91d5570ddf4f10896c,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Sol,ef998ed493ef965dbbfa,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,ef998ed493ef965dbbfa,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,f155ec55955edf406073,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,f155ec55955edf406073,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,f41517bd01421c37ed8a,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,f41517bd01421c37ed8a,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,f476b80b56c559558e3e,en,table,Table-Diagram Composite,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+GPT-5.6-Sol,f476b80b56c559558e3e,zh,table,Table-Diagram Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1
+GPT-5.6-Sol,f9cff69545f0cf92bf1b,en,table,Mixed-Spanning Table,1,1,1,1,0,1,0,0,1,1,1,0,1,1,0,0,0,1,0,1,1,0,1,1
+GPT-5.6-Sol,f9cff69545f0cf92bf1b,zh,table,Mixed-Spanning Table,1,1,1,1,1,1,0,0,1,1,1,0,1,1,0,0,0,0,0,1,0,0,0,1
+GPT-5.6-Sol,fac5a3ecd43a846a61e5,en,chart,Histogram,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,0
+GPT-5.6-Sol,fac5a3ecd43a846a61e5,zh,chart,Histogram,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,1,1,0
+GPT-5.6-Sol,fba277285c66b06c24e3,en,chart,3D Streamline Plot,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Sol,fba277285c66b06c24e3,zh,chart,3D Streamline Plot,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,0
+GPT-5.6-Sol,fdb77eea7b046a34a188,en,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,0,1,1,0,0
+GPT-5.6-Sol,fdb77eea7b046a34a188,zh,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0
+GPT-5.6-Sol,fe6676387b8a848aced4,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Sol,fe6676387b8a848aced4,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,01ef673ef59ed3cb98ed,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0
+GPT-5.6-Luna,01ef673ef59ed3cb98ed,zh,table,Simple Table,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.6-Luna,04bdfe7722bb349d8e26,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,04bdfe7722bb349d8e26,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,052ef54062001e7a853f,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1
+GPT-5.6-Luna,052ef54062001e7a853f,zh,chart,Line Graph,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,0,1,1,0,0,1,1,0
+GPT-5.6-Luna,09bb0d004bd2eed54349,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+GPT-5.6-Luna,09bb0d004bd2eed54349,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,0b7ce2ad6aecd549aff2,en,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,0b7ce2ad6aecd549aff2,zh,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,0c515d14c641ec4b6d5f,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,0c515d14c641ec4b6d5f,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+GPT-5.6-Luna,0cd328c1fa4b3b00bb09,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,0cd328c1fa4b3b00bb09,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,0efd9b1928fbf1e23895,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+GPT-5.6-Luna,0efd9b1928fbf1e23895,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,0feefe120418bb710e9b,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,0feefe120418bb710e9b,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,114b1d29e4d590e0d89e,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+GPT-5.6-Luna,114b1d29e4d590e0d89e,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,0,0,1,0
+GPT-5.6-Luna,14a8f81e18e712798c54,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,0,0,0,0,1,1,0
+GPT-5.6-Luna,14a8f81e18e712798c54,zh,table,Column-Spanning Table,1,1,1,0,1,1,1,1,1,0,0,0,1,1,1,1,0,1,1,0,0,0,0,1
+GPT-5.6-Luna,18b2bebb98fad2f55208,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,18b2bebb98fad2f55208,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,18b39fdbd2b1572601ed,en,chart,Bubble Chart,1,1,1,0,0,0,0,1,0,1,0,1,0,1,1,0,1,0,0,0,0,1,1,1
+GPT-5.6-Luna,18b39fdbd2b1572601ed,zh,chart,Bubble Chart,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,0,0,0,0,1,1
+GPT-5.6-Luna,1bd7f393010eed8240d7,en,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,1bd7f393010eed8240d7,zh,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,20bd33c74fc9247dbafd,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,20bd33c74fc9247dbafd,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,256f908b3268ac9a65fe,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+GPT-5.6-Luna,256f908b3268ac9a65fe,zh,table,Column-Spanning Table,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,27d39893f4dde3bdc757,en,table,Column-Spanning Table,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,27d39893f4dde3bdc757,zh,table,Column-Spanning Table,1,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,1,1,1,1,0,1,0
+GPT-5.6-Luna,2807106cc9f8feac0ee1,en,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,2807106cc9f8feac0ee1,zh,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0
+GPT-5.6-Luna,2873b6610879880f28c9,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,2873b6610879880f28c9,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,2bf584e5ce8286a49229,en,chart,Mixed Chart,1,1,0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,1,1,0
+GPT-5.6-Luna,2bf584e5ce8286a49229,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,0,0,0,0
+GPT-5.6-Luna,2bf86a8ac478956722f8,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,2bf86a8ac478956722f8,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,2bfca2251f727e4dce0e,en,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0,0,0,0,1,0
+GPT-5.6-Luna,2bfca2251f727e4dce0e,zh,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0
+GPT-5.6-Luna,2c554fcd49fb533218da,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,2c554fcd49fb533218da,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,3003d2db8a0f8562b7ca,en,chart,Diverging Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,3003d2db8a0f8562b7ca,zh,chart,Diverging Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,31b80870eb436346754d,en,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+GPT-5.6-Luna,31b80870eb436346754d,zh,chart,Pie Chart,1,1,1,1,1,0,1,1,1,0,1,1,1,1,0,0,1,1,0,1,0,0,0,0
+GPT-5.6-Luna,32a59a1788ab3cc9f351,en,chart,Area Chart,1,1,0,1,0,1,1,1,0,1,1,1,1,1,1,0,1,0,0,1,1,0,1,0
+GPT-5.6-Luna,32a59a1788ab3cc9f351,zh,chart,Area Chart,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0
+GPT-5.6-Luna,3337cb1f269bf21f2786,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,3337cb1f269bf21f2786,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,345c918a890d9cdd8b8f,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,345c918a890d9cdd8b8f,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,355ef63999002c8e8a88,en,chart,Confusion Matrix,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,355ef63999002c8e8a88,zh,chart,Confusion Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+GPT-5.6-Luna,3cb6452a2a243405fae2,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,0
+GPT-5.6-Luna,3cb6452a2a243405fae2,zh,table,Column-Spanning Table,1,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,0,0
+GPT-5.6-Luna,3d60f3188bd83b417d5e,en,chart,Cumulative Distribution Plot,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,1,0,1,0,0
+GPT-5.6-Luna,3d60f3188bd83b417d5e,zh,chart,Cumulative Distribution Plot,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.6-Luna,3e8b462a0c2d0fac1e3c,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,3e8b462a0c2d0fac1e3c,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,4e6cbc2d3e547621c19c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1
+GPT-5.6-Luna,4e6cbc2d3e547621c19c,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,5042e0572ddafd0f211c,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,5042e0572ddafd0f211c,zh,chart,Multi-Series Line Graph,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+GPT-5.6-Luna,5073172d5af31b844fb9,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,5073172d5af31b844fb9,zh,chart,Mixed Chart,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.6-Luna,5200cb2ddd0e8de2c9e5,en,chart,Density Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,5200cb2ddd0e8de2c9e5,zh,chart,Density Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,540778c260964def4586,en,table,Simple Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,540778c260964def4586,zh,table,Simple Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,54e1b09069328391f913,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0
+GPT-5.6-Luna,54e1b09069328391f913,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,569067c3825f21ab8805,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,569067c3825f21ab8805,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,56add96f6e681a2608e7,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,56add96f6e681a2608e7,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,57af9110b4bcfcaa57c6,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,57af9110b4bcfcaa57c6,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,57e59a71b87a9d46b974,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,57e59a71b87a9d46b974,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+GPT-5.6-Luna,5cabdebbe28b174ed423,en,table,Mixed-Spanning Table,1,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,0,0,0,1,0
+GPT-5.6-Luna,5cabdebbe28b174ed423,zh,table,Mixed-Spanning Table,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,0
+GPT-5.6-Luna,5cbdf061644e84de88eb,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,5cbdf061644e84de88eb,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,5e24d7966b2942d2f2d4,en,chart,Density Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+GPT-5.6-Luna,5e24d7966b2942d2f2d4,zh,chart,Density Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0
+GPT-5.6-Luna,5fb01806a65973016f9a,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,5fb01806a65973016f9a,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,62e507906b924c7a9c84,en,table,Simple Table,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,62e507906b924c7a9c84,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,659d4312e8d18271430f,en,chart,Scatter Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,659d4312e8d18271430f,zh,chart,Scatter Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,667f444290a8733126aa,en,chart,Stacked Bar Chart,1,1,0,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1
+GPT-5.6-Luna,667f444290a8733126aa,zh,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,67889af29211ab1128fd,en,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+GPT-5.6-Luna,67889af29211ab1128fd,zh,table,Mixed-Spanning Table,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+GPT-5.6-Luna,6b422af9f7f24deb6978,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0
+GPT-5.6-Luna,6b422af9f7f24deb6978,zh,table,Column-Spanning Table,1,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,0
+GPT-5.6-Luna,6c1b80891d9f43724aa6,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,6c1b80891d9f43724aa6,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,6cc1c307a7246222304b,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,6cc1c307a7246222304b,zh,chart,Mixed Chart,1,0,0,1,1,0,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1
+GPT-5.6-Luna,6e1be4aaeb71756635da,en,chart,Stacked Bar Chart,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0
+GPT-5.6-Luna,6e1be4aaeb71756635da,zh,chart,Stacked Bar Chart,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,0,0,1,0,0
+GPT-5.6-Luna,6e4398c76f7663c6fb3f,en,chart,Bar-Line Combination Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,6e4398c76f7663c6fb3f,zh,chart,Bar-Line Combination Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,70033ba3235a6d7866b7,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,0
+GPT-5.6-Luna,70033ba3235a6d7866b7,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,1,1,1,0
+GPT-5.6-Luna,72535a8c0ee6664fabd0,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,72535a8c0ee6664fabd0,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,73985251c400ec79500d,en,table,Simple Table,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+GPT-5.6-Luna,73985251c400ec79500d,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,74de73241d7f5da4dc5b,en,chart,Multi-Series Line Graph,1,1,1,1,0,1,1,1,0,1,0,0,1,1,1,1,1,0,0,0,0,1,1,0
+GPT-5.6-Luna,74de73241d7f5da4dc5b,zh,chart,Multi-Series Line Graph,0,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,0,1,1,1,1,0,1
+GPT-5.6-Luna,75f3a679a90eadee54a0,en,table,Simple Table,1,0,0,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,0
+GPT-5.6-Luna,75f3a679a90eadee54a0,zh,table,Simple Table,1,1,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,1,1,1,0,0,0,0
+GPT-5.6-Luna,7a281c6b9338cffbaab6,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.6-Luna,7a281c6b9338cffbaab6,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,0,0
+GPT-5.6-Luna,7df66a259c1ee97df42d,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,7df66a259c1ee97df42d,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,7e538e3482a4904d4006,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,7e538e3482a4904d4006,zh,table,Simple Table,0,0,1,0,0,0,0,1,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0
+GPT-5.6-Luna,7ee2a36369b87fd2cde9,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,7ee2a36369b87fd2cde9,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,7f9e0f9af72247072e65,en,chart,Multi-Series Line Graph,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,7f9e0f9af72247072e65,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,807df4112e73625d5bb9,en,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,807df4112e73625d5bb9,zh,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,813ec2b46c009e7f23ec,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,813ec2b46c009e7f23ec,zh,table,Column-Spanning Table,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,849bb4e32fb1a891417d,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1
+GPT-5.6-Luna,849bb4e32fb1a891417d,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,85a55743f7e7409731b0,en,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,85a55743f7e7409731b0,zh,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,880670c8479fd04fc8af,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,880670c8479fd04fc8af,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,88679fa8758854690e7c,en,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,88679fa8758854690e7c,zh,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,890e3b5095b1c36c5886,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,890e3b5095b1c36c5886,zh,chart,Grouped Bar Chart,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1
+GPT-5.6-Luna,89a32f0298031a49cbe3,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,89a32f0298031a49cbe3,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,8b859877a71916e278f2,en,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,8b859877a71916e278f2,zh,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,8d37c5749eaa9ab6d4ff,en,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,8d37c5749eaa9ab6d4ff,zh,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,9486f664f08b652b987e,en,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,9486f664f08b652b987e,zh,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,94fb71f39bb8aa3bca10,en,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,94fb71f39bb8aa3bca10,zh,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,9636c5d938e3032e9093,en,chart,Grouped Bar Chart,1,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0
+GPT-5.6-Luna,9636c5d938e3032e9093,zh,chart,Grouped Bar Chart,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,1,0,0
+GPT-5.6-Luna,96e8c58e2e0c07e0853d,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,1,1,1,0
+GPT-5.6-Luna,96e8c58e2e0c07e0853d,zh,chart,Multi-Series Line Graph,1,0,0,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,0,0
+GPT-5.6-Luna,992494d15c45b3b2bd34,en,chart,Contour Plot,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,992494d15c45b3b2bd34,zh,chart,Contour Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,9b4e7f80411b35a73cbc,en,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,9b4e7f80411b35a73cbc,zh,chart,Mixed Chart,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,a032031022ae8c34ff55,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,a032031022ae8c34ff55,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,a47c0d35b0b7257d362d,en,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,a47c0d35b0b7257d362d,zh,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,a97c3c13b5f40162dd14,en,chart,Lollipop Chart,0,0,0,1,0,1,1,1,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0
+GPT-5.6-Luna,a97c3c13b5f40162dd14,zh,chart,Lollipop Chart,1,0,0,0,1,0,1,1,1,0,0,1,1,1,0,1,1,1,1,0,0,1,1,0
+GPT-5.6-Luna,ae2a24341da7064d5e5b,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,ae2a24341da7064d5e5b,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,afaaeebc1399e1b983e1,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,0,1,1,1,0
+GPT-5.6-Luna,afaaeebc1399e1b983e1,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1
+GPT-5.6-Luna,b109ef608a2884318524,en,chart,Line Graph with Uncertainty Bands,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,1,0,1,1,1,1,1
+GPT-5.6-Luna,b109ef608a2884318524,zh,chart,Line Graph with Uncertainty Bands,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,1,0,1,0,1,1,1
+GPT-5.6-Luna,b1885af7e70695b07753,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,b1885af7e70695b07753,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,b3f81ab479ab390f103c,en,chart,Multi-Series Line Graph,1,0,1,0,1,1,1,0,1,0,1,0,0,1,0,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,b3f81ab479ab390f103c,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,b4e85e9213b3f8caa207,en,chart,Vertical Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,b4e85e9213b3f8caa207,zh,chart,Vertical Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,b5ed01c0223fd6aee634,en,chart,Diverging Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,b5ed01c0223fd6aee634,zh,chart,Diverging Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,0,0
+GPT-5.6-Luna,b7625fd7385fe821f194,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,b7625fd7385fe821f194,zh,chart,Mixed Chart,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+GPT-5.6-Luna,b8d7a6d461d63b21ede5,en,chart,Heatmap,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,b8d7a6d461d63b21ede5,zh,chart,Heatmap,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+GPT-5.6-Luna,be5db785dc0325a9a6e7,en,chart,Multi-Series Line Graph,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,be5db785dc0325a9a6e7,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0
+GPT-5.6-Luna,beea6ac8e44f46a4543d,en,table,Column-Spanning Table,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,0,1,0,1
+GPT-5.6-Luna,beea6ac8e44f46a4543d,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,c0b048a7d55e55fb26f4,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,c0b048a7d55e55fb26f4,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,c10f553cd51894a5a726,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.6-Luna,c10f553cd51894a5a726,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,c4f4a45fbf1eed353f22,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+GPT-5.6-Luna,c4f4a45fbf1eed353f22,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,c66143a0d4e0c347b347,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,c66143a0d4e0c347b347,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,c70fdad3f7e463840e5a,en,table,Simple Table,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,c70fdad3f7e463840e5a,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,c8bed98b3b7e85891063,en,table,Row-Spanning Table,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,c8bed98b3b7e85891063,zh,table,Row-Spanning Table,0,0,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,0,1,0,1,1,0
+GPT-5.6-Luna,c956813ef506d7ebf442,en,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,c956813ef506d7ebf442,zh,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,ca421dcd85dee3904def,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,ca421dcd85dee3904def,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,cc7a4a1d899164253751,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,cc7a4a1d899164253751,zh,chart,Multi-Series Line Graph,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
+GPT-5.6-Luna,ce3cd691bfbeb2813fd9,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,ce3cd691bfbeb2813fd9,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,cfadf691562200d04818,en,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,cfadf691562200d04818,zh,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,d257d2ff1f5867cfaa3f,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,d257d2ff1f5867cfaa3f,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,d289bd54918affd68074,en,chart,Line Graph with Uncertainty Bands,1,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,0
+GPT-5.6-Luna,d289bd54918affd68074,zh,chart,Line Graph with Uncertainty Bands,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.6-Luna,d9fa947d8d75a8e6888b,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,d9fa947d8d75a8e6888b,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,db05618028464780502f,en,chart,Cumulative Distribution Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,db05618028464780502f,zh,chart,Cumulative Distribution Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,df6114bb431467d641f5,en,chart,Heatmap,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,df6114bb431467d641f5,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+GPT-5.6-Luna,e3eead8e75a6b90df661,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,e3eead8e75a6b90df661,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,e4649a6173c965dce26d,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,e4649a6173c965dce26d,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,e525de67b11a063bafc6,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,e525de67b11a063bafc6,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,e9862f967583ff461a6b,en,chart,Correlation Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,e9862f967583ff461a6b,zh,chart,Correlation Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,ec3da0f1c31be820cc61,en,chart,Line Graph with Uncertainty Bands,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.6-Luna,ec3da0f1c31be820cc61,zh,chart,Line Graph with Uncertainty Bands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+GPT-5.6-Luna,ecc664201e9d9bea1bb9,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,ecc664201e9d9bea1bb9,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,ed14e552891bd6495c52,en,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,ed14e552891bd6495c52,zh,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,ef91d5570ddf4f10896c,en,chart,Multi-Series Line Graph,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0
+GPT-5.6-Luna,ef91d5570ddf4f10896c,zh,chart,Multi-Series Line Graph,1,0,1,0,1,0,0,1,0,1,1,0,0,1,0,0,0,0,1,0,1,0,1,0
+GPT-5.6-Luna,ef998ed493ef965dbbfa,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,ef998ed493ef965dbbfa,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,f155ec55955edf406073,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,f155ec55955edf406073,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,f41517bd01421c37ed8a,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0
+GPT-5.6-Luna,f41517bd01421c37ed8a,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,f476b80b56c559558e3e,en,table,Table-Diagram Composite,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,1,1,0,1
+GPT-5.6-Luna,f476b80b56c559558e3e,zh,table,Table-Diagram Composite,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,0,0,0,1,0,0
+GPT-5.6-Luna,f9cff69545f0cf92bf1b,en,table,Mixed-Spanning Table,1,1,1,0,0,1,0,0,1,1,0,0,1,1,0,0,0,0,1,1,0,0,0,0
+GPT-5.6-Luna,f9cff69545f0cf92bf1b,zh,table,Mixed-Spanning Table,1,0,1,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,0,0
+GPT-5.6-Luna,fac5a3ecd43a846a61e5,en,chart,Histogram,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,0,0
+GPT-5.6-Luna,fac5a3ecd43a846a61e5,zh,chart,Histogram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0
+GPT-5.6-Luna,fba277285c66b06c24e3,en,chart,3D Streamline Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,0
+GPT-5.6-Luna,fba277285c66b06c24e3,zh,chart,3D Streamline Plot,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0
+GPT-5.6-Luna,fdb77eea7b046a34a188,en,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,0,0,0,0,0
+GPT-5.6-Luna,fdb77eea7b046a34a188,zh,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,0,0,0,0
+GPT-5.6-Luna,fe6676387b8a848aced4,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.6-Luna,fe6676387b8a848aced4,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,01ef673ef59ed3cb98ed,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,01ef673ef59ed3cb98ed,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,04bdfe7722bb349d8e26,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,04bdfe7722bb349d8e26,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,052ef54062001e7a853f,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,052ef54062001e7a853f,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0
+GPT-5.5,09bb0d004bd2eed54349,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,09bb0d004bd2eed54349,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,0b7ce2ad6aecd549aff2,en,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,0b7ce2ad6aecd549aff2,zh,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,0c515d14c641ec4b6d5f,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,0c515d14c641ec4b6d5f,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,0cd328c1fa4b3b00bb09,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,0cd328c1fa4b3b00bb09,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,0efd9b1928fbf1e23895,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,0efd9b1928fbf1e23895,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,0feefe120418bb710e9b,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,0feefe120418bb710e9b,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,114b1d29e4d590e0d89e,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0
+GPT-5.5,114b1d29e4d590e0d89e,zh,table,Simple Table,1,1,1,1,0,1,1,0,1,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0
+GPT-5.5,14a8f81e18e712798c54,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1
+GPT-5.5,14a8f81e18e712798c54,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+GPT-5.5,18b2bebb98fad2f55208,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,18b2bebb98fad2f55208,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,18b39fdbd2b1572601ed,en,chart,Bubble Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+GPT-5.5,18b39fdbd2b1572601ed,zh,chart,Bubble Chart,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,1bd7f393010eed8240d7,en,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,1bd7f393010eed8240d7,zh,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,20bd33c74fc9247dbafd,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,20bd33c74fc9247dbafd,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,256f908b3268ac9a65fe,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,256f908b3268ac9a65fe,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,27d39893f4dde3bdc757,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,27d39893f4dde3bdc757,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,2807106cc9f8feac0ee1,en,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0
+GPT-5.5,2807106cc9f8feac0ee1,zh,chart,Bar-Line Combination Chart,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,1,1,0,0,0,0,0
+GPT-5.5,2873b6610879880f28c9,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,2873b6610879880f28c9,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,2bf584e5ce8286a49229,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0
+GPT-5.5,2bf584e5ce8286a49229,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,0,0
+GPT-5.5,2bf86a8ac478956722f8,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,2bf86a8ac478956722f8,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,2bfca2251f727e4dce0e,en,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,2bfca2251f727e4dce0e,zh,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,2c554fcd49fb533218da,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,2c554fcd49fb533218da,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,3003d2db8a0f8562b7ca,en,chart,Diverging Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,3003d2db8a0f8562b7ca,zh,chart,Diverging Bar Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,31b80870eb436346754d,en,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+GPT-5.5,31b80870eb436346754d,zh,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+GPT-5.5,32a59a1788ab3cc9f351,en,chart,Area Chart,0,0,1,1,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0
+GPT-5.5,32a59a1788ab3cc9f351,zh,chart,Area Chart,0,1,0,1,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1
+GPT-5.5,3337cb1f269bf21f2786,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,3337cb1f269bf21f2786,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,345c918a890d9cdd8b8f,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,345c918a890d9cdd8b8f,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,355ef63999002c8e8a88,en,chart,Confusion Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,355ef63999002c8e8a88,zh,chart,Confusion Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,3cb6452a2a243405fae2,en,table,Column-Spanning Table,1,1,1,1,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,0,1,1,1,1
+GPT-5.5,3cb6452a2a243405fae2,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GPT-5.5,3d60f3188bd83b417d5e,en,chart,Cumulative Distribution Plot,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0
+GPT-5.5,3d60f3188bd83b417d5e,zh,chart,Cumulative Distribution Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.5,3e8b462a0c2d0fac1e3c,en,table,Simple Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+GPT-5.5,3e8b462a0c2d0fac1e3c,zh,table,Simple Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+GPT-5.5,4e6cbc2d3e547621c19c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,4e6cbc2d3e547621c19c,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,5042e0572ddafd0f211c,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,5042e0572ddafd0f211c,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,5073172d5af31b844fb9,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,5073172d5af31b844fb9,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1
+GPT-5.5,5200cb2ddd0e8de2c9e5,en,chart,Density Plot,1,1,1,1,0,1,1,1,1,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1
+GPT-5.5,5200cb2ddd0e8de2c9e5,zh,chart,Density Plot,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,1
+GPT-5.5,540778c260964def4586,en,table,Simple Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,540778c260964def4586,zh,table,Simple Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,54e1b09069328391f913,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,54e1b09069328391f913,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,569067c3825f21ab8805,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,569067c3825f21ab8805,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,56add96f6e681a2608e7,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,56add96f6e681a2608e7,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,57af9110b4bcfcaa57c6,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,57af9110b4bcfcaa57c6,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,57e59a71b87a9d46b974,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,57e59a71b87a9d46b974,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,5cabdebbe28b174ed423,en,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0
+GPT-5.5,5cabdebbe28b174ed423,zh,table,Mixed-Spanning Table,1,1,0,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,1,1,0
+GPT-5.5,5cbdf061644e84de88eb,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,5cbdf061644e84de88eb,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,5e24d7966b2942d2f2d4,en,chart,Density Plot,1,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1
+GPT-5.5,5e24d7966b2942d2f2d4,zh,chart,Density Plot,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,0
+GPT-5.5,5fb01806a65973016f9a,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+GPT-5.5,5fb01806a65973016f9a,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,62e507906b924c7a9c84,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,62e507906b924c7a9c84,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+GPT-5.5,659d4312e8d18271430f,en,chart,Scatter Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,659d4312e8d18271430f,zh,chart,Scatter Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,667f444290a8733126aa,en,chart,Stacked Bar Chart,0,0,0,1,1,1,0,1,1,1,0,0,0,1,1,1,1,0,0,1,1,1,1,1
+GPT-5.5,667f444290a8733126aa,zh,chart,Stacked Bar Chart,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,1,1,1,1
+GPT-5.5,67889af29211ab1128fd,en,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,67889af29211ab1128fd,zh,table,Mixed-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+GPT-5.5,6b422af9f7f24deb6978,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,6b422af9f7f24deb6978,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,0
+GPT-5.5,6c1b80891d9f43724aa6,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,6c1b80891d9f43724aa6,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,6cc1c307a7246222304b,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,6cc1c307a7246222304b,zh,chart,Mixed Chart,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,6e1be4aaeb71756635da,en,chart,Stacked Bar Chart,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0
+GPT-5.5,6e1be4aaeb71756635da,zh,chart,Stacked Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.5,6e4398c76f7663c6fb3f,en,chart,Bar-Line Combination Chart,0,1,1,1,1,1,1,1,1,0,0,1,1,0,1,1,1,0,1,1,0,1,0,0
+GPT-5.5,6e4398c76f7663c6fb3f,zh,chart,Bar-Line Combination Chart,0,0,1,1,1,1,1,0,1,1,0,1,0,0,1,0,1,1,1,0,1,0,0,0
+GPT-5.5,70033ba3235a6d7866b7,en,table,Simple Table,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,70033ba3235a6d7866b7,zh,table,Simple Table,1,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,1,1,0,1,1
+GPT-5.5,72535a8c0ee6664fabd0,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0
+GPT-5.5,72535a8c0ee6664fabd0,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+GPT-5.5,73985251c400ec79500d,en,table,Simple Table,1,0,1,1,1,0,1,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,73985251c400ec79500d,zh,table,Simple Table,1,1,0,0,0,1,1,1,1,0,0,1,1,0,0,0,0,1,0,0,1,0,0,1
+GPT-5.5,74de73241d7f5da4dc5b,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,74de73241d7f5da4dc5b,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,75f3a679a90eadee54a0,en,table,Simple Table,1,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+GPT-5.5,75f3a679a90eadee54a0,zh,table,Simple Table,1,1,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0
+GPT-5.5,7a281c6b9338cffbaab6,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,7a281c6b9338cffbaab6,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,7df66a259c1ee97df42d,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,7df66a259c1ee97df42d,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,7e538e3482a4904d4006,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,7e538e3482a4904d4006,zh,table,Simple Table,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,1,0
+GPT-5.5,7ee2a36369b87fd2cde9,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,7ee2a36369b87fd2cde9,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,7f9e0f9af72247072e65,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,7f9e0f9af72247072e65,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,807df4112e73625d5bb9,en,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,807df4112e73625d5bb9,zh,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,813ec2b46c009e7f23ec,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,813ec2b46c009e7f23ec,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+GPT-5.5,849bb4e32fb1a891417d,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,849bb4e32fb1a891417d,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,85a55743f7e7409731b0,en,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,85a55743f7e7409731b0,zh,chart,Chart-Table Composite,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,880670c8479fd04fc8af,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,880670c8479fd04fc8af,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,88679fa8758854690e7c,en,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,88679fa8758854690e7c,zh,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,890e3b5095b1c36c5886,en,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,890e3b5095b1c36c5886,zh,chart,Grouped Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,89a32f0298031a49cbe3,en,table,Simple Table,1,0,1,1,1,1,1,0,0,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1
+GPT-5.5,89a32f0298031a49cbe3,zh,table,Simple Table,1,1,0,0,1,1,1,0,0,0,1,1,1,1,0,1,1,0,0,0,1,1,1,1
+GPT-5.5,8b859877a71916e278f2,en,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,8b859877a71916e278f2,zh,chart,Pie Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,8d37c5749eaa9ab6d4ff,en,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,8d37c5749eaa9ab6d4ff,zh,chart,Phase Diagram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,9486f664f08b652b987e,en,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,9486f664f08b652b987e,zh,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,94fb71f39bb8aa3bca10,en,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,94fb71f39bb8aa3bca10,zh,chart,Pie Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,9636c5d938e3032e9093,en,chart,Grouped Bar Chart,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,9636c5d938e3032e9093,zh,chart,Grouped Bar Chart,0,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,1,0,0
+GPT-5.5,96e8c58e2e0c07e0853d,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,0,1,1,1,1,0,0
+GPT-5.5,96e8c58e2e0c07e0853d,zh,chart,Multi-Series Line Graph,1,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,0,0,1,1,1,1,0
+GPT-5.5,992494d15c45b3b2bd34,en,chart,Contour Plot,1,0,1,0,1,1,1,1,0,1,1,0,0,1,1,0,1,0,1,0,1,1,0,0
+GPT-5.5,992494d15c45b3b2bd34,zh,chart,Contour Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,9b4e7f80411b35a73cbc,en,chart,Mixed Chart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+GPT-5.5,9b4e7f80411b35a73cbc,zh,chart,Mixed Chart,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,a032031022ae8c34ff55,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,a032031022ae8c34ff55,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,a47c0d35b0b7257d362d,en,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,a47c0d35b0b7257d362d,zh,chart,Area Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,a97c3c13b5f40162dd14,en,chart,Lollipop Chart,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0,0
+GPT-5.5,a97c3c13b5f40162dd14,zh,chart,Lollipop Chart,0,0,0,0,1,0,0,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,0,0
+GPT-5.5,ae2a24341da7064d5e5b,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,ae2a24341da7064d5e5b,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,afaaeebc1399e1b983e1,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,afaaeebc1399e1b983e1,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,b109ef608a2884318524,en,chart,Line Graph with Uncertainty Bands,0,0,1,1,0,0,0,0,0,1,1,0,0,1,1,0,0,1,0,1,1,1,1,1
+GPT-5.5,b109ef608a2884318524,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,0,0,0,0,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1
+GPT-5.5,b1885af7e70695b07753,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,b1885af7e70695b07753,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,b3f81ab479ab390f103c,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,b3f81ab479ab390f103c,zh,chart,Multi-Series Line Graph,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,b4e85e9213b3f8caa207,en,chart,Vertical Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,b4e85e9213b3f8caa207,zh,chart,Vertical Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,b5ed01c0223fd6aee634,en,chart,Diverging Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,b5ed01c0223fd6aee634,zh,chart,Diverging Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,b7625fd7385fe821f194,en,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,b7625fd7385fe821f194,zh,chart,Mixed Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1
+GPT-5.5,b8d7a6d461d63b21ede5,en,chart,Heatmap,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,b8d7a6d461d63b21ede5,zh,chart,Heatmap,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,be5db785dc0325a9a6e7,en,chart,Multi-Series Line Graph,1,1,1,1,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+GPT-5.5,be5db785dc0325a9a6e7,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+GPT-5.5,beea6ac8e44f46a4543d,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,beea6ac8e44f46a4543d,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,c0b048a7d55e55fb26f4,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,c0b048a7d55e55fb26f4,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,c10f553cd51894a5a726,en,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,c10f553cd51894a5a726,zh,table,Column-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+GPT-5.5,c4f4a45fbf1eed353f22,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GPT-5.5,c4f4a45fbf1eed353f22,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+GPT-5.5,c66143a0d4e0c347b347,en,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,c66143a0d4e0c347b347,zh,table,Column-Spanning Table,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,c70fdad3f7e463840e5a,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,c70fdad3f7e463840e5a,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+GPT-5.5,c8bed98b3b7e85891063,en,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0
+GPT-5.5,c8bed98b3b7e85891063,zh,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.5,c956813ef506d7ebf442,en,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,c956813ef506d7ebf442,zh,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,ca421dcd85dee3904def,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,ca421dcd85dee3904def,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,cc7a4a1d899164253751,en,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,cc7a4a1d899164253751,zh,chart,Multi-Series Line Graph,0,1,1,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,1,1
+GPT-5.5,ce3cd691bfbeb2813fd9,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,ce3cd691bfbeb2813fd9,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,cfadf691562200d04818,en,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,cfadf691562200d04818,zh,chart,Line Graph with Error Bars,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,d257d2ff1f5867cfaa3f,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,d257d2ff1f5867cfaa3f,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,d289bd54918affd68074,en,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,0
+GPT-5.5,d289bd54918affd68074,zh,chart,Line Graph with Uncertainty Bands,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,d9fa947d8d75a8e6888b,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,d9fa947d8d75a8e6888b,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,db05618028464780502f,en,chart,Cumulative Distribution Plot,1,0,0,1,0,1,1,1,0,1,0,1,0,0,0,0,1,0,1,0,0,1,1,0
+GPT-5.5,db05618028464780502f,zh,chart,Cumulative Distribution Plot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,df6114bb431467d641f5,en,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,df6114bb431467d641f5,zh,chart,Heatmap,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,e3eead8e75a6b90df661,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,e3eead8e75a6b90df661,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,e4649a6173c965dce26d,en,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,e4649a6173c965dce26d,zh,chart,Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,e525de67b11a063bafc6,en,chart,Multi-Series Line Graph,1,1,1,0,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,0
+GPT-5.5,e525de67b11a063bafc6,zh,chart,Multi-Series Line Graph,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,0,1,1,0
+GPT-5.5,e9862f967583ff461a6b,en,chart,Correlation Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,e9862f967583ff461a6b,zh,chart,Correlation Matrix,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,ec3da0f1c31be820cc61,en,chart,Line Graph with Uncertainty Bands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,ec3da0f1c31be820cc61,zh,chart,Line Graph with Uncertainty Bands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+GPT-5.5,ecc664201e9d9bea1bb9,en,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,ecc664201e9d9bea1bb9,zh,chart,Horizontal Bar Chart,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,ed14e552891bd6495c52,en,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,ed14e552891bd6495c52,zh,table,Row-Spanning Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,ef91d5570ddf4f10896c,en,chart,Multi-Series Line Graph,0,0,0,1,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1
+GPT-5.5,ef91d5570ddf4f10896c,zh,chart,Multi-Series Line Graph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GPT-5.5,ef998ed493ef965dbbfa,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,ef998ed493ef965dbbfa,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,f155ec55955edf406073,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,f155ec55955edf406073,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,f41517bd01421c37ed8a,en,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,f41517bd01421c37ed8a,zh,chart,Multi-Series Line Graph,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+GPT-5.5,f476b80b56c559558e3e,en,table,Table-Diagram Composite,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1
+GPT-5.5,f476b80b56c559558e3e,zh,table,Table-Diagram Composite,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,0,0,1,1,0,1
+GPT-5.5,f9cff69545f0cf92bf1b,en,table,Mixed-Spanning Table,1,1,1,1,0,1,0,0,1,1,0,0,1,1,0,0,0,1,1,1,0,0,1,1
+GPT-5.5,f9cff69545f0cf92bf1b,zh,table,Mixed-Spanning Table,1,0,1,0,1,1,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,0,0,0
+GPT-5.5,fac5a3ecd43a846a61e5,en,chart,Histogram,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0
+GPT-5.5,fac5a3ecd43a846a61e5,zh,chart,Histogram,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,1,0,0
+GPT-5.5,fba277285c66b06c24e3,en,chart,3D Streamline Plot,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0
+GPT-5.5,fba277285c66b06c24e3,zh,chart,3D Streamline Plot,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,0,0
+GPT-5.5,fdb77eea7b046a34a188,en,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,0
+GPT-5.5,fdb77eea7b046a34a188,zh,chart,Scatter Plot with Error Bars,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+GPT-5.5,fe6676387b8a848aced4,en,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GPT-5.5,fe6676387b8a848aced4,zh,table,Simple Table,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
