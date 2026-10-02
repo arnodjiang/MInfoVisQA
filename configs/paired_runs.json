@@ -1,0 +1,18 @@
+[
+  {
+    "name": "GPT-6 Astra",
+    "run": "data/evaluation/gpt6_astra_v4_context_20260916"
+  },
+  {
+    "name": "Gemini-3.8-Flash",
+    "run": "data/evaluation/gemini38_flash_tokenrouter_v4_context_max_tokens_repair_20260918"
+  },
+  {
+    "name": "GPT-5.6-Sol",
+    "run": "data/evaluation/gpt56_sol_v4_context_20260916"
+  },
+  {
+    "name": "GPT-5.6-Luna",
+    "run": "data/evaluation/gpt56_luna_v5_20260918"
+  }
+]

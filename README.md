@@ -154,6 +154,8 @@ definitions, classification prompts and reproducibility.
 
 ## Evaluation and reporting
 
+[Paired visual-language diagnostics](docs/PAIRED_ANALYSIS.md) reuse frozen predictions and judgments to measure correctness flips and cross-language correct coverage. Add models through [`configs/paired_runs.json`](configs/paired_runs.json); the analysis makes no API calls.
+
 Original source identities and unmodified model inputs/outputs are retained in
 content-addressed snapshots for paired original-versus-enhanced ablations. See
 [source and evaluation provenance](docs/ABLATION_PROVENANCE.md) for identifiers,
