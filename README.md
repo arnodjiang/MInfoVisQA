@@ -85,7 +85,7 @@ cd MInfoVisQA
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-cp .env.example .env
+cp -n .env.example .env
 ```
 
 Set `OPENAI_API_KEY`, `OPENAI_BASE_URL` and `OPENAI_MODEL` in your local `.env`. The provider must support an OpenAI-compatible **Responses API**, image input and sufficient context/output length. `.env`, generated data and API logs are excluded from Git.
@@ -98,6 +98,14 @@ the inference runners.
 ### Translation configuration
 
 Translation uses the **Google Translate API**, specifically Google Cloud Translation Basic v2 with `model=nmt`. Enable the Cloud Translation API in your Google Cloud project and configure your own key. The `.env.example` contains the standard v2 endpoint.
+
+Create a local `.env` from the template if it does not already exist:
+
+```sh
+cp -n .env.example .env
+```
+
+Edit the repository-root `.env` and fill `GOOGLE_TRANSLATE_API_KEY` with your own Google Cloud API key. Keep existing model credentials when editing an existing file. Shell environment variables override `.env`. The key is not bundled; an empty key prevents live Google translation. `.env` is ignored by Git and must remain local.
 
 ```dotenv
 TRANSLATION_BACKEND=google
