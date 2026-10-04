@@ -1,5 +1,7 @@
 # Architecture and research framing
 
+Translation uses the Google Translate API (Google Cloud Translation Basic v2, NMT). The LLM translation adapter is an optional alternative enabled only with `TRANSLATION_BACKEND=llm`. Visual reconstruction, quality review and answer judging are separate from translation.
+
 The **harness** is the runnable system: immutable source identity → recovered structured data and source-language Python → shared translation dictionary → code specialization → raster rendering → mechanical validation → candidate artifact. The **skill** is the agent-facing procedure for preparing new inputs, choosing a recovery method and inspecting outcomes. An **agent** executes that procedure; multiple agents are optional and do not constitute the core method.
 
 For an open-source research implementation, keep executable harness code as the primary contribution and distribute the skill with it. Preserve prompts, schemas, original and localized code, translation provider/model metadata, configuration, hashes, dataset provenance and uncertainty. Do not publish API keys, downloaded datasets or proprietary fonts as part of this code license.

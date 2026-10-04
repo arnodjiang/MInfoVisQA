@@ -96,6 +96,7 @@ class SourceAlignmentTests(unittest.TestCase):
             runner=Builder.__new__(Builder);runner.out=root;runner.by_id={c['id']:c};runner.identities={c['id']:i}
             result={'locales':{'zh':dict(labels={'k':'源标签'},question='[[k]]是什么？',answer_template='源答案')}}
             from unittest.mock import Mock
+            runner.translation_backend='google'
             runner.api=Mock();runner.api.call.return_value=(result,'key');runner.log=Mock()
             runner.translate(('case1',['zh']))
             args,kwargs=runner.api.call.call_args

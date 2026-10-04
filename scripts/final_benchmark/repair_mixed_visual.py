@@ -195,6 +195,7 @@ a knot subtype, or substitute a slipped or half-hitch variant of the source knot
         if set(result.get('locales',{}))!=set(batch):raise ValueError('repair_language_set_mismatch')
         for l in batch:
             loc=result['locales'][l];loc['request_sha256']=key
+            loc['translation_backend']=b.translation_backend
             loc['input_binding']=locale_parent(spec,qa,b.source_binding(CASE))
             verify_locale(loc,spec,qa,b.source_binding(CASE))
             if any(not isinstance(v,str) or not v.strip() for v in loc['labels'].values()):raise ValueError('empty_repaired_label')

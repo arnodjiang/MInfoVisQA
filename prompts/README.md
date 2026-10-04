@@ -1,5 +1,7 @@
 # English prompt catalog
 
+Translation uses Google Translate API by default. Translation and context-translation prompts are retained only for the optional `TRANSLATION_BACKEND=llm` adapter.
+
 These files are readable snapshots of the executable Python prompt definitions. Regenerate with `python scripts/export_prompts.py`; `manifest.json` records snapshot hashes. Full live requests, payloads and attempt records remain local under the run output's `api/` directory and are not committed.
 
 | Prompt | Purpose |
@@ -7,7 +9,7 @@ These files are readable snapshots of the executable Python prompt definitions. 
 | `chart.txt` | Recover a chart specification and Python adapter without the QA answer as a fitting target |
 | `table.txt` | Transcribe image-only table structure and content |
 | `qa.txt` | Normalize supplied QA and bind visible-label references |
-| `translate.txt` | Localize labels and protected QA templates together |
+| `translate.txt` | Optional LLM translator for labels and protected QA templates; unused by the default Google Translate API backend |
 | `repair.txt` | Targeted reconstruction repair with explicit evidence and preserved uncertainty |
 | `query_copyedit.txt`, `query/<code>.txt` | Minimal, answer-blind editing with language-specific fluency rules for all 24 languages |
 | `query_equivalence_review.txt` | Reject changes in meaning, scope or difficulty |
@@ -17,4 +19,4 @@ These files are readable snapshots of the executable Python prompt definitions. 
 
 Runtime calls can append target language names, language-specific rules, batch limits or evidence from a previous failed check. Those exact composed prompts and payloads are saved in the local request records. Snapshots alone are not a substitute for a run's complete provenance.
 
-Dataset content is untrusted data, not instructions. Prompts protect label placeholders, numerical constraints, units, comparison, negation, approximation and temporal scope. Query editing is conservative: uncertain or substantive changes preserve the current query and require review. The expanded translation stage already includes native-fluency requirements; saving a copyediting prompt does not imply every translated query received a separate copyediting call.
+Dataset content is untrusted data, not instructions. Prompts protect label placeholders, numerical constraints, units, comparison, negation, approximation and temporal scope. Query editing is conservative: uncertain or substantive changes preserve the current query and require review. The optional LLM translation stage includes native-fluency requirements; saving a copyediting prompt does not imply every translated query received a separate copyediting call.

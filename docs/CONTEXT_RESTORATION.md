@@ -1,5 +1,7 @@
 # Source document context restoration
 
+Translation uses the Google Translate API (Google Cloud Translation Basic v2, NMT). The LLM translation adapter is an optional alternative enabled only with `TRANSLATION_BACKEND=llm`. Visual reconstruction, quality review and answer judging are separate from translation.
+
 The context-restored condition supplies complete original document prose as text
 alongside the chart/table image and unchanged question: `pre_text` followed by
 `post_text` for MMTU/FinQA, and `Paragraph` for ChartQAPro. Four selected FinQA
@@ -14,7 +16,7 @@ are cleaned while effective references and inference inputs remain unchanged.
 
 Context follows the question language: the aligned language for LQA, Chinese or
 English for XQA. All 24 languages are represented; English is an exact source
-copy, and 115 case/language translations use the user's configured API. Numeric
+copy, and 115 case/language translations use Google Translate API. Numeric
 strings are protected by placeholders. Translation validates paragraph IDs/order,
 placeholder multiplicity, and absence of added numerical digits. These checks
 establish structural preservation, not human-certified translation equivalence.
@@ -42,7 +44,7 @@ python -u -m scripts.final_benchmark.restore_context \
   --output data/visual_benchmark/final_128_24lang_v4_context --workers 2
 ```
 
-Previously completed FinQA translations are reused with source/hash verification.
+Previously completed FinQA translations are reused only with matching backend identity and source/hash verification.
 `data_job.json` records translation/publication status and `evaluation_autostart=false`.
 Publishing this revision alone does not switch the active evaluation release or
 mutate old results. The authorized orchestrator waits for the existing producer,

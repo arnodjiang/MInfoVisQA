@@ -13,10 +13,12 @@ def main():
     p.add_argument('stage',choices=['download','prepare','baseline','baseline-audit','expand','expand-audit','finalize'])
     p.add_argument('--baseline',type=Path,default=ROOT/'data/visual_benchmark/baseline')
     p.add_argument('--output',type=Path,default=ROOT/'data/visual_benchmark/mstructqa_24')
+    p.add_argument('--translation-backend',choices=['google','llm'],help='Default: Google Translate API; llm is opt-in')
     p.add_argument('--workers',type=int,default=4)
     p.add_argument('--retry-failed',action='store_true',help='Explicitly resume previously failed requests after inspection')
     a=p.parse_args();baseline=a.baseline.resolve();out=a.output.resolve()
     env=dict(os.environ,MVISQA_OUTPUT=str(baseline))
+    if a.translation_backend:env['TRANSLATION_BACKEND']=a.translation_backend
     def run(*args):subprocess.run([sys.executable,*map(str,args)],cwd=ROOT,env=env,check=True)
     retry=['--retry-failed'] if a.retry_failed else []
     if a.stage=='download':run('scripts/download_benchmarks.py')

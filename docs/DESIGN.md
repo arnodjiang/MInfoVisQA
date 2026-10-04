@@ -1,5 +1,7 @@
 # Design
 
+Translation uses the Google Translate API (Google Cloud Translation Basic v2, NMT). The LLM translation adapter is an optional alternative enabled only with `TRANSLATION_BACKEND=llm`. Visual reconstruction, quality review and answer judging are separate from translation.
+
 MInfoVisQA aims to measure multilingual chart and visual-table understanding while controlling the underlying numerical/structural content. Planned analyses compare same-language QA and Chinese/English QA over localized visuals, with breakdowns by language, source, visual type and reasoning operation. These are research aims, not established findings.
 
 ## Unit of construction
@@ -14,7 +16,7 @@ A base QA has a stable source-derived identity and a visual specification separa
 - A value at 10 hours is not a maximum up to 10 hours or a value during the tenth hour. Copyediting may improve grammar/spacing but must not silently resolve ambiguity or repair substantive translation mistakes.
 - Equal-value conversion of localized decimal digit glyphs to ASCII retains before/after provenance; it must never recompute an answer.
 
-Semantic generation uses the configured API. Python handles deterministic rendering, validation and export. Native fluency requirements are included in translation prompts. The separate query-copyediting tool supports small edits followed by answer-blind equivalence review; uncertain edits preserve the original question.
+Google Translate API handles text translation; the configured model API handles visual reconstruction and review. Python handles deterministic rendering, validation and export. Language-specific translation prompts belong to the optional LLM backend. The separate query-copyediting tool supports small edits followed by answer-blind equivalence review; uncertain edits preserve the original question.
 
 ## Quality gates
 

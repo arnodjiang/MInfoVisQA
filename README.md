@@ -67,11 +67,11 @@ Public revisions and file hashes are recorded in [the upstream manifest](configs
 1. **Collect and select.** Download pinned sources, verify file hashes and assign stable identities and provenance to selected examples.
 2. **Recover visual structure.** Prefer structured table cells when available. Otherwise use the configured multimodal API to reconstruct a chart specification or transcribe a visual table, without using reference answers as fitting targets.
 3. **Link questions and labels.** Normalize the supplied QA without solving it. Protected `[[label_key]]` references connect question templates with visible labels.
-4. **Localize.** Translate labels and linked QA through the API using English prompts and language-specific fluency rules. Preserve quantities, units, comparisons, negation, approximation and temporal scope.
+4. **Localize.** Translate labels and linked QA with the Google Translate API (Google Cloud Translation Basic v2 NMT). The LLM translation adapter is available only as an explicit alternative. Preserve quantities, units, comparisons, negation, approximation and temporal scope.
 5. **Render.** Generate images deterministically from frozen data and translated labels. Tables use a common layout measured across languages; text rendering supports shaping, bidirectional layout and font fallback.
 6. **Review and export.** Validate numerical consistency, label references, glyph coverage, layout, source fidelity and translation meaning. Export candidate and screened QA, images, standalone code and review records.
 
-The API handles semantic reconstruction, translation, query editing and review. Local code handles deterministic rendering, validation, caching and export. Generated plotting scripts are reconstructed renderers, not the upstream authors' original plotting source.
+Google Translate API handles translation. The configured model API handles semantic reconstruction, optional query editing and review. Local code handles deterministic rendering, validation, caching and export. Generated plotting scripts are reconstructed renderers, not the upstream authors' original plotting source.
 
 ## Getting started
 
@@ -95,6 +95,30 @@ independently; blank values inherit `OPENAI_*`. The active local benchmark path 
 recorded in `configs/benchmark_release.json`; retired revisions are rejected by
 the inference runners.
 
+### Translation configuration
+
+Translation uses the **Google Translate API**, specifically Google Cloud Translation Basic v2 with `model=nmt`. Enable the Cloud Translation API in your Google Cloud project and configure your own key. The `.env.example` contains the standard v2 endpoint.
+
+```dotenv
+TRANSLATION_BACKEND=google
+GOOGLE_TRANSLATE_API_KEY=YOUR_GOOGLE_CLOUD_API_KEY
+GOOGLE_TRANSLATE_ENDPOINT=https://translation.googleapis.com/language/translate/v2
+```
+
+Google translation covers visual labels, linked question/answer templates, table text and source-context prose. English is copied. Protected label references and numerical tokens are restored exactly after translation; paragraph IDs, dictionary keys and table structure are managed locally. Requests are text-only, with at most 128 strings and 4,500 characters per batch. Credentials are never written to cached artifacts.
+
+Set `TRANSLATION_BACKEND=llm` to explicitly use the optional model-based translator with `OPENAI_*` settings. This option does not change reconstruction, review or evaluation providers. Cache fingerprints separate providers and inputs; use a new output revision when changing backends or when older locale caches have no provider identity. Google translation does not silently fall back to an LLM.
+
+For translation-only input, provide a JSON tree of strings (for example label dictionaries and QA templates):
+
+```sh
+python -m scripts.translation --input labels_and_qa.json --output local_runs/translation/fr.json --language fr
+```
+
+Add `--translation-backend llm` only to select the optional model translator. Each output records its provider, model and request fingerprint.
+
+The benchmark translation procedure uses Google Translate API; translation prompts bundled with the code document the optional LLM adapter. Existing dataset files are not regenerated merely by changing a configuration value.
+
 ### Evaluate an existing release
 
 ```bash
@@ -117,7 +141,7 @@ python scripts/run_pipeline.py finalize
 
 `baseline` and `expand` are internal construction stages of the 24-language pipeline. Use `--baseline` and `--output` to configure directories, and `--help` to inspect available options. The final output defaults to `data/visual_benchmark/mstructqa_24/`.
 
-Successful API results are cached. After inspecting a failure, use `--retry-failed` to resume. Connection/timeout failures, HTTP 429 and HTTP 5xx receive up to ten retries, five seconds apart, after the initial request. Exhausted requests are recorded and skipped so the batch can process subsequent items. Malformed content and authentication errors are not automatically retried.
+Successful API results are cached. Google translation uses up to three transport retries with exponential backoff; malformed output or authentication errors stop the request. The following retry policy applies to model API stages. After inspecting a failure, use `--retry-failed` to resume. Connection/timeout failures, HTTP 429 and HTTP 5xx receive up to ten retries, five seconds apart, after the initial request. Exhausted requests are recorded and skipped so the batch can process subsequent items. Malformed content and authentication errors are not automatically retried.
 
 ### Try an API-free example
 

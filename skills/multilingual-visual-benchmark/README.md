@@ -1,5 +1,7 @@
 # Multilingual Visual Benchmark Harness + Skill
 
+Translation uses the Google Translate API (Google Cloud Translation Basic v2, NMT). The LLM translation adapter is an optional alternative enabled only with `TRANSLATION_BACKEND=llm`. Visual reconstruction, quality review and answer judging are separate from translation.
+
 Reconstruct a chart as Python, or extract structured table cells; translate visible labels through a replaceable translator; render multilingual images while preserving numerical data, source identity and executable original/translated code.
 
 This directory is a self-contained code distribution and a Codex skill. The skill guides chart recovery; the harness runs prepared specifications. It does **not** claim automatic recovery of arbitrary charts or automatic benchmark acceptance.
@@ -14,7 +16,7 @@ python scripts/visual_harness.py run --spec examples/table.json --output /tmp/mv
 
 These synthetic examples make no API calls. The printed output directory contains HTML, PNGs, dictionaries, manifests and standalone Python code for each language. On macOS the default Arial Unicode font may be available; on other systems explicitly supply a covering font. Fonts are not redistributed.
 
-For live translation, omit `--translations`, set `OPENAI_API_KEY`, use `OPENAI_MODEL=gpt-6-astra`, optionally set `OPENAI_BASE_URL`, or pass an explicit `--env-file`. Provider calls use the OpenAI Responses API, are cached and have no automatic retry; incomplete translations stop the run. Output directories may contain dataset content and should be placed outside the code release.
+For live translation, omit `--translations`, set `GOOGLE_TRANSLATE_API_KEY` and `GOOGLE_TRANSLATE_ENDPOINT` for Cloud Translation Basic v2, or pass an explicit `--env-file`. The default is `TRANSLATION_BACKEND=google`. Set `TRANSLATION_BACKEND=llm` and `OPENAI_*` only for optional LLM translation. Responses are cached by provider and source content; incomplete or structurally invalid translations stop the run. Use the harness within this repository so the shared translation adapter is available.
 
 ```sh
 python scripts/visual_harness.py prepare-table --input input.html --output /tmp/table.json

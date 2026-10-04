@@ -1,10 +1,12 @@
 # Setup and execution
 
+Translation uses the Google Translate API (Google Cloud Translation Basic v2, NMT). The LLM translation adapter is an optional alternative enabled only with `TRANSLATION_BACKEND=llm`. Visual reconstruction, quality review and answer judging are separate from translation.
+
 ## Environment
 
 Use Python 3.11+ for a new environment, install root `requirements.txt`, and activate `.venv`. The full builder launches offline rendering workers through `.venv/bin/python`, so retain that environment name. `curl` is required by the downloader. Dependency version ranges support development; exact model responses and binary fonts are not bundled.
 
-Copy `.env.example` to `.env` and set your provider's API key, Responses base URL and image-capable model. `scripts/openai_config.py` reads the local file with environment-variable overrides; a historical model default remains for compatibility, so explicitly set `OPENAI_MODEL` for a new provider. Never commit actual credentials. API output may be incomplete or malformed despite prompt instructions.
+Copy `.env.example` to `.env`. Set `GOOGLE_TRANSLATE_API_KEY` and `GOOGLE_TRANSLATE_ENDPOINT` for translation, with `TRANSLATION_BACKEND=google`. Set your separate model provider's API key, Responses base URL and image-capable model for reconstruction, review and evaluation. `scripts/openai_config.py` reads the local file with environment-variable overrides; a historical model default remains for compatibility, so explicitly set `OPENAI_MODEL` for a new provider. Never commit actual credentials. API output may be incomplete or malformed despite prompt instructions.
 
 ## Fonts and platform
 

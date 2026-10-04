@@ -143,6 +143,8 @@ only: images, queries, reference answers and source context are unchanged.
 | [Visual-TableQA](https://huggingface.co/datasets/AI-4-Everyone/Visual-TableQA) | 10 | 700 |
 | [MMTU](https://huggingface.co/datasets/MMTU-benchmark/MMTU) | 9 | 630 |
 
+Translation uses Google Translate API (Cloud Translation Basic v2 NMT); LLM translation is an opt-in code alternative.
+
 The pipeline selects source-linked QA, reconstructs visuals, localizes labels and
 linked QA, conservatively rewrites questions, renders images, and verifies
 numerical structure and source alignment. Five source cases include external

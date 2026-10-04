@@ -1,5 +1,7 @@
 # MInfoVisQA pipeline modules
 
+Translation uses the Google Translate API (Google Cloud Translation Basic v2, NMT). The LLM translation adapter is an optional alternative enabled only with `TRANSLATION_BACKEND=llm`. Visual reconstruction, quality review and answer judging are separate from translation.
+
 This package implements the 24-language construction workflow. Start with the [project README](../../README.md) and [setup guide](../../docs/SETUP.md).
 
 ## Entry points
@@ -9,7 +11,7 @@ Use `python scripts/run_pipeline.py --help` from the repository root for the pub
 | Module | Responsibility |
 | --- | --- |
 | `pipeline.py` | Freeze selection, recover visual specifications, normalize linked QA, localize and render |
-| `api.py` | Request caching, attempt records and bounded transport retries |
+| `api.py`, `../translation.py` | Google Translate API default routing, optional LLM routing, request caching and bounded transport retries |
 | `prompts.py`, `languages24.py` | Semantic task prompts and language-specific rules |
 | `polish_queries.py` | Conservative query copyediting and equivalence review |
 | `expand24.py` | Complete all 24 language localizations using frozen specifications |
@@ -19,7 +21,7 @@ Use `python scripts/run_pipeline.py --help` from the repository root for the pub
 | `val_verify.py`, `verify_export.py` | Embedded-data validation and representative pixel reproduction |
 | `score_val.py` | Preliminary strict matching and grouped uncertainty estimates |
 
-Successful API results are reused by request fingerprint. Transport failures receive ten retries with a five-second delay; malformed content requires inspection and explicit resumption. See the setup guide for details and resource requirements.
+Successful API results are reused by request fingerprint. Google translation retries transport errors, HTTP 429 and 5xx at most three times with exponential backoff. Model API transport failures receive ten retries with a five-second delay; malformed content requires inspection and explicit resumption. See the setup guide for details and resource requirements.
 
 ## Reproducibility and admission
 

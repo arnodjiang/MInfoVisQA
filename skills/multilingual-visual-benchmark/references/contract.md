@@ -1,6 +1,8 @@
 # Harness contract
 
-Dependencies are in `requirements.txt`. Commands run from the skill directory; output may be any writable directory. The CLI does not assume the MVisQA project path or a specific provider URL/model. Use `OPENAI_API_KEY`, `OPENAI_MODEL`, optional `OPENAI_BASE_URL`, and a covering Unicode font supplied by `--font` / `MVISQA_FONT`. API uses an OpenAI-compatible Responses endpoint; compatible providers must support `responses.create`, image input, and `max_output_tokens`. `--translations` bypasses API and reads reviewed translations. No provider credentials are included in archives.
+Translation uses the Google Translate API (Google Cloud Translation Basic v2, NMT). The LLM translation adapter is an optional alternative enabled only with `TRANSLATION_BACKEND=llm`. Visual reconstruction, quality review and answer judging are separate from translation.
+
+Dependencies are in `requirements.txt`. Commands run from the skill directory; output may be any writable directory. The harness uses the shared translation adapter from this repository; endpoint and credentials are configured locally. Use `GOOGLE_TRANSLATE_API_KEY`, `GOOGLE_TRANSLATE_ENDPOINT` and `TRANSLATION_BACKEND=google`, and a covering Unicode font supplied by `--font` / `MVISQA_FONT`. API uses an OpenAI-compatible Responses endpoint; compatible providers must support `responses.create`, image input, and `max_output_tokens`. `--translations` bypasses API and reads reviewed translations. No provider credentials are included in archives.
 
 ## Specification v1
 

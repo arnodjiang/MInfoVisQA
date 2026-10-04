@@ -1,7 +1,7 @@
 # Full benchmark evaluation
 
 Context-restored revisions additionally supply the original document
-`pre_text`/`post_text` (MMTU/FinQA) or `Paragraph` (ChartQAPro) as translated text in the user prompt. Context follows
+`pre_text`/`post_text` (MMTU/FinQA) or `Paragraph` (ChartQAPro) as text translated using Google Translate API in the user prompt. Context follows
 the question language, while tables remain image-only. The original question is
 unchanged. `context_input.py` records the exact combined input and a versioned
 context-aware system prompt for both JSON and plain-answer modes. Only the

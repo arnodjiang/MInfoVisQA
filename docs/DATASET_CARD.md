@@ -1,5 +1,7 @@
 # Dataset card
 
+Translation uses the Google Translate API (Google Cloud Translation Basic v2, NMT). The LLM translation adapter is an optional alternative enabled only with `TRANSLATION_BACKEND=llm`. Visual reconstruction, quality review and answer judging are separate from translation.
+
 **Title:** MInfoVisQA: A Multilingual Benchmark for Information-Visual Question Answering.
 
 **Distribution:** [arnodjiang/MInfoVisQA](https://huggingface.co/datasets/arnodjiang/MInfoVisQA) provides the current 24-language release as Parquet with embedded images and a canonical evaluation archive: 128 base QA, 3,072 visuals and 8,960 configurations. See [the full dataset card](../scripts/distribution/HF_README.md) and [server setup](SERVER_MIGRATION.md).

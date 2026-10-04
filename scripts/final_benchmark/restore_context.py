@@ -72,7 +72,10 @@ def restore(value, protected, originals, tokens):
 def prepare(source, work, workers=2, limit=None, case_ids=None):
     source, work = Path(source).resolve(), Path(work).resolve()
     work.mkdir(parents=True, exist_ok=True)
-    api = API(work, load(ROOT), retry_failed=True)
+    config = load(ROOT)
+    api = API(work, config, retry_failed=True)
+    from scripts.translation import backend, ensure_backend
+    selected_backend = backend(config)
     cases = {}
     for path in sorted((source / 'cases').glob('*/source.json')):
         original = read(path); paragraphs = source_paragraphs(original)
@@ -100,6 +103,7 @@ def prepare(source, work, workers=2, limit=None, case_ids=None):
         target = work / 'contexts' / cid / (language + '.json')
         if target.exists():
             saved = read(target)
+            ensure_backend(saved, selected_backend)
             if saved['source_text_sha256'] != original['source_text_sha256'] or saved['text_sha256'] != digest(saved['paragraphs']):
                 raise ValueError('cached_context_changed')
             return 'cached'
@@ -110,7 +114,8 @@ def prepare(source, work, workers=2, limit=None, case_ids=None):
         paragraphs = restore(result, protected, original['paragraphs'], tokens)
         save(target, {'policy': VERSION, 'language': language, 'paragraphs': paragraphs,
                       'text_sha256': digest(paragraphs), 'source_text_sha256': original['source_text_sha256'],
-                      'translation_request_sha256': key})
+                      'translation_request_sha256': key, 'translation_backend': selected_backend,
+                      'translation_model': 'nmt' if selected_backend == 'google' else config['OPENAI_MODEL']})
         return 'translated'
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {pool.submit(translate, cid, lang): (cid, lang) for cid, lang in tasks}
@@ -124,7 +129,11 @@ def prepare(source, work, workers=2, limit=None, case_ids=None):
                  'counts': dict(counts), 'failures': failures})
             print('Context', cid, lang, 'completed', sum(counts.values()), 'failures', len(failures), flush=True)
     attempts = [read(p) for p in (work / 'api').glob('*/*/*/attempt_*.json')]
-    save(work / 'usage_summary.json', {'api_attempts': len(attempts),
+    google_attempts = [read(p) for p in (work / 'google_requests').glob('*/attempt_*.json')]
+    save(work / 'usage_summary.json', {'translation_backend': selected_backend,
+         'google_api_attempts': len(google_attempts),
+         'google_submitted_characters': sum(a['source_characters'] for a in google_attempts),
+         'api_attempts': len(attempts),
          'known_tokens': {k: sum((a.get('usage') or {}).get(k, 0) for a in attempts)
                           for k in ('input_tokens', 'output_tokens', 'total_tokens')},
          'attempts_without_usage': sum(not a.get('usage') for a in attempts)})

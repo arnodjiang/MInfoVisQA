@@ -5,6 +5,8 @@ description: Reconstruct chart images as Python, translate chart labels and link
 
 # Multilingual visual benchmark
 
+Translation uses the Google Translate API (Google Cloud Translation Basic v2, NMT). The LLM translation adapter is an optional alternative enabled only with `TRANSLATION_BACKEND=llm`. Visual reconstruction, quality review and answer judging are separate from translation.
+
 Use the bundled harness for deterministic translation, rendering, validation, and code export. Use model judgment to recover a new chart or extract an image-only table. The harness does not autonomously infer arbitrary chart data from pixels. It executes a reviewed Python chart adapter or a structured table specification.
 
 ## Route and recover

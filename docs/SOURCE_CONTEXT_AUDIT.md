@@ -1,5 +1,7 @@
 # Supplementary context audit
 
+Translation uses the Google Translate API (Google Cloud Translation Basic v2, NMT). The LLM translation adapter is an optional alternative enabled only with `TRANSLATION_BACKEND=llm`. Visual reconstruction, quality review and answer judging are separate from translation.
+
 The audit examines all downloaded Parquet schemas and non-image fields, then
 checks the 128 selected source records against their exact file/row entries.
 Its scope is the locally downloaded versions, not unseen material on the web.

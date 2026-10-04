@@ -50,6 +50,9 @@ class API:
         self.circuit_open = False
 
     def call(self, stage, case_id, prompt, payload, image=None, max_tokens=18000):
+        from scripts.translation import backend, translation_stage, GoogleTranslator
+        if translation_stage(stage) and backend(self.config) == 'google':
+            return GoogleTranslator(self.root, self.config).call(stage, case_id, prompt, payload, image, max_tokens)
         # User policy: initial request plus at most ten retries, five seconds apart.
         # Each request has its own append-only attempt record. Content/schema errors
         # and authentication failures never enter this transport retry loop.
