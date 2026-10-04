@@ -88,44 +88,33 @@ python -m pip install -r requirements.txt
 cp -n .env.example .env
 ```
 
-Set `OPENAI_API_KEY`, `OPENAI_BASE_URL` and `OPENAI_MODEL` in your local `.env`. The provider must support an OpenAI-compatible **Responses API**, image input and sufficient context/output length. `.env`, generated data and API logs are excluded from Git.
-
-Optional `JUDGE_MODEL`, `JUDGE_BASE_URL` and `JUDGE_API_KEY` configure answer judging
-independently; blank values inherit `OPENAI_*`. The active local benchmark path is
-recorded in `configs/benchmark_release.json`; retired revisions are rejected by
-the inference runners.
-
-### Translation configuration
-
-Translation uses the **Google Translate API**, specifically Google Cloud Translation Basic v2 with `model=nmt`. Enable the Cloud Translation API in your Google Cloud project and configure your own key. The `.env.example` contains the standard v2 endpoint.
-
-Create a local `.env` from the template if it does not already exist:
-
-```sh
-cp -n .env.example .env
-```
-
-Edit the repository-root `.env` and fill `GOOGLE_TRANSLATE_API_KEY` with your own Google Cloud API key. Keep existing model credentials when editing an existing file. Shell environment variables override `.env`. The key is not bundled; an empty key prevents live Google translation. `.env` is ignored by Git and must remain local.
+Set these fields in your local `.env`:
 
 ```dotenv
+OPENAI_API_KEY=YOUR_API_KEY
+OPENAI_BASE_URL=YOUR_API_BASE_URL
+OPENAI_MODEL=YOUR_IMAGE_CAPABLE_MODEL
+JUDGE_API_KEY=YOUR_JUDGE_API_KEY
+JUDGE_BASE_URL=YOUR_JUDGE_API_BASE_URL
+JUDGE_MODEL=YOUR_JUDGE_MODEL
 TRANSLATION_BACKEND=google
 GOOGLE_TRANSLATE_API_KEY=YOUR_GOOGLE_CLOUD_API_KEY
 GOOGLE_TRANSLATE_ENDPOINT=https://translation.googleapis.com/language/translate/v2
 ```
 
-Google translation covers visual labels, linked question/answer templates, table text and source-context prose. English is copied. Protected label references and numerical tokens are restored exactly after translation; paragraph IDs, dictionary keys and table structure are managed locally. Requests are text-only, with at most 128 strings and 4,500 characters per batch. Credentials are never written to cached artifacts.
+The inference endpoint must support the Responses API with image input. The judge uses text-only equivalence adjudication; blank `JUDGE_*` fields inherit the corresponding `OPENAI_*` settings.
 
-Set `TRANSLATION_BACKEND=llm` to explicitly use the optional model-based translator with `OPENAI_*` settings. This option does not change reconstruction, review or evaluation providers. Cache fingerprints separate providers and inputs; use a new output revision when changing backends or when older locale caches have no provider identity. Google translation does not silently fall back to an LLM.
+Translation uses Google Translate API (Google Cloud Translation Basic v2, NMT) for visual labels, QA templates and source-context prose. Enable Cloud Translation in your Google Cloud project, supply your key and set the Basic v2 translate endpoint locally. Set `TRANSLATION_BACKEND=llm` only to select the optional translator using `OPENAI_*`. Google translation never silently falls back to an LLM. Evaluating the existing dataset does not require Google credentials.
 
-For translation-only input, provide a JSON tree of strings (for example label dictionaries and QA templates):
+Keep existing credentials when editing `.env`; shell environment variables override its values. Keys are not bundled. Keep `.env` local and excluded from Git. Use a new output revision when changing translation backends or when old caches lack provider identity.
+
+For translation-only input, provide a JSON tree of text labels and QA templates:
 
 ```sh
 python -m scripts.translation --input labels_and_qa.json --output local_runs/translation/fr.json --language fr
 ```
 
-Add `--translation-backend llm` only to select the optional model translator. Each output records its provider, model and request fingerprint.
-
-The benchmark translation procedure uses Google Translate API; translation prompts bundled with the code document the optional LLM adapter. Existing dataset files are not regenerated merely by changing a configuration value.
+Translation protects numerical tokens and label references; dictionary keys, paragraph boundaries and table structure are retained. English is copied. Translation requests contain text only, with at most 128 strings and 4,500 characters per batch. Each output records its provider, model and request fingerprint.
 
 ### Evaluate an existing release
 
