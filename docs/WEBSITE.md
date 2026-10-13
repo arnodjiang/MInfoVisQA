@@ -94,3 +94,9 @@ University's downloadable brand assets. Navy, sand and white follow the March
 2026 brand palette. See [asset provenance and attribution](../site/assets/MBZUAI-ASSET-NOTICE.md).
 The project icon remains separate from the University logo. No authors, research
 lab, department, publication acceptance or institutional endorsement is inferred.
+
+### Manuscript synchronization (13 October 2026)
+
+The public leaderboard now mirrors the 25-model main table. `site/data/paper-main-table.tex` is a frozen copy of the paper's current single-table source. Run `python scripts/site/sync_paper_table.py`, then `python scripts/site/validate.py` when updating this snapshot. Validation checks all 675 score cells and model groups against that source and records its SHA-256. Preserve the manuscript AVG; LQA mean is a separate display-only calculation. Model-card links are optional and must not be guessed.
+
+The header and README use official MBZUAI, Georgia Tech, University of Tokyo and UIUC logos in manuscript order. Georgia Tech: https://www.gatech.edu/themes/custom/gatech/images/gatech-color_logo.png ; Tokyo: https://www.u-tokyo.ac.jp/content/400235960.png (only blank margins cropped, original retained); UIUC: https://cdn.brand.illinois.edu/wordmarks/formal/orange-and-blue.svg . MBZUAI's existing official SVG is retained.

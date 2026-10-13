@@ -5,6 +5,13 @@
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging_Face-Dataset-E5C687?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/arnodjiang/MInfoVisQA)
 [![Homepage and Leaderboard](https://img.shields.io/badge/Homepage-Leaderboard-154677?style=for-the-badge&logo=github&logoColor=white)](https://arnodjiang.github.io/MInfoVisQA/)
 
+<p align="center">
+  <a href="https://mbzuai.ac.ae/"><img src="site/assets/mbzuai-logo.svg" alt="MBZUAI" height="38"></a>&nbsp;&nbsp;
+  <a href="https://www.gatech.edu/"><img src="site/assets/gatech-logo.png" alt="Georgia Tech" height="28"></a>&nbsp;&nbsp;
+  <a href="https://www.u-tokyo.ac.jp/"><img src="site/assets/utokyo-logo.png" alt="The University of Tokyo" height="30"></a>&nbsp;&nbsp;
+  <a href="https://illinois.edu/"><img src="site/assets/illinois-logo.svg" alt="UIUC" height="32"></a>
+</p>
+
 ## Watch the paper demo
 
 [![MInfoVisQA demo: the same chart and English question produce different recorded answers after the visual language changes](site/assets/demo/preview.gif)](https://arnodjiang.github.io/MInfoVisQA/#demo)

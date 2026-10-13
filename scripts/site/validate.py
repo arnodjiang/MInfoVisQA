@@ -22,7 +22,14 @@ def main():
         # Each reported cell is rounded to one decimal; permit aggregate rounding.
         approx = (23*row['xqa_zh'] + 23*row['xqa_en'] + sum(row['lqa'].values()))/70
         assert abs(approx-row['avg']) <= .101, (row['name'], approx, row['avg'])
-        if row['access'] == 'open': assert row['model_card'].startswith('https://huggingface.co/')
+        if row.get('model_card'): assert row['model_card'].startswith('https://huggingface.co/')
+    from sync_paper_table import parse
+    source = SITE / 'data/paper-main-table.tex'
+    assert hashlib.sha256(source.read_bytes()).hexdigest() == data['source_sha256']
+    for row, (name, access, group, values) in zip(data['models'], parse(source.read_text())):
+        assert (row['name'], row['access'], row['group']) == (name, access, group)
+        assert [row['xqa_zh'],row['xqa_en'],*row['lqa'].values(),row['avg']] == values
+    assert len(data['models']) == 25
     image_count = 0
     for example in json.loads((SITE / 'data/examples.json').read_text()):
         assert [v['language'] for v in example['variants']] == [l.lower() for l in languages]
