@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00.000 --> 00:05.000
+Same information. Different language.
+Can a model still find the same answer?
+
+00:05.000 --> 00:09.000
+Same English question, English visual.
+GPT-5.6-Luna answers Winter. Reference: Winter.
+
+00:09.000 --> 00:13.000
+Change the visual language to Japanese.
+The recorded answer becomes Autumn. Reference: Winter.
+
+00:13.000 --> 00:21.000
+Same seed, question, and model run; different visual language.
+This is an observed pair, not a general language ranking.
+
+00:21.000 --> 00:30.000
+Charts and visual tables, localized across 24 languages.
+Numerical content and structural relationships are preserved.
+
+00:30.000 --> 00:40.000
+LQA matches the visual, question, and answer language.
+The radar shows four selected models across 24 languages.
+
+00:40.000 --> 00:46.000
+128 seed questions. 24 languages. 8,960 QA configurations.
+25 evaluated models. Explore MInfoVisQA.
