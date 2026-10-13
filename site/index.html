@@ -8,7 +8,7 @@
   <meta property="og:description" content="24 languages. Charts and visual tables. One shared evaluation framework.">
   <meta property="og:type" content="website"><meta property="og:url" content="https://arnodjiang.github.io/MInfoVisQA/">
   <meta name="theme-color" content="#154677"><link rel="icon" href="assets/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261013-logos"><script src="app.js?v=20261013-main-table" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261013-logos"><script src="app.js?v=20261013-audit" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -21,13 +21,13 @@
 <section class="hero wrap" aria-labelledby="hero-title">
   <div class="hero-copy"><div class="eyebrow"><span class="dot"></span> MULTILINGUAL · MULTIMODAL · STRUCTURED</div>
     <h1 id="hero-title">Read the structure.<br><em>Across languages.</em></h1>
-    <p class="paper-title">MInfoVisQA: A Multilingual Benchmark for Information-Visual Question Answering</p>
+    <p class="paper-title">MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering</p>
 <div class="affiliation" aria-label="Institutional affiliations">
 <a href="https://mbzuai.ac.ae/"><img src="assets/mbzuai-logo.svg" alt="MBZUAI"></a>
 <a href="https://www.gatech.edu/"><img src="assets/gatech-logo.png" alt="Georgia Tech"></a>
 <a href="https://www.u-tokyo.ac.jp/"><img src="assets/utokyo-logo.png" alt="The University of Tokyo"></a>
 <a href="https://illinois.edu/"><img src="assets/illinois-logo.svg" alt="University of Illinois Urbana-Champaign"></a></div>
-    <p class="hero-desc">The same data. A different language. How well do multimodal models understand charts and tables when the visual and the question speak differently?</p>
+    <p class="hero-desc">128 seed questions across 24 languages. How well do multimodal models understand the same charts and tables when the visual language changes?</p>
     <div class="actions"><a class="button primary" href="#leaderboard">Explore the leaderboard <span aria-hidden="true">↗</span></a><a class="button" href="https://huggingface.co/datasets/arnodjiang/MInfoVisQA">Get the dataset <span aria-hidden="true">↓</span></a></div>
     <div class="hero-note">Open data & code <span> / </span> Image-based evaluation <span> / </span> 24 languages</div>
   </div>
@@ -54,18 +54,18 @@
 </section>
 <section id="leaderboard" class="leaderboard-section">
 <div class="wrap section">
-  <div class="section-heading"><div><span class="eyebrow">02 / MODEL PERFORMANCE</span><h2>The leaderboard.</h2></div><div class="heading-note"><span class="live-dot"></span> Updated 13 October 2026<br><span>Semantic accuracy (%) · higher is better</span></div></div>
+  <div class="section-heading"><div><span class="eyebrow">02 / MODEL PERFORMANCE</span><h2>Model performance</h2></div><div class="heading-note"><span class="live-dot"></span> <span id="results-updated">Updated 13 October 2026</span><br><span>25 models · Semantic accuracy (%) · higher is better</span></div></div>
   <div class="leaderboard-toolbar">
-    <div class="segmented" role="group" aria-label="Model access filter"><button class="active" data-filter="all" aria-pressed="true">All models <span>9</span></button><button data-filter="open" aria-pressed="false">Open weights <span>5</span></button><button data-filter="closed" aria-pressed="false">Closed <span>4</span></button></div>
+    <div class="segmented" role="group" aria-label="Model access filter"><button class="active" data-filter="all" aria-pressed="true">All models <span>25</span></button><button data-filter="open" aria-pressed="false">Open weights <span>20</span></button><button data-filter="closed" aria-pressed="false">Closed <span>5</span></button></div>
     <label class="search"><span aria-hidden="true">⌕</span><input id="model-search" type="search" placeholder="Find a model…" aria-label="Find a model"></label>
-    <a id="download-csv" class="text-button" href="data/leaderboard.csv" download="minfovisqa-leaderboard-2026-09-28.csv">Download CSV ↓</a>
+    <a id="download-csv" class="text-button" href="data/leaderboard.csv" download="minfovisqa-leaderboard-2026-10-13.csv">Download CSV ↓</a>
   </div>
   <div class="table-controls"><div class="segmented view-toggle" role="group" aria-label="Score view"><button class="active" data-view="overview" aria-pressed="true">Overview</button><button data-view="languages" aria-pressed="false">All 24 languages</button></div><span id="result-count" aria-live="polite">Loading results…</span></div>
   <div class="table-scroll" tabindex="0" role="region" aria-label="Sortable benchmark leaderboard"><table id="scores-table"><caption class="sr-only">MInfoVisQA model accuracy, sortable by each metric. Click a model for provenance and evaluation notes.</caption><thead id="scores-head"></thead><tbody id="scores-body"></tbody></table></div>
   <p id="load-error" class="error" hidden></p>
   <noscript><p>JavaScript enables the interactive leaderboard. <a href="data/leaderboard.csv">Download all scores as CSV</a>.</p></noscript>
   <div class="table-foot"><p><b>XQA-ZH / EN</b>: 23 cross-language settings each. <b>LQA mean</b>: mean of the 24 displayed same-language scores. <b>AVG</b>: macro-average of all 70 configurations.</p><a href="data/leaderboard.json">Results JSON ↗</a></div>
-  <details class="method-note"><summary>Score provenance & how to read the leaderboard</summary><div><p>All 25 models and 675 score cells are synchronized with the current manuscript main table. The table uses exact matching followed by text-only GPT-6 Astra judging for non-matches. Scores are author-reported; this website does not independently rerun the evaluations. <a href="data/paper-main-table.tex">View the frozen source table</a>.</p><p>Reported scores and the original AVG are preserved at one decimal. AVG weights all 70 configurations; it is not the mean of the 26 visible XQA/LQA columns. LQA mean is computed from the 24 displayed language scores. Model grouping follows the paper; open weights does not imply these runs were self-hosted. Official model links are shown where previously documented.</p><p>This version includes GPT-5.5 as reported in the current manuscript and supersedes the previous nine-model website snapshot. Run-level metadata from that snapshot is not automatically assigned to newly added or updated rows.</p></div></details>
+  <details class="method-note"><summary>Score provenance & how to read the leaderboard</summary><div><p>All 25 models and 675 score cells are synchronized with the current manuscript main table. The table uses exact matching followed by text-only GPT-6 Astra judging for non-matches. Scores are author-reported; this website does not independently rerun the evaluations. <a href="data/paper-main-table.tex">View the frozen source table</a>.</p><p>Reported scores and the original AVG are preserved at one decimal. AVG weights all 70 configurations; it is not the mean of the 26 visible XQA/LQA columns. LQA mean is computed from the 24 displayed language scores. Model grouping follows the paper; open weights does not imply these runs were self-hosted. Official model links are shown where previously documented.</p><p>Ranks use the reported overall AVG; tied scores share a rank. Language variants share the same seed question, so 8,960 configurations do not represent 8,960 independent questions.</p></div></details>
 </div></section>
 <section id="examples" class="wrap section">
   <div class="section-heading"><div><span class="eyebrow">03 / INSIDE THE DATA</span><h2>Same evidence.<br>A new perspective.</h2></div><p>Explore actual localized examples from the released dataset. Switch the visual language and question setting to see what the model receives.</p></div>

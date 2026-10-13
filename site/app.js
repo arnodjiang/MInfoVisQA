@@ -21,7 +21,7 @@ function selectedModels() {
 }
 function renderTable() {
   const cols=columns(), models=selectedModels(), head=el('tr');
-  const rank=el('th','#'); rank.scope='col'; head.append(rank);
+  const rank=el('th','#'); rank.scope='col'; rank.title='Overall AVG rank; tied scores share a rank'; head.append(rank);
   for (const [key,label] of cols) {
     const th=el('th');th.scope='col';th.setAttribute('aria-sort',state.sort===key ? (state.desc?'descending':'ascending'):'none');
     const button=el('button',label);button.type='button';button.dataset.sort=key;
@@ -33,9 +33,9 @@ function renderTable() {
   $('#scores-head').replaceChildren(head); const body=$('#scores-body');body.replaceChildren();
   $('#scores-table').classList.toggle('language-table',state.view==='languages');
   if(!models.length) { const tr=el('tr'),td=el('td','No matching models. Try another name or access filter.','empty');td.colSpan=cols.length+1;tr.append(td);body.append(tr); }
-  const ranks = [...state.data.models].sort((a,b)=>b.avg-a.avg);
+  const rankOf = m => 1 + state.data.models.filter(x=>x.avg>m.avg).length;
   for (const m of models) {
-    const tr=el('tr');tr.append(el('td',String(ranks.indexOf(m)+1).padStart(2,'0')));
+    const tr=el('tr');tr.append(el('td',String(rankOf(m)).padStart(2,'0')));
     for (const [key] of cols) {
       const td=el('td');
       if(key==='name') {
@@ -55,7 +55,8 @@ function showModel(m) {
   $('#model-title').textContent=m.name;const body=$('#model-details');body.replaceChildren();
   body.append(el('p',`${m.access==='open'?'Open weights':'Closed model'} · Reported AVG ${m.avg.toFixed(1)}%`));
   body.append(el('p',state.data.source));body.append(el('p',state.data.protocol));
-  body.append(el('p','Model names are reported API identifiers. Provider deployments and decoding settings may differ. Scores are not independently verified by this website.'));
+  body.append(el('p',m.group));
+  body.append(el('p','Model names follow the manuscript. API deployment identifiers and inference settings may differ; see the evaluation record when reproducing a result.'));
   if(m.model_card){const a=el('a','Official model card & weight availability ↗');a.href=m.model_card;a.target='_blank';a.rel='noopener';body.append(a);}
   $('#model-dialog').showModal();
 }
@@ -94,6 +95,9 @@ async function loadJSON(url){const r=await fetch(url);if(!r.ok)throw new Error(`
 async function init(){
   try {
     state.data=await loadJSON('data/leaderboard.json?v=20261013-main-table');
+    document.querySelectorAll('[data-filter]').forEach(b=>{b.querySelector('span').textContent=state.data.models.filter(m=>b.dataset.filter==='all'||m.access===b.dataset.filter).length;});
+    $('#results-updated').textContent='Updated '+new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(state.data.updated+'T00:00:00Z'));
+    $('#download-csv').download='minfovisqa-leaderboard-'+state.data.updated+'.csv';
     for(const l of state.data.languages){const chip=el('span',l.code,'lang-chip');chip.title=l.name;chip.setAttribute('aria-label',l.name);$('#language-chips').append(chip);}
     document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{state.filter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b));});renderTable();}));
     document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.view;if(!columns().some(([k])=>k===state.sort)){state.sort='avg';state.desc=true;}document.querySelectorAll('[data-view]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b));});renderTable();}));

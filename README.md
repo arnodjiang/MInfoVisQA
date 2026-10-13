@@ -1,9 +1,15 @@
 # MInfoVisQA
 
-**A Multilingual Benchmark for Information-Visual Question Answering**
+**A Multilingual Benchmark for Information-Rich Visual Question Answering**
 
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging_Face-Dataset-E5C687?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/arnodjiang/MInfoVisQA)
 [![Homepage and Leaderboard](https://img.shields.io/badge/Homepage-Leaderboard-154677?style=for-the-badge&logo=github&logoColor=white)](https://arnodjiang.github.io/MInfoVisQA/)
+
+MInfoVisQA evaluates how multimodal models understand **charts and visual tables across 24 languages**, using matched visual-language variants of the same underlying information.
+
+**128 seed questions · 3,072 localized images · 8,960 QA configurations · 25 evaluated models**
+
+Language variants share their source question; the 8,960 configurations are not independent questions. The repository includes the construction pipeline, evaluation tools, prompts and reproducible renderers. The released data are available on Hugging Face.
 
 <p align="center">
   <a href="https://mbzuai.ac.ae/"><img src="site/assets/mbzuai-logo.svg" alt="MBZUAI" height="38"></a>&nbsp;&nbsp;
@@ -19,10 +25,6 @@
 **[▶ Play the full 46-second demo](https://arnodjiang.github.io/MInfoVisQA/#demo)** · [Download MP4](https://arnodjiang.github.io/MInfoVisQA/assets/demo/minfovisqa-demo.mp4) · [Transcript & sources](https://arnodjiang.github.io/MInfoVisQA/assets/demo/transcript.html)
 
 Real benchmark visuals and recorded model answers. The video is silent, with on-screen explanations and optional English captions. The paired example is illustrative; the radar uses the paper’s language-aligned QA results.
-
-MInfoVisQA provides a **24-language** benchmark construction framework for evaluating how multimodal large language models understand charts and visual tables. It pairs localized visuals with questions and reference answers while preserving the underlying numerical data, table structure and question intent.
-
-The project supports same-language visual question answering and cross-language evaluation with Chinese or English questions. This repository includes the generation pipeline, English prompts, rendering tools, quality checks and reproducible export utilities.
 
 ## Highlights
 
@@ -201,7 +203,7 @@ This is a benchmark construction and evaluation repository, not a model checkpoi
 
 The full inference runner sends each current question and localized image to the configured API, saves structured answers and per-attempt token usage, and automatically computes XQA, LQA and AVG when all QA finish. See [evaluation execution and accounting](scripts/evaluation/README.md). Final semantic ACC first applies deterministic matching, then uses a separately configured text-only LLM judge for non-matches. Set `JUDGE_MODEL=gpt-6-astra` to reproduce the current judging setup. Judge inputs contain no images; uncertain decisions count as incorrect.
 
-The preliminary strict-matching scorer is documented in [the evaluation design](docs/DESIGN.md); inspect its arguments with `python -m scripts.final_benchmark.score_val --help`. Numeric tolerances, alternative-answer handling and model-based judges must be explicitly specified and validated for the chosen experiment. The repository does not claim published model rankings or human-validated coverage from automated checks alone.
+The preliminary strict-matching scorer is documented in [the evaluation design](docs/DESIGN.md); inspect its arguments with `python -m scripts.final_benchmark.score_val --help`. Numeric tolerances, alternative-answer handling and model-based judges must be explicitly specified and validated for the chosen experiment. The [leaderboard](https://arnodjiang.github.io/MInfoVisQA/#leaderboard) mirrors the manuscript’s 25-model main table. Reported results use the stated scoring protocol; automated quality checks do not establish complete human validation.
 
 ## Documentation
 

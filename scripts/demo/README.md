@@ -6,7 +6,7 @@ Run `python scripts/demo/render.py` with Pillow and FFmpeg installed. On macOS t
 
 Inputs: `site/assets/demo/evidence.json`, the two independent case PNGs, and the released example PNGs in `site/assets/`. Sources and protocol distinctions are in `site/assets/demo/transcript.html`. Captions are separately editable in `captions-en.vtt`. If timing/content changes, update the captions and transcript too.
 
-The radar uses the paper's four selected LQA profiles, not the website leaderboard's potentially different run selection. Each number is a published rounded value. The English/Japanese comparison uses the same fixed English question and recorded run. It is illustrative, not a general language ranking.
+The radar uses four selected LQA profiles from the paper; the website leaderboard is now synchronized with the same 25-model main table. Each number is a published rounded value. The English/Japanese comparison uses the same fixed English question and recorded run. It is illustrative, not a general language ranking.
 
 The homepage embeds a user-controlled player with `preload="none"`. README uses a clickable animated preview because repository Markdown does not reliably embed relative MP4 players. Both link to the same full video.
 
