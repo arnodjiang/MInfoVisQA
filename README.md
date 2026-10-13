@@ -22,7 +22,7 @@ Language variants share their source question; the 8,960 configurations are not 
 
 [![MInfoVisQA demo: the same chart and English question produce different recorded answers after the visual language changes](site/assets/demo/preview.gif)](https://arnodjiang.github.io/MInfoVisQA/#demo)
 
-**[▶ Play the full 46-second demo](https://arnodjiang.github.io/MInfoVisQA/#demo)** · [Download MP4](https://arnodjiang.github.io/MInfoVisQA/assets/demo/minfovisqa-demo.mp4) · [Transcript & sources](https://arnodjiang.github.io/MInfoVisQA/assets/demo/transcript.html)
+**[▶ Play the full 46-second demo](https://arnodjiang.github.io/MInfoVisQA/#demo)** · [Transcript & sources](https://arnodjiang.github.io/MInfoVisQA/assets/demo/transcript.html)
 
 Real benchmark visuals and recorded model answers. The video is silent, with on-screen explanations and optional English captions. The paired example is illustrative; the radar uses the paper’s language-aligned QA results.
 
