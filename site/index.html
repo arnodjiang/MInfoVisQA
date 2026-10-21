@@ -8,7 +8,7 @@
   <meta property="og:description" content="24 languages. Charts and visual tables. One shared evaluation framework.">
   <meta property="og:type" content="website"><meta property="og:url" content="https://arnodjiang.github.io/MInfoVisQA/">
   <meta name="theme-color" content="#154677"><link rel="icon" href="assets/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261013-logos"><script src="app.js?v=20261013-audit" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261021-citation"><script src="app.js?v=20261013-audit" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -83,7 +83,18 @@
   <div class="sources"><span class="eyebrow">BUILT FROM SIX DATASETS</span><div><a href="https://huggingface.co/datasets/princeton-nlp/CharXiv">CharXiv <small>48</small></a><a href="https://huggingface.co/datasets/ahmed-masry/ChartQAPro">ChartQAPro <small>27</small></a><a href="https://huggingface.co/datasets/terryoo/TableVQA-Bench">TableVQA-Bench <small>22</small></a><a href="https://huggingface.co/datasets/HuggingFaceM4/ChartQA">ChartQA <small>12</small></a><a href="https://huggingface.co/datasets/AI-4-Everyone/Visual-TableQA">Visual-TableQA <small>10</small></a><a href="https://huggingface.co/datasets/MMTU-benchmark/MMTU">MMTU <small>9</small></a></div><p>128 base questions × 70 configurations = 8,960 QA instances. Language variants share their base identity and are not independent source observations. Automated construction and review do not constitute complete human verification. See the <a href="https://huggingface.co/datasets/arnodjiang/MInfoVisQA#quality-and-limitations">dataset card</a> for scope, quality flags and limitations.</p></div>
 </div></section>
 <section id="resources" class="wrap section resources"><div><span class="eyebrow">05 / BUILD ON MINFOVISQA</span><h2>Start with the data.<br>Make results reproducible.</h2><p>Download the frozen benchmark, evaluate your model and share scores with the configuration needed to reproduce them.</p><div class="actions"><a class="button primary" href="https://huggingface.co/datasets/arnodjiang/MInfoVisQA">Dataset ↗</a><a class="button" href="https://github.com/arnodjiang/MInfoVisQA/blob/main/docs/SERVER_MIGRATION.md">Evaluation guide ↗</a></div></div><div class="resource-card"><span class="eyebrow">CONTRIBUTE A RESULT</span><h3>Bring your model to the leaderboard.</h3><p>Include the exact model identifier, dataset revision, inference settings, judge configuration, coverage and failure counts, plus all 70 configuration scores.</p><a href="https://github.com/arnodjiang/MInfoVisQA/issues/new?template=leaderboard_result.yml">Submit results on GitHub <span aria-hidden="true">↗</span></a><a class="secondary-link" href="https://github.com/arnodjiang/MInfoVisQA/blob/main/docs/WEBSITE.md">Leaderboard maintenance guide ↗</a></div></section>
+<section id="citation" class="wrap section">
+  <h2>Citation</h2>
+  <p>If you use MInfoVisQA in your research, please cite our preprint.</p>
+  <pre class="citation-code"><code>@misc{minfovisqa2026,
+  title        = {{MInfoVisQA}: A Multilingual Benchmark for Information-Rich Visual Question Answering},
+  author       = {Jiang, Changjiang and Zhou, Jiang and Yuan, Xinbin and Zhang, Fan and Feng, Tao and Xie, Zhuohan},
+  year         = {2026},
+  howpublished = {Preprint},
+  url          = {https://arnodjiang.github.io/MInfoVisQA/assets/paper/MInfoVisQA_2026.pdf}
+}</code></pre>
+</section>
 </main>
-<footer class="wrap footer"><a class="brand" href="#"><img src="assets/mark.svg" width="24" height="24" alt="">MInfoVis<span>QA</span></a><p class="footer-affiliation">MBZUAI · Georgia Tech · The University of Tokyo · UIUC</p><div><a href="https://github.com/arnodjiang/MInfoVisQA">Code</a><a href="https://huggingface.co/datasets/arnodjiang/MInfoVisQA">Data</a><a href="#protocol">Protocol</a></div></footer>
+<footer class="wrap footer"><a class="brand" href="#"><img src="assets/mark.svg" width="24" height="24" alt="">MInfoVis<span>QA</span></a><p class="footer-affiliation">MBZUAI · Georgia Tech · The University of Tokyo · UIUC</p><div><a href="https://github.com/arnodjiang/MInfoVisQA">Code</a><a href="https://huggingface.co/datasets/arnodjiang/MInfoVisQA">Data</a><a href="#protocol">Protocol</a><a href="#citation">Citation</a></div></footer>
 <dialog id="model-dialog"><button class="dialog-close" aria-label="Close model details">×</button><span class="eyebrow">EVALUATION RECORD</span><h2 id="model-title"></h2><div id="model-details"></div><form method="dialog"><button class="button">Close</button></form></dialog>
 </body></html>

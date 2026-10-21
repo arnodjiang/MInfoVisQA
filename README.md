@@ -234,3 +234,17 @@ Code is available under the [MIT License](LICENSE). The bundled harness retains 
 ## Project website
 
 The [project homepage and interactive leaderboard](https://arnodjiang.github.io/MInfoVisQA/) present model results, multilingual examples and the evaluation protocol. The static site is in `site/`; see [website maintenance](docs/WEBSITE.md) for local preview, score provenance and GitHub Pages deployment.
+
+## Citation
+
+If you use MInfoVisQA in your research, please cite our preprint:
+
+```bibtex
+@misc{minfovisqa2026,
+  title        = {{MInfoVisQA}: A Multilingual Benchmark for Information-Rich Visual Question Answering},
+  author       = {Jiang, Changjiang and Zhou, Jiang and Yuan, Xinbin and Zhang, Fan and Feng, Tao and Xie, Zhuohan},
+  year         = {2026},
+  howpublished = {Preprint},
+  url          = {https://arnodjiang.github.io/MInfoVisQA/assets/paper/MInfoVisQA_2026.pdf}
+}
+```
