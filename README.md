@@ -2,6 +2,7 @@
 
 **A Multilingual Benchmark for Information-Rich Visual Question Answering**
 
+[![Paper PDF](https://img.shields.io/badge/Paper-PDF-154677?style=for-the-badge)](site/assets/paper/MInfoVisQA_2026.pdf)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging_Face-Dataset-E5C687?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/arnodjiang/MInfoVisQA)
 [![Homepage and Leaderboard](https://img.shields.io/badge/Homepage-Leaderboard-154677?style=for-the-badge&logo=github&logoColor=white)](https://arnodjiang.github.io/MInfoVisQA/)
 
