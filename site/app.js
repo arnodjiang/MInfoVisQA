@@ -94,7 +94,7 @@ function renderExample() {
 async function loadJSON(url){const r=await fetch(url);if(!r.ok)throw new Error(`Unable to load ${url} (${r.status})`);return r.json();}
 async function init(){
   try {
-    state.data=await loadJSON('data/leaderboard.json?v=20261013-main-table');
+    state.data=await loadJSON('data/leaderboard.json?v=20261119-main-table');
     document.querySelectorAll('[data-filter]').forEach(b=>{b.querySelector('span').textContent=state.data.models.filter(m=>b.dataset.filter==='all'||m.access===b.dataset.filter).length;});
     $('#results-updated').textContent='Updated '+new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(state.data.updated+'T00:00:00Z'));
     $('#download-csv').download='minfovisqa-leaderboard-'+state.data.updated+'.csv';

@@ -33,7 +33,7 @@ The overview LQA mean is explicitly derived from the 24 rounded display values.
 
 ## Published snapshot and provenance
 
-The current snapshot follows the manuscript main table: 25 models, including GPT-5.5, with 675 score cells. It supersedes the nine-model September snapshot. Scores are transcribed, not newly evaluated by the website. The current scoring protocol uses exact matching followed by text-only GPT-6 Astra adjudication for non-matches.
+The current snapshot follows the manuscript main table: 26 models, including GPT-5.5, with 702 score cells. It supersedes the nine-model September snapshot. Scores are transcribed, not newly evaluated by the website. The current scoring protocol uses exact matching followed by text-only GPT-6 Astra adjudication for non-matches.
 
 Model groups follow the paper: 5 proprietary, 16 general-purpose open-weight, and 4 chart-specialized models. Existing model-card links are retained where documented; links for additional models are not inferred from their names. Serving through an API does not determine weight availability. Row-specific failure counts from older snapshots must not be silently transferred to new results.
 
@@ -73,8 +73,8 @@ University's downloadable brand assets. Navy, sand and white follow the March
 The project icon remains separate from the University logo. No authors, research
 lab, department, publication acceptance or institutional endorsement is inferred.
 
-### Manuscript synchronization (13 October 2026)
+### Manuscript synchronization (19 November 2026)
 
-The public leaderboard now mirrors the 25-model main table. `site/data/paper-main-table.tex` is a frozen copy of the paper's current single-table source. Run `python scripts/site/sync_paper_table.py`, then `python scripts/site/validate.py` when updating this snapshot. Validation checks all 675 score cells and model groups against that source and records its SHA-256. Preserve the manuscript AVG; LQA mean is a separate display-only calculation. Model-card links are optional and must not be guessed.
+The public leaderboard now mirrors the 26-model main table. `site/data/paper-main-table.tex` is a frozen copy of the paper's current single-table source. Run `python scripts/site/sync_paper_table.py`, then `python scripts/site/validate.py` when updating this snapshot. Validation checks all 702 score cells and model groups against that source and records its SHA-256. Preserve the manuscript AVG; LQA mean is a separate display-only calculation. Model-card links are optional and must not be guessed.
 
 The header and README use official MBZUAI, Georgia Tech, University of Tokyo and UIUC logos in manuscript order. Georgia Tech: https://www.gatech.edu/themes/custom/gatech/images/gatech-color_logo.png ; Tokyo: https://www.u-tokyo.ac.jp/content/400235960.png (only blank margins cropped, original retained); UIUC: https://cdn.brand.illinois.edu/wordmarks/formal/orange-and-blue.svg . MBZUAI's existing official SVG is retained.

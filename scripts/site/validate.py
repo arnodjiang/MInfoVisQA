@@ -29,7 +29,7 @@ def main():
     for row, (name, access, group, values) in zip(data['models'], parse(source.read_text())):
         assert (row['name'], row['access'], row['group']) == (name, access, group)
         assert [row['xqa_zh'],row['xqa_en'],*row['lqa'].values(),row['avg']] == values
-    assert len(data['models']) == 25
+    assert len(data['models']) == 26
     image_count = 0
     for example in json.loads((SITE / 'data/examples.json').read_text()):
         assert [v['language'] for v in example['variants']] == [l.lower() for l in languages]

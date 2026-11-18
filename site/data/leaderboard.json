@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-11-19",
   "languages": [
     {
       "code": "EN",
@@ -100,7 +100,7 @@
   ],
   "metric": "Semantic accuracy (%)",
   "protocol": "Exact matching, then text-only GPT-6 Astra equivalence judging for non-matches.",
-  "source": "Current manuscript main table: 25 models, 27 published scores per model. Frozen source: site/data/paper-main-table.tex. Scores and model groups are supplied by the authors.",
+  "source": "Current manuscript main table: 26 models, 27 published scores per model. Frozen source: site/data/paper-main-table.tex. Scores and model groups are supplied by the authors.",
   "aggregation": "AVG = (23 \u00d7 XQA-ZH + 23 \u00d7 XQA-EN + sum of 24 LQA scores) / 70, using unrounded configuration scores. Displayed AVG values are preserved from the submitted table.",
   "models": [
     {
@@ -365,6 +365,44 @@
         "TE": 40.6
       },
       "avg": 66.4,
+      "result_source": "Current manuscript main table",
+      "judge": "GPT-6 Astra",
+      "note": "All 27 scores transcribed unchanged from the manuscript. Model grouping follows the paper; links retained only where already documented."
+    },
+    {
+      "name": "Ling-3.0-Flash-VL",
+      "access": "open",
+      "group": "General-purpose Open-source MLLMs",
+      "model_card": null,
+      "xqa_zh": 60.2,
+      "xqa_en": 65.0,
+      "lqa": {
+        "EN": 78.1,
+        "ZH": 71.1,
+        "JA": 72.7,
+        "KO": 75.8,
+        "FR": 71.9,
+        "DE": 68.8,
+        "ES": 75.8,
+        "PT": 78.9,
+        "RU": 70.3,
+        "AR": 68.8,
+        "HI": 66.4,
+        "IT": 79.7,
+        "NL": 71.9,
+        "PL": 71.9,
+        "TR": 71.1,
+        "VI": 74.2,
+        "ID": 75.8,
+        "TH": 64.8,
+        "SW": 65.6,
+        "FA": 62.5,
+        "UR": 64.1,
+        "BN": 61.7,
+        "TA": 56.2,
+        "TE": 35.2
+      },
+      "avg": 64.8,
       "result_source": "Current manuscript main table",
       "judge": "GPT-6 Astra",
       "note": "All 27 scores transcribed unchanged from the manuscript. Model grouping follows the paper; links retained only where already documented."
@@ -1054,5 +1092,5 @@
       "note": "All 27 scores transcribed unchanged from the manuscript. Model grouping follows the paper; links retained only where already documented."
     }
   ],
-  "source_sha256": "5ea323c8753ac64e4a5c1f17fa08bc0ec12f6034016f89cb18cfaaedbfee1b7d"
+  "source_sha256": "0860e4c2429c77d41d88653cd0e559c3d2119bf929210b4b7bae634f37f41372"
 }
