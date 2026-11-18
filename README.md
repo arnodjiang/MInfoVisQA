@@ -2,9 +2,10 @@
 
 **A Multilingual Benchmark for Information-Rich Visual Question Answering**
 
-[![Paper PDF](https://img.shields.io/badge/Paper-PDF-154677?style=for-the-badge)](site/assets/paper/MInfoVisQA_2026.pdf)
+[![Paper on arXiv](https://img.shields.io/badge/Paper-arXiv-154677?style=for-the-badge)](https://arxiv.org/abs/2611.21644)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging_Face-Dataset-E5C687?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/arnodjiang/MInfoVisQA)
-[![Homepage and Leaderboard](https://img.shields.io/badge/Homepage-Leaderboard-154677?style=for-the-badge&logo=github&logoColor=white)](https://arnodjiang.github.io/MInfoVisQA/)
+[![Hugging Face Leaderboard](https://img.shields.io/badge/Hugging_Face-Leaderboard-16675B?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/arnodjiang/MInfoVisQA-Leaderboard)
+[![Project homepage](https://img.shields.io/badge/Project-Homepage-154677?style=for-the-badge&logo=github&logoColor=white)](https://arnodjiang.github.io/MInfoVisQA/)
 
 MInfoVisQA evaluates how multimodal models understand **charts and visual tables across 24 languages**, using matched visual-language variants of the same underlying information.
 
@@ -204,7 +205,7 @@ This is a benchmark construction and evaluation repository, not a model checkpoi
 
 The full inference runner sends each current question and localized image to the configured API, saves structured answers and per-attempt token usage, and automatically computes XQA, LQA and AVG when all QA finish. See [evaluation execution and accounting](scripts/evaluation/README.md). Final semantic ACC first applies deterministic matching, then uses a separately configured text-only LLM judge for non-matches. Set `JUDGE_MODEL=gpt-6-astra` to reproduce the current judging setup. Judge inputs contain no images; uncertain decisions count as incorrect.
 
-The preliminary strict-matching scorer is documented in [the evaluation design](docs/DESIGN.md); inspect its arguments with `python -m scripts.final_benchmark.score_val --help`. Numeric tolerances, alternative-answer handling and model-based judges must be explicitly specified and validated for the chosen experiment. The [leaderboard](https://arnodjiang.github.io/MInfoVisQA/#leaderboard) mirrors the manuscript’s 25-model main table. Reported results use the stated scoring protocol; automated quality checks do not establish complete human validation.
+The preliminary strict-matching scorer is documented in [the evaluation design](docs/DESIGN.md); inspect its arguments with `python -m scripts.final_benchmark.score_val --help`. Numeric tolerances, alternative-answer handling and model-based judges must be explicitly specified and validated for the chosen experiment. The [leaderboard](https://huggingface.co/spaces/arnodjiang/MInfoVisQA-Leaderboard) reports results for 26 models. Reported results use the stated scoring protocol; automated quality checks do not establish complete human validation.
 
 ## Documentation
 
@@ -233,7 +234,7 @@ Code is available under the [MIT License](LICENSE). The bundled harness retains 
 
 ## Project website
 
-The [project homepage and interactive leaderboard](https://arnodjiang.github.io/MInfoVisQA/) present model results, multilingual examples and the evaluation protocol. The static site is in `site/`; see [website maintenance](docs/WEBSITE.md) for local preview, score provenance and GitHub Pages deployment.
+The [project homepage](https://arnodjiang.github.io/MInfoVisQA/) and [interactive leaderboard](https://huggingface.co/spaces/arnodjiang/MInfoVisQA-Leaderboard) present model results, multilingual examples and the evaluation protocol. The static site is in `site/`; see [website maintenance](docs/WEBSITE.md) for local preview, score provenance and GitHub Pages deployment.
 
 ## Citation
 
