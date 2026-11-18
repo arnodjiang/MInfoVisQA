@@ -240,11 +240,10 @@ The [project homepage and interactive leaderboard](https://arnodjiang.github.io/
 If you use MInfoVisQA in your research, please cite our preprint:
 
 ```bibtex
-@misc{minfovisqa2026,
-  title        = {{MInfoVisQA}: A Multilingual Benchmark for Information-Rich Visual Question Answering},
-  author       = {Jiang, Changjiang and Zhou, Jiang and Yuan, Xinbin and Zhang, Fan and Feng, Tao and Xie, Zhuohan},
-  year         = {2026},
-  howpublished = {Preprint},
-  url          = {https://arnodjiang.github.io/MInfoVisQA/assets/paper/MInfoVisQA_2026.pdf}
+@article{jiang2026minfovisqamultilingualbenchmarkinformationrich,
+  title={MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering},
+  author={Jiang, Changjiang and Zhou, Jiang and Yuan, Xinbin and Zhang, Fan and Feng, Tao and Xie, Zhuohan},
+  journal={arXiv preprint arXiv:2611.21644},
+  year={2026}
 }
 ```

@@ -185,14 +185,15 @@ alongside MInfoVisQA.
 ## Citation
 
 ```bibtex
-@misc{minfovisqa,
-  title = {MInfoVisQA: A Multilingual Benchmark for Information-Visual Question Answering},
-  howpublished = {\url{https://github.com/arnodjiang/MInfoVisQA}},
-  year = {2026}
+@article{jiang2026minfovisqamultilingualbenchmarkinformationrich,
+  title={MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering},
+  author={Jiang, Changjiang and Zhou, Jiang and Yuan, Xinbin and Zhang, Fan and Feng, Tao and Xie, Zhuohan},
+  journal={arXiv preprint arXiv:2611.21644},
+  year={2026}
 }
 ```
 
-This is a repository citation; no accepted venue or publication DOI is asserted.
+Paper: https://arxiv.org/abs/2611.21644
 
 ## Observed visual types
 
