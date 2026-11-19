@@ -24,9 +24,9 @@ Language variants share their source question; the 8,960 configurations are not 
 
 [![MInfoVisQA demo: the same chart and English question produce different recorded answers after the visual language changes](site/assets/demo/preview.gif)](https://arnodjiang.github.io/MInfoVisQA/#demo)
 
-**[▶ Play the full 46-second demo](https://arnodjiang.github.io/MInfoVisQA/#demo)** · [Transcript & sources](https://arnodjiang.github.io/MInfoVisQA/assets/demo/transcript.html)
+**[▶ Play the 25-second demo](https://arnodjiang.github.io/MInfoVisQA/#demo)** · [Transcript & sources](https://arnodjiang.github.io/MInfoVisQA/assets/demo/transcript.html)
 
-Real benchmark visuals and recorded model answers. The video is silent, with on-screen explanations and optional English captions. The paired example is illustrative; the radar uses the paper’s language-aligned QA results.
+With the question fixed in English, GPT-5.6-Luna answered “Winter” on the English chart and “Autumn” on its Japanese counterpart. The reference answer was “Winter” in both cases. The silent demo shows this recorded pair and localized examples from the benchmark.
 
 ## Highlights
 

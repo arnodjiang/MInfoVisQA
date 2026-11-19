@@ -1,1 +1,26 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MInfoVisQA demo — transcript and sources</title><style>body{max-width:850px;margin:45px auto;padding:0 22px;color:#203849;font:20px/1.65 Georgia,serif}h1,h2,a{color:#154677}li{margin-bottom:12px}video{width:100%;height:auto}</style><a href="../../index.html#demo">← MInfoVisQA</a><h1>Same information. Different language.</h1><video controls playsinline preload="none" poster="poster.jpg"><source src="minfovisqa-demo.mp4" type="video/mp4"><track kind="captions" src="captions-en.vtt" srclang="en" label="English"></video><p><a href="MInfoVisQA-demo-storyboard.pptx">Download editable storyboard PPTX</a></p><h2>Transcript</h2><ol><li><b>0–5 s.</b> MInfoVisQA asks whether a model can still find the same answer when the visual language changes.</li><li><b>5–13 s.</b> The English question asks which season records the highest number of breakups on average. With an English visual, GPT-5.6-Luna answers “Winter”; with a Japanese visual, it answers “Autumn.” The reference is “Winter” in both cases.</li><li><b>13–21 s.</b> Both images and recorded answers are displayed together. The seed, English question, model and recorded run are the same. This is one observed pair, not a claim of deterministic behavior or a general language ranking.</li><li><b>21–30 s.</b> A ChartQA grouped bar chart and a TableVQA-Bench visual table cycle through English, Chinese, Japanese and Arabic. All 24 supported language codes are displayed.</li><li><b>30–40 s.</b> A radar plots 24 language-aligned QA scores for four selected models. Their means are GPT-6-Astra 82.8%, Gemini-3.8-Flash 80.4%, GPT-5.6-Luna 74.9%, and Qwen3.5-9B 50.4%. Means use rounded manuscript scores. This protocol differs from the fixed-English question example.</li><li><b>40–46 s.</b> LQA has 24 settings with matched visual, question and answer languages. XQA uses fixed English or Chinese questions and answers over the other 23 visual languages each. The paper evaluates 25 models on 128 seed questions and 8,960 QA configurations.</li></ol><h2>Sources and scope</h2><p>Paired example: ChartQAPro case <code>32a59a1788ab3cc9f351</code>. Additional visuals: ChartQA <code>6c1b80891d9f43724aa6</code> and TableVQA-Bench <code>345c918a890d9cdd8b8f</code>. Images are independently rendered language variants from MInfoVisQA; the presentation animation is not a model execution or a live demo. Source dataset terms apply.</p><p>Question translation and visual localization preserve intended numerical content and structural relationships; typography and layout can change. Language variants are not independent seed observations.</p><p><a href="evidence.json">Recorded case IDs, image hashes and plotted values</a> · <a href="https://huggingface.co/datasets/arnodjiang/MInfoVisQA">Released dataset</a> · <a href="https://github.com/arnodjiang/MInfoVisQA/tree/main/scripts/demo">Editable rendering source</a></p></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MInfoVisQA demo — transcript and sources</title>
+  <style>body{max-width:48rem;margin:2rem auto;padding:0 1.25rem;color:#203849;font:1.125rem/1.6 system-ui,sans-serif}h1,h2,a{color:#154677}li{margin-bottom:.75rem}video{width:100%;height:auto}</style>
+</head>
+<body>
+  <main>
+    <a href="../../index.html#demo">← MInfoVisQA</a>
+    <h1>Video transcript</h1>
+    <video controls playsinline preload="none" poster="poster.jpg?v=short-1"><source src="minfovisqa-demo.mp4?v=short-1" type="video/mp4"><track kind="captions" src="captions-en.vtt?v=short-1" srclang="en" label="English"></video>
+    <ol>
+      <li><b>0–4.5 s.</b> The same English question receives two answers. GPT-5.6-Luna answers “Winter” on the English chart and “Autumn” on the Japanese chart.</li>
+      <li><b>4.5–11.5 s.</b> The question asks, “On average, which season records the highest number of breakups?” The reference answer is “Winter” for both versions. Both predictions come from the same recorded evaluation.</li>
+      <li><b>11.5–18.5 s.</b> English and Japanese versions of a grouped bar chart appear, followed by both versions of a visual table. The numerical values and structure are shared across languages.</li>
+      <li><b>18.5–25 s.</b> MInfoVisQA covers 128 seed questions and 24 languages, yielding 8,960 question–answer configurations.</li>
+    </ol>
+    <h2>Sources</h2>
+    <p>The prediction pair comes from ChartQAPro case <code>32a59a1788ab3cc9f351</code>. The <a href="evidence.json">case record</a> identifies the source images, predictions, and reference answers. These two responses illustrate one observed case.</p>
+    <p>The grouped bar chart is ChartQA case <code>6c1b80891d9f43724aa6</code>. The table is TableVQA-Bench case <code>345c918a890d9cdd8b8f</code>. Both are available in the <a href="https://huggingface.co/datasets/arnodjiang/MInfoVisQA">released dataset</a>.</p>
+    <p><a href="https://arxiv.org/abs/2611.21644">Read the paper</a> · <a href="https://huggingface.co/spaces/arnodjiang/MInfoVisQA-Leaderboard">Explore the leaderboard</a></p>
+  </main>
+</body>
+</html>

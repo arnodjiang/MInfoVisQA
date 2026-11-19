@@ -44,7 +44,7 @@ and answer controls and links to full-resolution originals.
 Images are byte-identical copies from the published current release. SHA-256,
 case IDs, QA IDs and source attribution are included. Source-specific dataset
 terms still apply. These examples are for illustration, not quality certification.
-The hero contains a 46-second research demo with original benchmark visuals, a recorded English/Japanese prediction pair and paper-derived LQA profiles. Playback is user-controlled. The README uses a linked animated preview. Sources and a transcript accompany the video.
+The hero contains a 25-second research demo featuring a recorded English/Japanese prediction pair and localized chart and table examples. Playback is user-controlled. The README uses a linked animated preview. Sources and a transcript accompany the video.
 
 ## Deployment
 
