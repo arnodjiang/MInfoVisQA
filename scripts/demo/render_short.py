@@ -2,7 +2,6 @@
 from functools import lru_cache
 from pathlib import Path
 import json
-import math
 import subprocess
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps
@@ -40,29 +39,6 @@ def brand(d, dark=False):
     label(d, 121, 53, "MInfoVisQA", 41, color, "bold")
 
 
-def emblem(d, cx, cy, winter):
-    """Two botanical motifs distinguish the recorded answers even without color."""
-    tone = "#295C69" if winter else "#7F471F"
-    if winter:
-        for a in range(6):
-            theta = math.pi*a/3
-            def pos(rad, side=0):
-                return (cx+rad*math.cos(theta)-side*math.sin(theta),
-                        cy+rad*math.sin(theta)+side*math.cos(theta))
-            d.line([pos(0),pos(75)], fill=tone,width=5)
-            for r in (38,57):
-                for s in (-1,1):
-                    d.line([pos(r-12),pos(r+5,16*s)], fill=tone,width=4)
-    else:
-        shape=[(cx-50,cy+52),(cx-66,cy+5),(cx-49,cy-34),(cx-10,cy-60),
-               (cx+69,cy-70),(cx+52,cy-4),(cx+26,cy+28),(cx-10,cy+48),(cx-50,cy+52)]
-        d.line(shape, fill=tone,width=5)
-        d.line((cx-68,cy+73,cx+55,cy-57),fill=tone,width=5)
-        for t in (0,22,44):
-            d.line((cx-30+t,cy+31-t,cx-36+t,cy-9-t),fill=tone,width=3)
-            d.line((cx-20+t,cy+21-t,cx+12+t,cy+15-t),fill=tone,width=3)
-
-
 def footer(d, left, right, dark=False):
     color = STEEL if dark else "#47656B"
     d.line((72,803,1528,803),fill="#3B5661" if dark else "#B2C4C2",width=2)
@@ -70,22 +46,34 @@ def footer(d, left, right, dark=False):
     label(d,1528,830,right,25,color,"sans","rt")
 
 
-def cover():
-    im=Image.new("RGB",(W,H),INK); d=ImageDraw.Draw(im)
-    brand(d,True)
-    label(d,1528,66,"MULTILINGUAL VISUAL QA",23,STEEL,"mono","rt")
-    label(d,68,151,"Same chart.",99,PAPER,"serif")
-    label(d,650,151,"Different answer.",99,MINT,"italic")
-    for i,(lang,answer,col,tag) in enumerate([("English","Winter",MINT,"Correct"),("Japanese","Autumn",GOLD,"Incorrect")]):
-        x=72+742*i
-        d.rounded_rectangle((x,315,x+716,747),radius=25,fill=col)
-        label(d,x+44,358,lang+" chart",36)
-        emblem(d,x+597,427,i==0)
-        label(d,x+36,492,answer,118,INK,"serif")
-        d.line((x+44,653,x+670,653),fill="#71948B" if i==0 else "#B39367",width=2)
-        label(d,x+44,680,"Model answer",28)
-        label(d,x+670,680,tag,28,INK,"bold","rt")
-    footer(d,"One recorded GPT-5.6-Luna example","Reference answer: Winter",True)
+def cover(records):
+    im = Image.new("RGB", (W, H), "white")
+    d = ImageDraw.Draw(im)
+    d.rectangle((0, 0, W, 257), fill=INK)
+    brand(d, True)
+    label(d, 1528, 64, "24 languages   /   8,960 QA configurations", 27, STEEL, "sans", "rt")
+    label(d, 68, 118, "Same question.", 83, PAPER, "serif")
+    label(d, 678, 118, "Different answers.", 83, MINT, "italic")
+    prompt = records[0]["question"].splitlines()[0]
+    label(d, 72, 219, prompt, 29, PAPER)
+    d.line((800, 294, 800, 794), fill="#D0DBD9", width=2)
+    for i, (lang, name, accent) in enumerate((("en", "English", "#146553"), ("ja", "Japanese", "#954718"))):
+        record = next(r for r in records if r["language"] == lang)
+        x = 72 + i * 755
+        label(d, x, 288, name + " chart", 39, INK, "bold")
+        label(d, x + 694, 297, "ChartQAPro", 24, "#506569", "sans", "rt")
+        # Identical crops preserve scale and alignment while removing the repeated
+        # chart title, source credit and white margin from the thumbnail.
+        with Image.open(OUT / f"case-{lang}.png") as src:
+            chart = src.convert("RGB").crop((10, 203, 1090, 730))
+        im.paste(chart.resize((688, 336), Image.Resampling.LANCZOS), (x, 349))
+        d.line((x, 701, x + 694, 701), fill="#B5C7C4", width=2)
+        label(d, x, 727, record["prediction"], 68, accent, "serif")
+        tag = "Correct" if record["correct"] else "Incorrect"
+        label(d, x + 694, 753, tag, 30, accent, "bold", "rt")
+    d.rectangle((0, 820, W, H), fill="#EAF1EF")
+    label(d, 72, 846, "Recorded answers  /  GPT-5.6-Luna", 30, INK)
+    label(d, 1528, 846, "Reference answer: " + records[0]["reference"], 30, INK, "bold", "rt")
     return im
 
 
@@ -149,7 +137,7 @@ def end():
 
 def main():
     records=json.loads((OUT/"evidence.json").read_text())["records"]
-    frames=[cover(),*(evidence(next(r for r in records if r["language"]==lang)) for lang in ("en","ja")),
+    frames=[cover(records),*(evidence(next(r for r in records if r["language"]==lang)) for lang in ("en","ja")),
             pair("chart"),pair("table"),end()]
     frames[0].save(OUT/"poster.jpg",quality=94,subsampling=0)
     video=OUT/"minfovisqa-demo.mp4"
